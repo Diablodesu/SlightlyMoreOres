@@ -125,6 +125,20 @@
           "src/main/resources/data/slightlymoreores/forge/biome_modifier/osmium_ore_biome_modifier.json"
         ]
       }
+    },
+    {
+      "name": "Osmium",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osmium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slightlymoreores/item/OsmiumItem.java",
+          "src/main/resources/assets/slightlymoreores/models/item/osmium.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -132,6 +146,7 @@
   "language_map": {
     "en_us": {
       "item.slightlymoreores.obsidian_nugget": "Obsidian Nugget",
+      "item.slightlymoreores.osmium": "Osmium",
       "item.slightlymoreores.uranium": "Uranium",
       "block.slightlymoreores.uranium_ore": "Uranium Ore",
       "block.slightlymoreores.osmium_ore": "Osmium Ore",
@@ -140,7 +155,12 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Armor",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "slightlymoreores",

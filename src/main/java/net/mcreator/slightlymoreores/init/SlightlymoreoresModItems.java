@@ -14,6 +14,7 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.slightlymoreores.item.UraniumItem;
+import net.mcreator.slightlymoreores.item.OsmiumItem;
 import net.mcreator.slightlymoreores.item.ObsidianNuggetItem;
 import net.mcreator.slightlymoreores.SlightlymoreoresMod;
 
@@ -24,6 +25,7 @@ public class SlightlymoreoresModItems {
 	public static final RegistryObject<Item> OBSIDIAN_ORE = block(SlightlymoreoresModBlocks.OBSIDIAN_ORE, CreativeModeTab.TAB_MISC);
 	public static final RegistryObject<Item> OBSIDIAN_NUGGET = REGISTRY.register("obsidian_nugget", () -> new ObsidianNuggetItem());
 	public static final RegistryObject<Item> OSMIUM_ORE = block(SlightlymoreoresModBlocks.OSMIUM_ORE, CreativeModeTab.TAB_MISC);
+	public static final RegistryObject<Item> OSMIUM = REGISTRY.register("osmium", () -> new OsmiumItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
