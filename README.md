@@ -14,6 +14,7 @@ Obsidian Nugget (Used to make Obsidian Block)
 
 # Installation
 
+No dependancies <br />
 Tested on 1.19.2, latest forge version <br />
 Server support not tested, unsupported
 
