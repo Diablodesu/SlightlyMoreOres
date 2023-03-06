@@ -36,7 +36,7 @@ public class ObsidianOreFeature extends OreFeature {
 		CONFIGURED_FEATURE = FeatureUtils.register("slightlymoreores:obsidian_ore", FEATURE,
 				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(Blocks.STONE.defaultBlockState()), SlightlymoreoresModBlocks.OBSIDIAN_ORE.get().defaultBlockState())), 10));
 		PLACED_FEATURE = PlacementUtils.register("slightlymoreores:obsidian_ore", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(4), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(64)), BiomeFilter.biome()));
+				List.of(CountPlacement.of(4), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(1), VerticalAnchor.absolute(64)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 
