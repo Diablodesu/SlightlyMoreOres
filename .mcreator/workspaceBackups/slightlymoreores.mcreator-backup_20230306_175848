@@ -107,24 +107,6 @@
           "src/main/resources/data/slightlymoreores/recipes/obsidian_recipe_with_nuggets.json"
         ]
       }
-    },
-    {
-      "name": "OsmiumOre",
-      "type": "block",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "osmium_ore",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/slightlymoreores/blockstates/osmium_ore.json",
-          "src/main/resources/assets/slightlymoreores/models/block/osmium_ore.json",
-          "src/main/resources/assets/slightlymoreores/models/item/osmium_ore.json",
-          "src/main/java/net/mcreator/slightlymoreores/block/OsmiumOreBlock.java",
-          "src/main/java/net/mcreator/slightlymoreores/world/features/ores/OsmiumOreFeature.java",
-          "src/main/resources/data/slightlymoreores/forge/biome_modifier/osmium_ore_biome_modifier.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -134,7 +116,6 @@
       "item.slightlymoreores.obsidian_nugget": "Obsidian Nugget",
       "item.slightlymoreores.uranium": "Uranium",
       "block.slightlymoreores.uranium_ore": "Uranium Ore",
-      "block.slightlymoreores.osmium_ore": "Osmium Ore",
       "block.slightlymoreores.obsidian_ore": "Obsidian Ore"
     }
   },

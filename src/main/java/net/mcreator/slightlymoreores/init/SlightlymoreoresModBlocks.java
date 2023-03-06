@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.slightlymoreores.block.UraniumOreBlock;
+import net.mcreator.slightlymoreores.block.OsmiumOreBlock;
 import net.mcreator.slightlymoreores.block.ObsidianOreBlock;
 import net.mcreator.slightlymoreores.SlightlymoreoresMod;
 
@@ -18,4 +19,5 @@ public class SlightlymoreoresModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, SlightlymoreoresMod.MODID);
 	public static final RegistryObject<Block> URANIUM_ORE = REGISTRY.register("uranium_ore", () -> new UraniumOreBlock());
 	public static final RegistryObject<Block> OBSIDIAN_ORE = REGISTRY.register("obsidian_ore", () -> new ObsidianOreBlock());
+	public static final RegistryObject<Block> OSMIUM_ORE = REGISTRY.register("osmium_ore", () -> new OsmiumOreBlock());
 }

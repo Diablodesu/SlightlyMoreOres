@@ -23,6 +23,7 @@ public class SlightlymoreoresModItems {
 	public static final RegistryObject<Item> URANIUM_ORE = block(SlightlymoreoresModBlocks.URANIUM_ORE, CreativeModeTab.TAB_MISC);
 	public static final RegistryObject<Item> OBSIDIAN_ORE = block(SlightlymoreoresModBlocks.OBSIDIAN_ORE, CreativeModeTab.TAB_MISC);
 	public static final RegistryObject<Item> OBSIDIAN_NUGGET = REGISTRY.register("obsidian_nugget", () -> new ObsidianNuggetItem());
+	public static final RegistryObject<Item> OSMIUM_ORE = block(SlightlymoreoresModBlocks.OSMIUM_ORE, CreativeModeTab.TAB_MISC);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
