@@ -17,6 +17,10 @@ Obsidian Nugget (Used to make Obsidian Block)
 Tested on 1.19.2, latest forge version <br />
 Server support not tested, unsupported
 
+# Acknowledgments
+
+MCreator: https://mcreator.net/
+
 # Feedback
 
 Questions? Bugs? Open an issue on the repo
