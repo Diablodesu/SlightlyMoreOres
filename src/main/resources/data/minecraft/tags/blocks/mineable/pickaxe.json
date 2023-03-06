@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "slightlymoreores:uranium_ore"
+    "slightlymoreores:uranium_ore",
+    "slightlymoreores:obsidian_ore"
   ]
 }

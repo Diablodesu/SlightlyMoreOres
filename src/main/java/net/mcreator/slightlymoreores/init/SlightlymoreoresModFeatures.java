@@ -12,10 +12,12 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraft.world.level.levelgen.feature.Feature;
 
 import net.mcreator.slightlymoreores.world.features.ores.UraniumOreFeature;
+import net.mcreator.slightlymoreores.world.features.ores.ObsidianOreFeature;
 import net.mcreator.slightlymoreores.SlightlymoreoresMod;
 
 @Mod.EventBusSubscriber
 public class SlightlymoreoresModFeatures {
 	public static final DeferredRegister<Feature<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.FEATURES, SlightlymoreoresMod.MODID);
 	public static final RegistryObject<Feature<?>> URANIUM_ORE = REGISTRY.register("uranium_ore", UraniumOreFeature::feature);
+	public static final RegistryObject<Feature<?>> OBSIDIAN_ORE = REGISTRY.register("obsidian_ore", ObsidianOreFeature::feature);
 }

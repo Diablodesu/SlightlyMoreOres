@@ -67,53 +67,12 @@
           "src/main/resources/data/slightlymoreores/forge/biome_modifier/obsidian_ore_biome_modifier.json"
         ]
       }
-    },
-    {
-      "name": "ObsidianNugget",
-      "type": "item",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "obsidian_nugget",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/slightlymoreores/models/item/obsidian_nugget.json",
-          "src/main/java/net/mcreator/slightlymoreores/item/ObsidianNuggetItem.java"
-        ]
-      }
-    },
-    {
-      "name": "ObsidianNuggetSmelt",
-      "type": "recipe",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "obsidian_nugget_smelt",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/slightlymoreores/recipes/obsidian_nugget_smelt.json"
-        ]
-      }
-    },
-    {
-      "name": "ObsidianRecipeWithNuggets",
-      "type": "recipe",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "obsidian_recipe_with_nuggets",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/slightlymoreores/recipes/obsidian_recipe_with_nuggets.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.slightlymoreores.obsidian_nugget": "Obsidian Nugget",
       "item.slightlymoreores.uranium": "Uranium",
       "block.slightlymoreores.uranium_ore": "Uranium Ore",
       "block.slightlymoreores.obsidian_ore": "Obsidian Ore"
