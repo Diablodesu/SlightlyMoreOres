@@ -1,0 +1,183 @@
+{
+  "mod_elements": [
+    {
+      "name": "UraniumOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slightlymoreores/block/UraniumOreBlock.java",
+          "src/main/resources/assets/slightlymoreores/blockstates/uranium_ore.json",
+          "src/main/resources/data/slightlymoreores/forge/biome_modifier/uranium_ore_biome_modifier.json",
+          "src/main/resources/assets/slightlymoreores/models/block/uranium_ore.json",
+          "src/main/java/net/mcreator/slightlymoreores/world/features/ores/UraniumOreFeature.java",
+          "src/main/resources/assets/slightlymoreores/models/item/uranium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "Uranium",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/slightlymoreores/models/item/uranium.json",
+          "src/main/java/net/mcreator/slightlymoreores/item/UraniumItem.java"
+        ]
+      }
+    },
+    {
+      "name": "UraniumInInventoryDeath",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_in_inventory_death",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slightlymoreores/procedures/UraniumInInventoryDeathProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ObsidianOre",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/slightlymoreores/blockstates/obsidian_ore.json",
+          "src/main/resources/assets/slightlymoreores/models/block/obsidian_ore.json",
+          "src/main/java/net/mcreator/slightlymoreores/world/features/ores/ObsidianOreFeature.java",
+          "src/main/resources/assets/slightlymoreores/models/item/obsidian_ore.json",
+          "src/main/java/net/mcreator/slightlymoreores/block/ObsidianOreBlock.java",
+          "src/main/resources/data/slightlymoreores/forge/biome_modifier/obsidian_ore_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "ObsidianNugget",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_nugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/slightlymoreores/models/item/obsidian_nugget.json",
+          "src/main/java/net/mcreator/slightlymoreores/item/ObsidianNuggetItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ObsidianNuggetSmelt",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_nugget_smelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/obsidian_nugget_smelt.json"
+        ]
+      }
+    },
+    {
+      "name": "ObsidianRecipeWithNuggets",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_recipe_with_nuggets",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/obsidian_recipe_with_nuggets.json"
+        ]
+      }
+    },
+    {
+      "name": "OsmiumOre",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osmium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/slightlymoreores/blockstates/osmium_ore.json",
+          "src/main/resources/assets/slightlymoreores/models/block/osmium_ore.json",
+          "src/main/resources/assets/slightlymoreores/models/item/osmium_ore.json",
+          "src/main/java/net/mcreator/slightlymoreores/block/OsmiumOreBlock.java",
+          "src/main/java/net/mcreator/slightlymoreores/world/features/ores/OsmiumOreFeature.java",
+          "src/main/resources/data/slightlymoreores/forge/biome_modifier/osmium_ore_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Osmium",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osmium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slightlymoreores/item/OsmiumItem.java",
+          "src/main/resources/assets/slightlymoreores/models/item/osmium.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.slightlymoreores.obsidian_nugget": "Obsidian Nugget",
+      "item.slightlymoreores.osmium": "Osmium",
+      "item.slightlymoreores.uranium": "Uranium",
+      "block.slightlymoreores.uranium_ore": "Uranium Ore",
+      "block.slightlymoreores.osmium_ore": "Osmium Ore",
+      "block.slightlymoreores.obsidian_ore": "Obsidian Ore"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Armor",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "slightlymoreores",
+    "modName": "SlightlyMoreOres",
+    "version": "1.0.0",
+    "author": "Ash, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.slightlymoreores",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300109612
+}

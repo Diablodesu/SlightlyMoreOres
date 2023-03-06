@@ -35,6 +35,7 @@
     {
       "name": "UraniumInInventoryDeath",
       "type": "procedure",
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "uranium_in_inventory_death",
@@ -139,6 +140,116 @@
           "src/main/resources/assets/slightlymoreores/models/item/osmium.json"
         ]
       }
+    },
+    {
+      "name": "OsmiumArmor",
+      "type": "armor",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osmium_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slightlymoreores/item/OsmiumArmorItem.java",
+          "src/main/resources/assets/slightlymoreores/models/item/osmium_armor_leggings.json",
+          "src/main/resources/assets/slightlymoreores/models/item/osmium_armor_boots.json",
+          "src/main/resources/assets/slightlymoreores/models/item/osmium_armor_chestplate.json",
+          "src/main/resources/assets/slightlymoreores/models/item/osmium_armor_helmet.json"
+        ]
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "OsmiumArmorHelmetHeavy",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osmium_armor_helmet_heavy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slightlymoreores/procedures/OsmiumArmorHelmetHeavyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "OsmiumBlock",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osmium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/slightlymoreores/models/block/osmium_block.json",
+          "src/main/java/net/mcreator/slightlymoreores/block/OsmiumBlockBlock.java",
+          "src/main/resources/assets/slightlymoreores/models/item/osmium_block.json",
+          "src/main/resources/assets/slightlymoreores/blockstates/osmium_block.json"
+        ]
+      }
+    },
+    {
+      "name": "OsmiumHelmRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osmium_helm_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/osmium_helm_recipe.json"
+        ]
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "OsmiumChestRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osmium_chest_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/osmium_chest_recipe.json"
+        ]
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "OsmiumLegRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osmium_leg_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/osmium_leg_recipe.json"
+        ]
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "OsmiumBootsRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osmium_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/osmium_boots_recipe.json"
+        ]
+      },
+      "path": "~/Armor"
     }
   ],
   "variable_elements": [],
@@ -147,8 +258,13 @@
     "en_us": {
       "item.slightlymoreores.obsidian_nugget": "Obsidian Nugget",
       "item.slightlymoreores.osmium": "Osmium",
+      "item.slightlymoreores.osmium_armor_helmet": "Osmium Armor Helmet",
+      "item.slightlymoreores.osmium_armor_boots": "Osmium Armor Boots",
       "item.slightlymoreores.uranium": "Uranium",
+      "item.slightlymoreores.osmium_armor_chestplate": "Osmium Armor Body",
+      "block.slightlymoreores.osmium_block": "Osmium Block",
       "block.slightlymoreores.uranium_ore": "Uranium Ore",
+      "item.slightlymoreores.osmium_armor_leggings": "Osmium Armor Leggings",
       "block.slightlymoreores.osmium_ore": "Osmium Ore",
       "block.slightlymoreores.obsidian_ore": "Obsidian Ore"
     }

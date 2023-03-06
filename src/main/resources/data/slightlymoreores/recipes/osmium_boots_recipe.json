@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "slightlymoreores:osmium"
+    },
+    "2": {
+      "item": "slightlymoreores:osmium"
+    },
+    "3": {
+      "item": "slightlymoreores:osmium"
+    },
+    "5": {
+      "item": "slightlymoreores:osmium"
+    }
+  },
+  "result": {
+    "item": "slightlymoreores:osmium_armor_boots",
+    "count": 1
+  }
+}

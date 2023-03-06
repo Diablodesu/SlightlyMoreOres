@@ -1,8 +1,13 @@
 {
   "item.slightlymoreores.obsidian_nugget": "Obsidian Nugget",
   "item.slightlymoreores.osmium": "Osmium",
+  "item.slightlymoreores.osmium_armor_helmet": "Osmium Armor Helmet",
+  "item.slightlymoreores.osmium_armor_boots": "Osmium Armor Boots",
   "item.slightlymoreores.uranium": "Uranium",
+  "item.slightlymoreores.osmium_armor_chestplate": "Osmium Armor Body",
+  "block.slightlymoreores.osmium_block": "Osmium Block",
   "block.slightlymoreores.uranium_ore": "Uranium Ore",
+  "item.slightlymoreores.osmium_armor_leggings": "Osmium Armor Leggings",
   "block.slightlymoreores.osmium_ore": "Osmium Ore",
   "block.slightlymoreores.obsidian_ore": "Obsidian Ore"
 }
