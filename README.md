@@ -5,12 +5,14 @@ My second ever MC mod, please be nice to me
 # Ores
 
 Obsidian Ore <br />
-Uranium Ore
+Uranium Ore <br />
+Osmium Ore
 
 # Items
 
 Uranium (Kills you on pickup) <br />
-Obsidian Nugget (Used to make Obsidian Block)
+Obsidian Nugget (Used to make Obsidian Block) <br />
+Osmium (For Armor)
 
 # Installation
 
