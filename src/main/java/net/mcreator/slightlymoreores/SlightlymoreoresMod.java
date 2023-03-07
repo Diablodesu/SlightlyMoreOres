@@ -32,6 +32,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.slightlymoreores.init.SlightlymoreoresModItems;
 import net.mcreator.slightlymoreores.init.SlightlymoreoresModFeatures;
 import net.mcreator.slightlymoreores.init.SlightlymoreoresModBlocks;
+import net.mcreator.slightlymoreores.init.SlightlymoreoresModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -57,6 +58,7 @@ public class SlightlymoreoresMod {
 
 		SlightlymoreoresModFeatures.REGISTRY.register(bus);
 
+		SlightlymoreoresModBiomes.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

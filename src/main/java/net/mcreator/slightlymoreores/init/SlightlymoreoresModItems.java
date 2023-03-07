@@ -15,6 +15,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.slightlymoreores.item.UraniumItem;
 import net.mcreator.slightlymoreores.item.OsmiumItem;
+import net.mcreator.slightlymoreores.item.OsmiumDimensionItem;
 import net.mcreator.slightlymoreores.item.OsmiumArmorItem;
 import net.mcreator.slightlymoreores.item.ObsidianNuggetItem;
 import net.mcreator.slightlymoreores.SlightlymoreoresMod;
@@ -32,6 +33,7 @@ public class SlightlymoreoresModItems {
 	public static final RegistryObject<Item> OSMIUM_ARMOR_LEGGINGS = REGISTRY.register("osmium_armor_leggings", () -> new OsmiumArmorItem.Leggings());
 	public static final RegistryObject<Item> OSMIUM_ARMOR_BOOTS = REGISTRY.register("osmium_armor_boots", () -> new OsmiumArmorItem.Boots());
 	public static final RegistryObject<Item> OSMIUM_BLOCK = block(SlightlymoreoresModBlocks.OSMIUM_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> OSMIUM_DIMENSION = REGISTRY.register("osmium_dimension", () -> new OsmiumDimensionItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
