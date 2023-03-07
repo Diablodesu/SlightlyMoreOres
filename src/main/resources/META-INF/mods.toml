@@ -1,14 +1,14 @@
 modLoader="javafml"
 loaderVersion="[43,)"
-license="Academic Free License v3.0"
+license="MIT License"
 
 [[mods]]
 modId="slightlymoreores"
-version="1.0.0"
+version="1.2.1"
 displayName="SlightlyMoreOres"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="Ash, MCreator"
+authors="Diablodesu"
 
 [[dependencies.slightlymoreores]]
     modId="minecraft"
