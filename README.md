@@ -17,6 +17,7 @@ Osmium Ore
 Uranium (Kills you on pickup) <br />
 Obsidian Nugget (Used to make Obsidian Block) <br />
 Osmium (For Armor)
+Liquified Osmium (May be hot)
 
 # Extras
 
