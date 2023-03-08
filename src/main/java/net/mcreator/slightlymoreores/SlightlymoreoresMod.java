@@ -30,6 +30,8 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.slightlymoreores.init.SlightlymoreoresModItems;
+import net.mcreator.slightlymoreores.init.SlightlymoreoresModFluids;
+import net.mcreator.slightlymoreores.init.SlightlymoreoresModFluidTypes;
 import net.mcreator.slightlymoreores.init.SlightlymoreoresModFeatures;
 import net.mcreator.slightlymoreores.init.SlightlymoreoresModBlocks;
 import net.mcreator.slightlymoreores.init.SlightlymoreoresModBiomes;
@@ -57,6 +59,8 @@ public class SlightlymoreoresMod {
 		SlightlymoreoresModItems.REGISTRY.register(bus);
 
 		SlightlymoreoresModFeatures.REGISTRY.register(bus);
+		SlightlymoreoresModFluids.REGISTRY.register(bus);
+		SlightlymoreoresModFluidTypes.REGISTRY.register(bus);
 
 		SlightlymoreoresModBiomes.REGISTRY.register(bus);
 	}

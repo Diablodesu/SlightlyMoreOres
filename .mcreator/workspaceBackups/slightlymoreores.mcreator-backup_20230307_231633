@@ -273,6 +273,31 @@
           "src/main/resources/assets/slightlymoreores/models/item/osmium_dimension.json"
         ]
       }
+    },
+    {
+      "name": "OsmiumBiome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osmium_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slightlymoreores/world/biome/OsmiumBiomeBiome.java"
+        ]
+      }
+    },
+    {
+      "name": "OsmiumBlockRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osmium_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/osmium_block_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -290,7 +315,8 @@
       "item.slightlymoreores.osmium": "Osmium",
       "item.slightlymoreores.osmium_armor_helmet": "Osmium Armor Helmet",
       "item.slightlymoreores.osmium_armor_boots": "Osmium Armor Boots",
-      "item.slightlymoreores.uranium": "Uranium"
+      "item.slightlymoreores.uranium": "Uranium",
+      "biome.slightlymoreores.osmium_biome": "Osmium Biome"
     }
   },
   "foldersRoot": {
@@ -305,10 +331,10 @@
   "workspaceSettings": {
     "modid": "slightlymoreores",
     "modName": "SlightlyMoreOres",
-    "version": "1.0.0",
-    "author": "Ash, MCreator",
+    "version": "1.2.1",
+    "author": "Diablodesu",
     "websiteURL": "https://mcreator.net",
-    "license": "Academic Free License v3.0",
+    "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
@@ -316,6 +342,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.slightlymoreores",
     "lockBaseModFiles": false
   },
