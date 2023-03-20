@@ -10,14 +10,18 @@ Ores will spawn in normally on world generation, no extra work is needed.
 
 Obsidian Ore <br />
 Uranium Ore <br />
-Osmium Ore
+Osmium Ore <br />
+Magnesium Ore
 
 # Items
 
 Uranium (Kills you on pickup) <br />
 Obsidian Nugget (Used to make Obsidian Block) <br />
 Osmium (For Armor) <br />
-Liquified Osmium (May be hot)
+Liquified Osmium (May be hot) <br />
+Added Magnesium Nugget <br />
+Added Magnesium Ingot <br />
+Added Magnesium Pill <br />
 
 # Extras
 
