@@ -1,0 +1,29 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "slightlymoreores:osmium"
+    },
+    "title": {
+      "translate": "advancements.enter_osmium_dim.title"
+    },
+    "description": {
+      "translate": "advancements.enter_osmium_dim.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "enter_osmium_dim": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "slightlymoreores:osmium_dimension"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  }
+}

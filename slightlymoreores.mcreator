@@ -439,6 +439,7 @@
     {
       "name": "MagnesiumPillCraftedAchieve",
       "type": "achievement",
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magnesium_pill_crafted_achieve",
@@ -447,34 +448,49 @@
           "src/main/resources/data/slightlymoreores/advancements/magnesium_pill_crafted_achieve.json"
         ]
       }
+    },
+    {
+      "name": "EnterOsmiumDim",
+      "type": "achievement",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enter_osmium_dim",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/advancements/enter_osmium_dim.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.slightlymoreores.osmium_dimension": "Osmium Dimension Portal Key",
       "block.slightlymoreores.osmium_block": "Osmium Block",
       "item.slightlymoreores.osmium_armor_chestplate": "Osmium Armor Body",
       "item.slightlymoreores.magnesium_ingot": "Magnesium Ingot",
       "item.slightlymoreores.magnesium_pill": "Magnesium Pill",
-      "block.slightlymoreores.uranium_ore": "Uranium Ore",
-      "item.slightlymoreores.osmium_armor_leggings": "Osmium Armor Leggings",
       "block.slightlymoreores.osmium_ore": "Osmium Ore",
-      "advancements.magnesium_pill_crafted_achieve.title": "Artificial Supplements",
-      "block.slightlymoreores.obsidian_ore": "Obsidian Ore",
       "item.slightlymoreores.magnesium_nugget": "Magnesium Nugget",
       "fluid.slightlymoreores.liquified_osmium": "Liquified Osmium",
       "item.slightlymoreores.liquified_osmium_bucket": "Liquified Osmium Bucket",
-      "item.slightlymoreores.obsidian_nugget": "Obsidian Nugget",
       "block.slightlymoreores.liquified_osmium": "Liquified Osmium",
+      "item.slightlymoreores.obsidian_nugget": "Obsidian Nugget",
       "item.slightlymoreores.osmium": "Osmium",
       "advancements.magnesium_pill_crafted_achieve.descr": "Craft a Magnesium Pill",
+      "biome.slightlymoreores.osmium_biome": "Osmium Biome",
+      "block.slightlymoreores.magnesium_ore": "Magnesium Ore",
+      "advancements.enter_osmium_dim.descr": "Enter The Osmium Dimension",
+      "item.slightlymoreores.osmium_dimension": "Osmium Dimension Portal Key",
+      "block.slightlymoreores.uranium_ore": "Uranium Ore",
+      "item.slightlymoreores.osmium_armor_leggings": "Osmium Armor Leggings",
+      "advancements.magnesium_pill_crafted_achieve.title": "Artificial Supplements",
+      "block.slightlymoreores.obsidian_ore": "Obsidian Ore",
+      "advancements.enter_osmium_dim.title": "What?",
       "item.slightlymoreores.osmium_armor_helmet": "Osmium Armor Helmet",
       "item.slightlymoreores.osmium_armor_boots": "Osmium Armor Boots",
-      "item.slightlymoreores.uranium": "Uranium",
-      "biome.slightlymoreores.osmium_biome": "Osmium Biome",
-      "block.slightlymoreores.magnesium_ore": "Magnesium Ore"
+      "item.slightlymoreores.uranium": "Uranium"
     }
   },
   "foldersRoot": {
