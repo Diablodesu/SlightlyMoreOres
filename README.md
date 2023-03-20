@@ -1,6 +1,7 @@
 # SlightlyMoreOres
+![](itemframes.png)
 
-Add some more fun to your Minecraft world with this mod!
+### Add some more fun to your Minecraft world with this mod!
 
 # Usage
 
