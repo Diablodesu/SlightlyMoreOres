@@ -18,6 +18,9 @@ import net.mcreator.slightlymoreores.item.OsmiumItem;
 import net.mcreator.slightlymoreores.item.OsmiumDimensionItem;
 import net.mcreator.slightlymoreores.item.OsmiumArmorItem;
 import net.mcreator.slightlymoreores.item.ObsidianNuggetItem;
+import net.mcreator.slightlymoreores.item.MagnesiumPillItem;
+import net.mcreator.slightlymoreores.item.MagnesiumNuggetItem;
+import net.mcreator.slightlymoreores.item.MagnesiumIngotItem;
 import net.mcreator.slightlymoreores.item.LiquifiedOsmiumItem;
 import net.mcreator.slightlymoreores.SlightlymoreoresMod;
 
@@ -36,6 +39,10 @@ public class SlightlymoreoresModItems {
 	public static final RegistryObject<Item> OSMIUM_BLOCK = block(SlightlymoreoresModBlocks.OSMIUM_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> OSMIUM_DIMENSION = REGISTRY.register("osmium_dimension", () -> new OsmiumDimensionItem());
 	public static final RegistryObject<Item> LIQUIFIED_OSMIUM_BUCKET = REGISTRY.register("liquified_osmium_bucket", () -> new LiquifiedOsmiumItem());
+	public static final RegistryObject<Item> MAGNESIUM_NUGGET = REGISTRY.register("magnesium_nugget", () -> new MagnesiumNuggetItem());
+	public static final RegistryObject<Item> MAGNESIUM_ORE = block(SlightlymoreoresModBlocks.MAGNESIUM_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> MAGNESIUM_INGOT = REGISTRY.register("magnesium_ingot", () -> new MagnesiumIngotItem());
+	public static final RegistryObject<Item> MAGNESIUM_PILL = REGISTRY.register("magnesium_pill", () -> new MagnesiumPillItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

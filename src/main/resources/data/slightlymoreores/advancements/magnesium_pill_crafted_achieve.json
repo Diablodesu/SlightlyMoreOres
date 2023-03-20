@@ -1,0 +1,39 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "slightlymoreores:magnesium_pill"
+    },
+    "title": {
+      "translate": "advancements.magnesium_pill_crafted_achieve.title"
+    },
+    "description": {
+      "translate": "advancements.magnesium_pill_crafted_achieve.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "magnesium_pill_crafted_achieve": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "slightlymoreores:magnesium_pill"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  }
+}

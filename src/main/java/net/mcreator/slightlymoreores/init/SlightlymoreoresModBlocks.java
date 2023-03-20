@@ -15,6 +15,7 @@ import net.mcreator.slightlymoreores.block.OsmiumOreBlock;
 import net.mcreator.slightlymoreores.block.OsmiumDimensionPortalBlock;
 import net.mcreator.slightlymoreores.block.OsmiumBlockBlock;
 import net.mcreator.slightlymoreores.block.ObsidianOreBlock;
+import net.mcreator.slightlymoreores.block.MagnesiumOreBlock;
 import net.mcreator.slightlymoreores.block.LiquifiedOsmiumBlock;
 import net.mcreator.slightlymoreores.SlightlymoreoresMod;
 
@@ -26,4 +27,5 @@ public class SlightlymoreoresModBlocks {
 	public static final RegistryObject<Block> OSMIUM_BLOCK = REGISTRY.register("osmium_block", () -> new OsmiumBlockBlock());
 	public static final RegistryObject<Block> OSMIUM_DIMENSION_PORTAL = REGISTRY.register("osmium_dimension_portal", () -> new OsmiumDimensionPortalBlock());
 	public static final RegistryObject<Block> LIQUIFIED_OSMIUM = REGISTRY.register("liquified_osmium", () -> new LiquifiedOsmiumBlock());
+	public static final RegistryObject<Block> MAGNESIUM_ORE = REGISTRY.register("magnesium_ore", () -> new MagnesiumOreBlock());
 }

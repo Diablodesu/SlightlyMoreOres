@@ -298,6 +298,116 @@
           "src/main/resources/data/slightlymoreores/recipes/osmium_block_recipe.json"
         ]
       }
+    },
+    {
+      "name": "LiquifiedOsmium",
+      "type": "fluid",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liquified_osmium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/slightlymoreores/blockstates/liquified_osmium.json",
+          "src/main/java/net/mcreator/slightlymoreores/block/LiquifiedOsmiumBlock.java",
+          "src/main/java/net/mcreator/slightlymoreores/item/LiquifiedOsmiumItem.java",
+          "src/main/resources/assets/slightlymoreores/models/block/liquified_osmium.json",
+          "src/main/java/net/mcreator/slightlymoreores/fluid/types/LiquifiedOsmiumFluidType.java",
+          "src/main/java/net/mcreator/slightlymoreores/fluid/LiquifiedOsmiumFluid.java",
+          "src/main/resources/assets/slightlymoreores/models/item/liquified_osmium_bucket.json"
+        ]
+      }
+    },
+    {
+      "name": "SmeltOsmium",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelt_osmium",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/smelt_osmium.json"
+        ]
+      }
+    },
+    {
+      "name": "MagnesiumNugget",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magnesium_nugget",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slightlymoreores/item/MagnesiumNuggetItem.java",
+          "src/main/resources/assets/slightlymoreores/models/item/magnesium_nugget.json"
+        ]
+      }
+    },
+    {
+      "name": "MagnesiumOre",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magnesium_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slightlymoreores/world/features/ores/MagnesiumOreFeature.java",
+          "src/main/resources/assets/slightlymoreores/models/item/magnesium_ore.json",
+          "src/main/resources/assets/slightlymoreores/blockstates/magnesium_ore.json",
+          "src/main/resources/assets/slightlymoreores/models/block/magnesium_ore.json",
+          "src/main/java/net/mcreator/slightlymoreores/block/MagnesiumOreBlock.java",
+          "src/main/resources/data/slightlymoreores/forge/biome_modifier/magnesium_ore_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "MagnesiumIngot",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magnesium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/slightlymoreores/models/item/magnesium_ingot.json",
+          "src/main/java/net/mcreator/slightlymoreores/item/MagnesiumIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MagnesiumIngotRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magnesium_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/magnesium_ingot_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagnesiumPillEat",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magnesium_pill_eat",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slightlymoreores/procedures/MagnesiumPillEatProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -305,18 +415,24 @@
   "language_map": {
     "en_us": {
       "item.slightlymoreores.osmium_dimension": "Osmium Dimension Portal Key",
-      "item.slightlymoreores.osmium_armor_chestplate": "Osmium Armor Body",
       "block.slightlymoreores.osmium_block": "Osmium Block",
+      "item.slightlymoreores.osmium_armor_chestplate": "Osmium Armor Body",
+      "item.slightlymoreores.magnesium_ingot": "Magnesium Ingot",
       "block.slightlymoreores.uranium_ore": "Uranium Ore",
       "item.slightlymoreores.osmium_armor_leggings": "Osmium Armor Leggings",
       "block.slightlymoreores.osmium_ore": "Osmium Ore",
       "block.slightlymoreores.obsidian_ore": "Obsidian Ore",
+      "item.slightlymoreores.magnesium_nugget": "Magnesium Nugget",
+      "fluid.slightlymoreores.liquified_osmium": "Liquified Osmium",
+      "item.slightlymoreores.liquified_osmium_bucket": "Liquified Osmium Bucket",
       "item.slightlymoreores.obsidian_nugget": "Obsidian Nugget",
+      "block.slightlymoreores.liquified_osmium": "Liquified Osmium",
       "item.slightlymoreores.osmium": "Osmium",
       "item.slightlymoreores.osmium_armor_helmet": "Osmium Armor Helmet",
       "item.slightlymoreores.osmium_armor_boots": "Osmium Armor Boots",
       "item.slightlymoreores.uranium": "Uranium",
-      "biome.slightlymoreores.osmium_biome": "Osmium Biome"
+      "biome.slightlymoreores.osmium_biome": "Osmium Biome",
+      "block.slightlymoreores.magnesium_ore": "Magnesium Ore"
     }
   },
   "foldersRoot": {
@@ -331,10 +447,10 @@
   "workspaceSettings": {
     "modid": "slightlymoreores",
     "modName": "SlightlyMoreOres",
-    "version": "1.0.0",
-    "author": "Ash, MCreator",
+    "version": "1.2.1",
+    "author": "Diablodesu",
     "websiteURL": "https://mcreator.net",
-    "license": "Academic Free License v3.0",
+    "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
@@ -342,6 +458,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.slightlymoreores",
     "lockBaseModFiles": false
   },
