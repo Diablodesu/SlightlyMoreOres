@@ -461,6 +461,19 @@
           "src/main/resources/data/slightlymoreores/advancements/enter_osmium_dim.json"
         ]
       }
+    },
+    {
+      "name": "OsmiumBucketAdvancement",
+      "type": "achievement",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osmium_bucket_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/advancements/osmium_bucket_advancement.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -475,8 +488,8 @@
       "item.slightlymoreores.magnesium_nugget": "Magnesium Nugget",
       "fluid.slightlymoreores.liquified_osmium": "Liquified Osmium",
       "item.slightlymoreores.liquified_osmium_bucket": "Liquified Osmium Bucket",
-      "item.slightlymoreores.obsidian_nugget": "Obsidian Nugget",
       "block.slightlymoreores.liquified_osmium": "Liquified Osmium",
+      "item.slightlymoreores.obsidian_nugget": "Obsidian Nugget",
       "item.slightlymoreores.osmium": "Osmium",
       "advancements.magnesium_pill_crafted_achieve.descr": "Craft a Magnesium Pill",
       "biome.slightlymoreores.osmium_biome": "Osmium Biome",
@@ -489,8 +502,10 @@
       "block.slightlymoreores.obsidian_ore": "Obsidian Ore",
       "advancements.enter_osmium_dim.title": "What?",
       "item.slightlymoreores.osmium_armor_helmet": "Osmium Armor Helmet",
+      "advancements.osmium_bucket_advancement.title": "Contents may be hot",
       "item.slightlymoreores.osmium_armor_boots": "Osmium Armor Boots",
-      "item.slightlymoreores.uranium": "Uranium"
+      "item.slightlymoreores.uranium": "Uranium",
+      "advancements.osmium_bucket_advancement.descr": "Obtain a bucket of Liquified Osmium"
     }
   },
   "foldersRoot": {
