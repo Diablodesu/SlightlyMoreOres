@@ -1,4 +1,5 @@
 {
+  "item.slightlymoreores.ruby": "Ruby",
   "block.slightlymoreores.osmium_block": "Osmium Block",
   "item.slightlymoreores.osmium_armor_chestplate": "Osmium Armor Body",
   "item.slightlymoreores.magnesium_ingot": "Magnesium Ingot",
@@ -14,6 +15,7 @@
   "biome.slightlymoreores.osmium_biome": "Osmium Biome",
   "block.slightlymoreores.magnesium_ore": "Magnesium Ore",
   "advancements.enter_osmium_dim.descr": "Enter The Osmium Dimension",
+  "block.slightlymoreores.ruby_ore": "Ruby Ore",
   "item.slightlymoreores.osmium_dimension": "Osmium Dimension Portal Key",
   "block.slightlymoreores.uranium_ore": "Uranium Ore",
   "item.slightlymoreores.osmium_armor_leggings": "Osmium Armor Leggings",

@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.slightlymoreores.block.UraniumOreBlock;
+import net.mcreator.slightlymoreores.block.RubyOreBlock;
 import net.mcreator.slightlymoreores.block.OsmiumOreBlock;
 import net.mcreator.slightlymoreores.block.OsmiumDimensionPortalBlock;
 import net.mcreator.slightlymoreores.block.OsmiumBlockBlock;
@@ -28,4 +29,5 @@ public class SlightlymoreoresModBlocks {
 	public static final RegistryObject<Block> OSMIUM_DIMENSION_PORTAL = REGISTRY.register("osmium_dimension_portal", () -> new OsmiumDimensionPortalBlock());
 	public static final RegistryObject<Block> LIQUIFIED_OSMIUM = REGISTRY.register("liquified_osmium", () -> new LiquifiedOsmiumBlock());
 	public static final RegistryObject<Block> MAGNESIUM_ORE = REGISTRY.register("magnesium_ore", () -> new MagnesiumOreBlock());
+	public static final RegistryObject<Block> RUBY_ORE = REGISTRY.register("ruby_ore", () -> new RubyOreBlock());
 }
