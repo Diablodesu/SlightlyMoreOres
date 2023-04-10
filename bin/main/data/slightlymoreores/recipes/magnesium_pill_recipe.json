@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slightlymoreores:magnesium_ingot"
+    },
+    {
+      "item": "slightlymoreores:magnesium_ingot"
+    }
+  ],
+  "result": {
+    "item": "slightlymoreores:magnesium_pill",
+    "count": 1
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "slightlymoreores:liquified_osmium_bucket"
+    },
+    "title": {
+      "translate": "advancements.osmium_bucket_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.osmium_bucket_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "osmium_bucket_advancement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "slightlymoreores:liquified_osmium_bucket"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  }
+}

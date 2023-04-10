@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "slightlymoreores:magnesium_nugget"
+    },
+    "1": {
+      "item": "slightlymoreores:magnesium_nugget"
+    },
+    "2": {
+      "item": "slightlymoreores:magnesium_nugget"
+    },
+    "3": {
+      "item": "slightlymoreores:magnesium_nugget"
+    },
+    "4": {
+      "item": "slightlymoreores:magnesium_nugget"
+    },
+    "5": {
+      "item": "slightlymoreores:magnesium_nugget"
+    },
+    "6": {
+      "item": "slightlymoreores:magnesium_nugget"
+    },
+    "7": {
+      "item": "slightlymoreores:magnesium_nugget"
+    },
+    "8": {
+      "item": "slightlymoreores:magnesium_nugget"
+    }
+  },
+  "result": {
+    "item": "slightlymoreores:magnesium_ingot",
+    "count": 1
+  }
+}

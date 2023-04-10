@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 10,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "slightlymoreores:obsidian_ore"
+  },
+  "result": "slightlymoreores:obsidian_nugget"
+}
