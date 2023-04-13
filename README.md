@@ -34,9 +34,13 @@ No dependancies <br />
 Tested on 1.19.2, latest forge version <br />
 Server support not tested
 
+# Future Plans
+
+I've created a [Trello page](https://trello.com/b/TUeaZN1d/slightlymoreores) that you can use to track my progress on ideas I have for this project.
+
 # Acknowledgments
 
-MCreator: https://mcreator.net/
+[MCreator](https://mcreator.net) - The utility for most of the code
 
 # Feedback
 
