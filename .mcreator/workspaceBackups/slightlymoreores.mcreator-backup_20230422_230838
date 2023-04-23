@@ -461,12 +461,104 @@
           "src/main/resources/data/slightlymoreores/advancements/enter_osmium_dim.json"
         ]
       }
+    },
+    {
+      "name": "OsmiumBucketAdvancement",
+      "type": "achievement",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osmium_bucket_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/advancements/osmium_bucket_advancement.json"
+        ]
+      }
+    },
+    {
+      "name": "Ruby",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/slightlymoreores/models/item/ruby.json",
+          "src/main/java/net/mcreator/slightlymoreores/item/RubyItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RubyOre",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slightlymoreores/world/features/ores/RubyOreFeature.java",
+          "src/main/resources/data/slightlymoreores/forge/biome_modifier/ruby_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/slightlymoreores/block/RubyOreBlock.java",
+          "src/main/resources/assets/slightlymoreores/blockstates/ruby_ore.json",
+          "src/main/resources/assets/slightlymoreores/models/block/ruby_ore.json",
+          "src/main/resources/assets/slightlymoreores/models/item/ruby_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyArmor",
+      "type": "armor",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/slightlymoreores/models/item/ruby_armor_chestplate.json",
+          "src/main/java/net/mcreator/slightlymoreores/item/RubyArmorItem.java",
+          "src/main/resources/assets/slightlymoreores/models/item/ruby_armor_boots.json",
+          "src/main/resources/assets/slightlymoreores/models/item/ruby_armor_leggings.json",
+          "src/main/resources/assets/slightlymoreores/models/item/ruby_armor_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "RubySword",
+      "type": "tool",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slightlymoreores/item/RubySwordItem.java",
+          "src/main/resources/assets/slightlymoreores/models/item/ruby_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyPickaxe",
+      "type": "tool",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slightlymoreores/item/RubyPickaxeItem.java",
+          "src/main/resources/assets/slightlymoreores/models/item/ruby_pickaxe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.slightlymoreores.ruby_armor_helmet": "Ruby Helmet",
+      "item.slightlymoreores.ruby": "Ruby",
       "block.slightlymoreores.osmium_block": "Osmium Block",
       "item.slightlymoreores.osmium_armor_chestplate": "Osmium Armor Body",
       "item.slightlymoreores.magnesium_ingot": "Magnesium Ingot",
@@ -475,22 +567,30 @@
       "item.slightlymoreores.magnesium_nugget": "Magnesium Nugget",
       "fluid.slightlymoreores.liquified_osmium": "Liquified Osmium",
       "item.slightlymoreores.liquified_osmium_bucket": "Liquified Osmium Bucket",
-      "block.slightlymoreores.liquified_osmium": "Liquified Osmium",
       "item.slightlymoreores.obsidian_nugget": "Obsidian Nugget",
+      "block.slightlymoreores.liquified_osmium": "Liquified Osmium",
       "item.slightlymoreores.osmium": "Osmium",
       "advancements.magnesium_pill_crafted_achieve.descr": "Craft a Magnesium Pill",
       "biome.slightlymoreores.osmium_biome": "Osmium Biome",
+      "item.slightlymoreores.ruby_sword": "Ruby Sword",
       "block.slightlymoreores.magnesium_ore": "Magnesium Ore",
       "advancements.enter_osmium_dim.descr": "Enter The Osmium Dimension",
+      "block.slightlymoreores.ruby_ore": "Ruby Ore",
       "item.slightlymoreores.osmium_dimension": "Osmium Dimension Portal Key",
       "block.slightlymoreores.uranium_ore": "Uranium Ore",
       "item.slightlymoreores.osmium_armor_leggings": "Osmium Armor Leggings",
       "advancements.magnesium_pill_crafted_achieve.title": "Artificial Supplements",
       "block.slightlymoreores.obsidian_ore": "Obsidian Ore",
+      "item.slightlymoreores.ruby_pickaxe": "Ruby Pickaxe",
+      "item.slightlymoreores.ruby_armor_chestplate": "Ruby Chestplate",
+      "item.slightlymoreores.ruby_armor_boots": "Ruby Boots",
       "advancements.enter_osmium_dim.title": "What?",
       "item.slightlymoreores.osmium_armor_helmet": "Osmium Armor Helmet",
+      "advancements.osmium_bucket_advancement.title": "Contents may be hot",
       "item.slightlymoreores.osmium_armor_boots": "Osmium Armor Boots",
-      "item.slightlymoreores.uranium": "Uranium"
+      "item.slightlymoreores.uranium": "Uranium",
+      "item.slightlymoreores.ruby_armor_leggings": "Ruby Leggings",
+      "advancements.osmium_bucket_advancement.descr": "Obtain a bucket of Liquified Osmium"
     }
   },
   "foldersRoot": {
@@ -505,13 +605,14 @@
   "workspaceSettings": {
     "modid": "slightlymoreores",
     "modName": "SlightlyMoreOres",
-    "version": "1.3.1",
-    "description": "meow",
+    "version": "1.4.0",
+    "description": "Adds more ores to your minecraft world",
     "author": "Diablodesu",
-    "websiteURL": "https://mcreator.net",
+    "websiteURL": "https://modrinth.com/mod/slightlymoreores",
     "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "moreores",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],

@@ -474,12 +474,45 @@
           "src/main/resources/data/slightlymoreores/advancements/osmium_bucket_advancement.json"
         ]
       }
+    },
+    {
+      "name": "Ruby",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/slightlymoreores/models/item/ruby.json",
+          "src/main/java/net/mcreator/slightlymoreores/item/RubyItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RubyOre",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slightlymoreores/world/features/ores/RubyOreFeature.java",
+          "src/main/resources/data/slightlymoreores/forge/biome_modifier/ruby_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/slightlymoreores/block/RubyOreBlock.java",
+          "src/main/resources/assets/slightlymoreores/blockstates/ruby_ore.json",
+          "src/main/resources/assets/slightlymoreores/models/block/ruby_ore.json",
+          "src/main/resources/assets/slightlymoreores/models/item/ruby_ore.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.slightlymoreores.ruby": "Ruby",
       "block.slightlymoreores.osmium_block": "Osmium Block",
       "item.slightlymoreores.osmium_armor_chestplate": "Osmium Armor Body",
       "item.slightlymoreores.magnesium_ingot": "Magnesium Ingot",
@@ -495,6 +528,7 @@
       "biome.slightlymoreores.osmium_biome": "Osmium Biome",
       "block.slightlymoreores.magnesium_ore": "Magnesium Ore",
       "advancements.enter_osmium_dim.descr": "Enter The Osmium Dimension",
+      "block.slightlymoreores.ruby_ore": "Ruby Ore",
       "item.slightlymoreores.osmium_dimension": "Osmium Dimension Portal Key",
       "block.slightlymoreores.uranium_ore": "Uranium Ore",
       "item.slightlymoreores.osmium_armor_leggings": "Osmium Armor Leggings",

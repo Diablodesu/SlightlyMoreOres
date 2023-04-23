@@ -14,7 +14,13 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.slightlymoreores.item.UraniumItem;
+import net.mcreator.slightlymoreores.item.RubyhoeItem;
+import net.mcreator.slightlymoreores.item.RubySwordItem;
+import net.mcreator.slightlymoreores.item.RubyShovelItem;
+import net.mcreator.slightlymoreores.item.RubyPickaxeItem;
 import net.mcreator.slightlymoreores.item.RubyItem;
+import net.mcreator.slightlymoreores.item.RubyAxeItem;
+import net.mcreator.slightlymoreores.item.RubyArmorItem;
 import net.mcreator.slightlymoreores.item.OsmiumItem;
 import net.mcreator.slightlymoreores.item.OsmiumDimensionItem;
 import net.mcreator.slightlymoreores.item.OsmiumArmorItem;
@@ -46,6 +52,15 @@ public class SlightlymoreoresModItems {
 	public static final RegistryObject<Item> MAGNESIUM_PILL = REGISTRY.register("magnesium_pill", () -> new MagnesiumPillItem());
 	public static final RegistryObject<Item> RUBY = REGISTRY.register("ruby", () -> new RubyItem());
 	public static final RegistryObject<Item> RUBY_ORE = block(SlightlymoreoresModBlocks.RUBY_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> RUBY_ARMOR_HELMET = REGISTRY.register("ruby_armor_helmet", () -> new RubyArmorItem.Helmet());
+	public static final RegistryObject<Item> RUBY_ARMOR_CHESTPLATE = REGISTRY.register("ruby_armor_chestplate", () -> new RubyArmorItem.Chestplate());
+	public static final RegistryObject<Item> RUBY_ARMOR_LEGGINGS = REGISTRY.register("ruby_armor_leggings", () -> new RubyArmorItem.Leggings());
+	public static final RegistryObject<Item> RUBY_ARMOR_BOOTS = REGISTRY.register("ruby_armor_boots", () -> new RubyArmorItem.Boots());
+	public static final RegistryObject<Item> RUBY_SWORD = REGISTRY.register("ruby_sword", () -> new RubySwordItem());
+	public static final RegistryObject<Item> RUBY_PICKAXE = REGISTRY.register("ruby_pickaxe", () -> new RubyPickaxeItem());
+	public static final RegistryObject<Item> RUBY_AXE = REGISTRY.register("ruby_axe", () -> new RubyAxeItem());
+	public static final RegistryObject<Item> RUBY_SHOVEL = REGISTRY.register("ruby_shovel", () -> new RubyShovelItem());
+	public static final RegistryObject<Item> RUBYHOE = REGISTRY.register("rubyhoe", () -> new RubyhoeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
