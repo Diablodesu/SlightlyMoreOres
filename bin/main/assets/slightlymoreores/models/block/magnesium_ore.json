@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "slightlymoreores:blocks/magnesiumore",
+    "up": "slightlymoreores:blocks/magnesiumore",
+    "north": "slightlymoreores:blocks/magnesiumore",
+    "east": "slightlymoreores:blocks/magnesiumore",
+    "south": "slightlymoreores:blocks/magnesiumore",
+    "west": "slightlymoreores:blocks/magnesiumore",
+    "particle": "slightlymoreores:blocks/magnesiumore"
+  },
+  "render_type": "solid"
+}

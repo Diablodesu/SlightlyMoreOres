@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "slightlymoreores:blocks/osmiumore",
+    "up": "slightlymoreores:blocks/osmiumore",
+    "north": "slightlymoreores:blocks/osmiumore",
+    "east": "slightlymoreores:blocks/osmiumore",
+    "south": "slightlymoreores:blocks/osmiumore",
+    "west": "slightlymoreores:blocks/osmiumore",
+    "particle": "slightlymoreores:blocks/osmiumore"
+  },
+  "render_type": "solid"
+}

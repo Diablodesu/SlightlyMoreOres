@@ -28,15 +28,24 @@ Magnesium Pill <br />
 
 Osmium Dimension 
 
+# Dependancies
+
+[Minecraft Forge](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.19.2.html)
+
 # Installation
 
-No dependancies <br />
+Simply drop into mods folder <br />
 Tested on 1.19.2, latest forge version <br />
 Server support not tested
 
+# Future Plans
+
+I've created a [Trello page](https://trello.com/b/TUeaZN1d/slightlymoreores) that you can use to track my progress on ideas I have for this project.
+
 # Acknowledgments
 
-MCreator: https://mcreator.net/
+[MCreator](https://mcreator.net) - The utility for most of the code <br />
+[MC Forge](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.19.2.html) - The mod engine
 
 # Feedback
 

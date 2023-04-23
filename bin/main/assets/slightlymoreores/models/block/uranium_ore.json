@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "slightlymoreores:blocks/uraniumore",
+    "up": "slightlymoreores:blocks/uraniumore",
+    "north": "slightlymoreores:blocks/uraniumore",
+    "east": "slightlymoreores:blocks/uraniumore",
+    "south": "slightlymoreores:blocks/uraniumore",
+    "west": "slightlymoreores:blocks/uraniumore",
+    "particle": "slightlymoreores:blocks/uraniumore"
+  },
+  "render_type": "solid"
+}
