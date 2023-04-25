@@ -34,6 +34,7 @@ import net.mcreator.slightlymoreores.init.SlightlymoreoresModFluids;
 import net.mcreator.slightlymoreores.init.SlightlymoreoresModFluidTypes;
 import net.mcreator.slightlymoreores.init.SlightlymoreoresModFeatures;
 import net.mcreator.slightlymoreores.init.SlightlymoreoresModBlocks;
+import net.mcreator.slightlymoreores.init.SlightlymoreoresModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -61,6 +62,7 @@ public class SlightlymoreoresMod {
 		SlightlymoreoresModFluids.REGISTRY.register(bus);
 		SlightlymoreoresModFluidTypes.REGISTRY.register(bus);
 
+		SlightlymoreoresModBiomes.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

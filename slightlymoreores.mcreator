@@ -275,7 +275,6 @@
       }
     },
     {
-<<<<<<< Updated upstream
       "name": "OsmiumBiome",
       "type": "biome",
       "sortid": 36,
@@ -289,8 +288,6 @@
       }
     },
     {
-=======
->>>>>>> Stashed changes
       "name": "OsmiumBlockRecipe",
       "type": "recipe",
       "sortid": 18,
@@ -617,12 +614,9 @@
       "block.slightlymoreores.liquified_osmium": "Liquified Osmium",
       "item.slightlymoreores.osmium": "Osmium",
       "advancements.magnesium_pill_crafted_achieve.descr": "Craft a Magnesium Pill",
-<<<<<<< Updated upstream
       "item.slightlymoreores.ruby_shovel": "Ruby Shovel",
       "biome.slightlymoreores.osmium_biome": "Osmium Biome",
       "item.slightlymoreores.ruby_sword": "Ruby Sword",
-=======
->>>>>>> Stashed changes
       "block.slightlymoreores.magnesium_ore": "Magnesium Ore",
       "advancements.enter_osmium_dim.descr": "Enter The Osmium Dimension",
       "block.slightlymoreores.ruby_ore": "Ruby Ore",
@@ -650,10 +644,6 @@
     "children": [
       {
         "name": "Armor",
-        "children": []
-      },
-      {
-        "name": "Uranium",
         "children": []
       }
     ]
