@@ -35,10 +35,10 @@ import net.mcreator.slightlymoreores.SlightlymoreoresMod;
 public class SlightlymoreoresModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, SlightlymoreoresMod.MODID);
 	public static final RegistryObject<Item> URANIUM = REGISTRY.register("uranium", () -> new UraniumItem());
-	public static final RegistryObject<Item> URANIUM_ORE = block(SlightlymoreoresModBlocks.URANIUM_ORE, CreativeModeTab.TAB_MISC);
-	public static final RegistryObject<Item> OBSIDIAN_ORE = block(SlightlymoreoresModBlocks.OBSIDIAN_ORE, CreativeModeTab.TAB_MISC);
+	public static final RegistryObject<Item> URANIUM_ORE = block(SlightlymoreoresModBlocks.URANIUM_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> OBSIDIAN_ORE = block(SlightlymoreoresModBlocks.OBSIDIAN_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> OBSIDIAN_NUGGET = REGISTRY.register("obsidian_nugget", () -> new ObsidianNuggetItem());
-	public static final RegistryObject<Item> OSMIUM_ORE = block(SlightlymoreoresModBlocks.OSMIUM_ORE, CreativeModeTab.TAB_MISC);
+	public static final RegistryObject<Item> OSMIUM_ORE = block(SlightlymoreoresModBlocks.OSMIUM_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> OSMIUM = REGISTRY.register("osmium", () -> new OsmiumItem());
 	public static final RegistryObject<Item> OSMIUM_ARMOR_HELMET = REGISTRY.register("osmium_armor_helmet", () -> new OsmiumArmorItem.Helmet());
 	public static final RegistryObject<Item> OSMIUM_ARMOR_CHESTPLATE = REGISTRY.register("osmium_armor_chestplate", () -> new OsmiumArmorItem.Chestplate());
