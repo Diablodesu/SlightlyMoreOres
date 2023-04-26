@@ -10,11 +10,11 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/slightlymoreores/block/UraniumOreBlock.java",
-          "src/main/resources/assets/slightlymoreores/blockstates/uranium_ore.json",
-          "src/main/resources/data/slightlymoreores/forge/biome_modifier/uranium_ore_biome_modifier.json",
-          "src/main/resources/assets/slightlymoreores/models/block/uranium_ore.json",
           "src/main/java/net/mcreator/slightlymoreores/world/features/ores/UraniumOreFeature.java",
-          "src/main/resources/assets/slightlymoreores/models/item/uranium_ore.json"
+          "src/main/resources/assets/slightlymoreores/blockstates/uranium_ore.json",
+          "src/main/resources/assets/slightlymoreores/models/block/uranium_ore.json",
+          "src/main/resources/assets/slightlymoreores/models/item/uranium_ore.json",
+          "src/main/resources/data/slightlymoreores/forge/biome_modifier/uranium_ore_biome_modifier.json"
         ]
       }
     },
@@ -27,8 +27,8 @@
       "registry_name": "uranium",
       "metadata": {
         "files": [
-          "src/main/resources/assets/slightlymoreores/models/item/uranium.json",
-          "src/main/java/net/mcreator/slightlymoreores/item/UraniumItem.java"
+          "src/main/java/net/mcreator/slightlymoreores/item/UraniumItem.java",
+          "src/main/resources/assets/slightlymoreores/models/item/uranium.json"
         ]
       }
     },
@@ -61,11 +61,11 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/slightlymoreores/blockstates/obsidian_ore.json",
-          "src/main/resources/assets/slightlymoreores/models/block/obsidian_ore.json",
+          "src/main/resources/data/slightlymoreores/forge/biome_modifier/obsidian_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/slightlymoreores/block/ObsidianOreBlock.java",
           "src/main/java/net/mcreator/slightlymoreores/world/features/ores/ObsidianOreFeature.java",
           "src/main/resources/assets/slightlymoreores/models/item/obsidian_ore.json",
-          "src/main/java/net/mcreator/slightlymoreores/block/ObsidianOreBlock.java",
-          "src/main/resources/data/slightlymoreores/forge/biome_modifier/obsidian_ore_biome_modifier.json"
+          "src/main/resources/assets/slightlymoreores/models/block/obsidian_ore.json"
         ]
       }
     },
@@ -78,8 +78,8 @@
       "registry_name": "obsidian_nugget",
       "metadata": {
         "files": [
-          "src/main/resources/assets/slightlymoreores/models/item/obsidian_nugget.json",
-          "src/main/java/net/mcreator/slightlymoreores/item/ObsidianNuggetItem.java"
+          "src/main/java/net/mcreator/slightlymoreores/item/ObsidianNuggetItem.java",
+          "src/main/resources/assets/slightlymoreores/models/item/obsidian_nugget.json"
         ]
       }
     },
@@ -118,12 +118,12 @@
       "registry_name": "osmium_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/slightlymoreores/blockstates/osmium_ore.json",
+          "src/main/java/net/mcreator/slightlymoreores/block/OsmiumOreBlock.java",
           "src/main/resources/assets/slightlymoreores/models/block/osmium_ore.json",
           "src/main/resources/assets/slightlymoreores/models/item/osmium_ore.json",
-          "src/main/java/net/mcreator/slightlymoreores/block/OsmiumOreBlock.java",
           "src/main/java/net/mcreator/slightlymoreores/world/features/ores/OsmiumOreFeature.java",
-          "src/main/resources/data/slightlymoreores/forge/biome_modifier/osmium_ore_biome_modifier.json"
+          "src/main/resources/data/slightlymoreores/forge/biome_modifier/osmium_ore_biome_modifier.json",
+          "src/main/resources/assets/slightlymoreores/blockstates/osmium_ore.json"
         ]
       }
     },
@@ -136,8 +136,8 @@
       "registry_name": "osmium",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/slightlymoreores/item/OsmiumItem.java",
-          "src/main/resources/assets/slightlymoreores/models/item/osmium.json"
+          "src/main/resources/assets/slightlymoreores/models/item/osmium.json",
+          "src/main/java/net/mcreator/slightlymoreores/item/OsmiumItem.java"
         ]
       }
     },
@@ -150,11 +150,11 @@
       "registry_name": "osmium_armor",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/slightlymoreores/item/OsmiumArmorItem.java",
           "src/main/resources/assets/slightlymoreores/models/item/osmium_armor_leggings.json",
           "src/main/resources/assets/slightlymoreores/models/item/osmium_armor_boots.json",
           "src/main/resources/assets/slightlymoreores/models/item/osmium_armor_chestplate.json",
-          "src/main/resources/assets/slightlymoreores/models/item/osmium_armor_helmet.json"
+          "src/main/resources/assets/slightlymoreores/models/item/osmium_armor_helmet.json",
+          "src/main/java/net/mcreator/slightlymoreores/item/OsmiumArmorItem.java"
         ]
       },
       "path": "~/Armor"
@@ -189,9 +189,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/slightlymoreores/models/block/osmium_block.json",
-          "src/main/java/net/mcreator/slightlymoreores/block/OsmiumBlockBlock.java",
           "src/main/resources/assets/slightlymoreores/models/item/osmium_block.json",
-          "src/main/resources/assets/slightlymoreores/blockstates/osmium_block.json"
+          "src/main/resources/assets/slightlymoreores/blockstates/osmium_block.json",
+          "src/main/java/net/mcreator/slightlymoreores/block/OsmiumBlockBlock.java"
         ]
       }
     },
@@ -260,23 +260,24 @@
       "registry_name": "osmium_dimension",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/slightlymoreores/world/dimension/OsmiumDimensionDimension.java",
-          "src/main/java/net/mcreator/slightlymoreores/item/OsmiumDimensionItem.java",
-          "src/main/java/net/mcreator/slightlymoreores/world/teleporter/OsmiumDimensionPortalShape.java",
-          "src/main/resources/assets/slightlymoreores/models/block/osmium_dimension_portal_ew.json",
-          "src/main/resources/data/slightlymoreores/dimension_type/osmium_dimension.json",
           "src/main/java/net/mcreator/slightlymoreores/world/teleporter/OsmiumDimensionTeleporter.java",
-          "src/main/resources/data/slightlymoreores/dimension/osmium_dimension.json",
-          "src/main/java/net/mcreator/slightlymoreores/block/OsmiumDimensionPortalBlock.java",
           "src/main/resources/assets/slightlymoreores/models/block/osmium_dimension_portal_ns.json",
+          "src/main/java/net/mcreator/slightlymoreores/world/dimension/OsmiumDimensionDimension.java",
+          "src/main/resources/data/slightlymoreores/dimension/osmium_dimension.json",
+          "src/main/resources/assets/slightlymoreores/models/item/osmium_dimension.json",
+          "src/main/resources/data/slightlymoreores/dimension_type/osmium_dimension.json",
           "src/main/resources/assets/slightlymoreores/blockstates/osmium_dimension_portal.json",
-          "src/main/resources/assets/slightlymoreores/models/item/osmium_dimension.json"
+          "src/main/resources/assets/slightlymoreores/models/block/osmium_dimension_portal_ew.json",
+          "src/main/java/net/mcreator/slightlymoreores/block/OsmiumDimensionPortalBlock.java",
+          "src/main/java/net/mcreator/slightlymoreores/item/OsmiumDimensionItem.java",
+          "src/main/java/net/mcreator/slightlymoreores/world/teleporter/OsmiumDimensionPortalShape.java"
         ]
       }
     },
     {
       "name": "OsmiumBiome",
       "type": "biome",
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "osmium_biome",
@@ -308,13 +309,13 @@
       "registry_name": "liquified_osmium",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/slightlymoreores/fluid/types/LiquifiedOsmiumFluidType.java",
           "src/main/resources/assets/slightlymoreores/blockstates/liquified_osmium.json",
-          "src/main/java/net/mcreator/slightlymoreores/block/LiquifiedOsmiumBlock.java",
+          "src/main/resources/assets/slightlymoreores/models/item/liquified_osmium_bucket.json",
+          "src/main/java/net/mcreator/slightlymoreores/fluid/LiquifiedOsmiumFluid.java",
           "src/main/java/net/mcreator/slightlymoreores/item/LiquifiedOsmiumItem.java",
           "src/main/resources/assets/slightlymoreores/models/block/liquified_osmium.json",
-          "src/main/java/net/mcreator/slightlymoreores/fluid/types/LiquifiedOsmiumFluidType.java",
-          "src/main/java/net/mcreator/slightlymoreores/fluid/LiquifiedOsmiumFluid.java",
-          "src/main/resources/assets/slightlymoreores/models/item/liquified_osmium_bucket.json"
+          "src/main/java/net/mcreator/slightlymoreores/block/LiquifiedOsmiumBlock.java"
         ]
       }
     },
@@ -355,10 +356,10 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/slightlymoreores/world/features/ores/MagnesiumOreFeature.java",
-          "src/main/resources/assets/slightlymoreores/models/item/magnesium_ore.json",
           "src/main/resources/assets/slightlymoreores/blockstates/magnesium_ore.json",
           "src/main/resources/assets/slightlymoreores/models/block/magnesium_ore.json",
           "src/main/java/net/mcreator/slightlymoreores/block/MagnesiumOreBlock.java",
+          "src/main/resources/assets/slightlymoreores/models/item/magnesium_ore.json",
           "src/main/resources/data/slightlymoreores/forge/biome_modifier/magnesium_ore_biome_modifier.json"
         ]
       }
@@ -418,8 +419,8 @@
       "registry_name": "magnesium_pill",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/slightlymoreores/item/MagnesiumPillItem.java",
-          "src/main/resources/assets/slightlymoreores/models/item/magnesium_pill.json"
+          "src/main/resources/assets/slightlymoreores/models/item/magnesium_pill.json",
+          "src/main/java/net/mcreator/slightlymoreores/item/MagnesiumPillItem.java"
         ]
       }
     },
@@ -484,8 +485,143 @@
       "registry_name": "ruby",
       "metadata": {
         "files": [
-          "src/main/resources/assets/slightlymoreores/models/item/ruby.json",
-          "src/main/java/net/mcreator/slightlymoreores/item/RubyItem.java"
+          "src/main/java/net/mcreator/slightlymoreores/item/RubyItem.java",
+          "src/main/resources/assets/slightlymoreores/models/item/ruby.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyOre",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/slightlymoreores/blockstates/ruby_ore.json",
+          "src/main/java/net/mcreator/slightlymoreores/world/features/ores/RubyOreFeature.java",
+          "src/main/resources/assets/slightlymoreores/models/block/ruby_ore.json",
+          "src/main/java/net/mcreator/slightlymoreores/block/RubyOreBlock.java",
+          "src/main/resources/data/slightlymoreores/forge/biome_modifier/ruby_ore_biome_modifier.json",
+          "src/main/resources/assets/slightlymoreores/models/item/ruby_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyArmor",
+      "type": "armor",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/slightlymoreores/models/item/ruby_armor_chestplate.json",
+          "src/main/java/net/mcreator/slightlymoreores/item/RubyArmorItem.java",
+          "src/main/resources/assets/slightlymoreores/models/item/ruby_armor_boots.json",
+          "src/main/resources/assets/slightlymoreores/models/item/ruby_armor_leggings.json",
+          "src/main/resources/assets/slightlymoreores/models/item/ruby_armor_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "RubySword",
+      "type": "tool",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slightlymoreores/item/RubySwordItem.java",
+          "src/main/resources/assets/slightlymoreores/models/item/ruby_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyPickaxe",
+      "type": "tool",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slightlymoreores/item/RubyPickaxeItem.java",
+          "src/main/resources/assets/slightlymoreores/models/item/ruby_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyAxe",
+      "type": "tool",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/slightlymoreores/models/item/ruby_axe.json",
+          "src/main/java/net/mcreator/slightlymoreores/item/RubyAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RubyShovel",
+      "type": "tool",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slightlymoreores/item/RubyShovelItem.java",
+          "src/main/resources/assets/slightlymoreores/models/item/ruby_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubyhoe",
+      "type": "tool",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyhoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/slightlymoreores/models/item/rubyhoe.json",
+          "src/main/java/net/mcreator/slightlymoreores/item/RubyhoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Sapphire",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/slightlymoreores/models/item/sapphire.json",
+          "src/main/java/net/mcreator/slightlymoreores/item/SapphireItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RenforcedGlassBlock",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "renforced_glass_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slightlymoreores/block/RenforcedGlassBlockBlock.java",
+          "src/main/resources/assets/slightlymoreores/models/block/renforced_glass_block.json",
+          "src/main/resources/assets/slightlymoreores/blockstates/renforced_glass_block.json",
+          "src/main/resources/assets/slightlymoreores/models/item/renforced_glass_block.json"
         ]
       }
     }
@@ -494,6 +630,7 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.slightlymoreores.ruby_armor_helmet": "Ruby Helmet",
       "item.slightlymoreores.ruby": "Ruby",
       "block.slightlymoreores.osmium_block": "Osmium Block",
       "item.slightlymoreores.osmium_armor_chestplate": "Osmium Armor Body",
@@ -503,23 +640,34 @@
       "item.slightlymoreores.magnesium_nugget": "Magnesium Nugget",
       "fluid.slightlymoreores.liquified_osmium": "Liquified Osmium",
       "item.slightlymoreores.liquified_osmium_bucket": "Liquified Osmium Bucket",
-      "block.slightlymoreores.liquified_osmium": "Liquified Osmium",
       "item.slightlymoreores.obsidian_nugget": "Obsidian Nugget",
+      "block.slightlymoreores.liquified_osmium": "Liquified Osmium",
       "item.slightlymoreores.osmium": "Osmium",
       "advancements.magnesium_pill_crafted_achieve.descr": "Craft a Magnesium Pill",
+      "item.slightlymoreores.ruby_shovel": "Ruby Shovel",
       "biome.slightlymoreores.osmium_biome": "Osmium Biome",
+      "item.slightlymoreores.ruby_sword": "Ruby Sword",
       "block.slightlymoreores.magnesium_ore": "Magnesium Ore",
       "advancements.enter_osmium_dim.descr": "Enter The Osmium Dimension",
+      "block.slightlymoreores.ruby_ore": "Ruby Ore",
+      "item.slightlymoreores.rubyhoe": "Rubyhoe",
+      "item.slightlymoreores.ruby_axe": "Ruby Axe",
       "item.slightlymoreores.osmium_dimension": "Osmium Dimension Portal Key",
+      "block.slightlymoreores.renforced_glass_block": "Reinforced Glass Block",
+      "item.slightlymoreores.sapphire": "Sapphire",
       "block.slightlymoreores.uranium_ore": "Uranium Ore",
       "item.slightlymoreores.osmium_armor_leggings": "Osmium Armor Leggings",
       "advancements.magnesium_pill_crafted_achieve.title": "Artificial Supplements",
       "block.slightlymoreores.obsidian_ore": "Obsidian Ore",
+      "item.slightlymoreores.ruby_pickaxe": "Ruby Pickaxe",
+      "item.slightlymoreores.ruby_armor_chestplate": "Ruby Chestplate",
+      "item.slightlymoreores.ruby_armor_boots": "Ruby Boots",
       "advancements.enter_osmium_dim.title": "What?",
       "item.slightlymoreores.osmium_armor_helmet": "Osmium Armor Helmet",
       "advancements.osmium_bucket_advancement.title": "Contents may be hot",
       "item.slightlymoreores.osmium_armor_boots": "Osmium Armor Boots",
       "item.slightlymoreores.uranium": "Uranium",
+      "item.slightlymoreores.ruby_armor_leggings": "Ruby Leggings",
       "advancements.osmium_bucket_advancement.descr": "Obtain a bucket of Liquified Osmium"
     }
   },
@@ -535,13 +683,14 @@
   "workspaceSettings": {
     "modid": "slightlymoreores",
     "modName": "SlightlyMoreOres",
-    "version": "1.3.1",
-    "description": "meow",
+    "version": "1.4.0",
+    "description": "Adds more ores to your minecraft world",
     "author": "Diablodesu",
-    "websiteURL": "https://mcreator.net",
+    "websiteURL": "https://modrinth.com/mod/slightlymoreores",
     "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "moreores",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
@@ -551,5 +700,5 @@
     "modElementsPackage": "net.mcreator.slightlymoreores",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300109612
+  "mcreatorVersion": 202300110610
 }

@@ -12,6 +12,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraft.world.level.levelgen.feature.Feature;
 
 import net.mcreator.slightlymoreores.world.features.ores.UraniumOreFeature;
+import net.mcreator.slightlymoreores.world.features.ores.SapphireOreFeature;
 import net.mcreator.slightlymoreores.world.features.ores.RubyOreFeature;
 import net.mcreator.slightlymoreores.world.features.ores.OsmiumOreFeature;
 import net.mcreator.slightlymoreores.world.features.ores.ObsidianOreFeature;
@@ -26,4 +27,5 @@ public class SlightlymoreoresModFeatures {
 	public static final RegistryObject<Feature<?>> OSMIUM_ORE = REGISTRY.register("osmium_ore", OsmiumOreFeature::feature);
 	public static final RegistryObject<Feature<?>> MAGNESIUM_ORE = REGISTRY.register("magnesium_ore", MagnesiumOreFeature::feature);
 	public static final RegistryObject<Feature<?>> RUBY_ORE = REGISTRY.register("ruby_ore", RubyOreFeature::feature);
+	public static final RegistryObject<Feature<?>> SAPPHIRE_ORE = REGISTRY.register("sapphire_ore", SapphireOreFeature::feature);
 }

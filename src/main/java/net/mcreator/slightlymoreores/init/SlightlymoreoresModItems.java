@@ -14,6 +14,7 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.slightlymoreores.item.UraniumItem;
+import net.mcreator.slightlymoreores.item.SapphireItem;
 import net.mcreator.slightlymoreores.item.RubyhoeItem;
 import net.mcreator.slightlymoreores.item.RubySwordItem;
 import net.mcreator.slightlymoreores.item.RubyShovelItem;
@@ -61,6 +62,9 @@ public class SlightlymoreoresModItems {
 	public static final RegistryObject<Item> RUBY_AXE = REGISTRY.register("ruby_axe", () -> new RubyAxeItem());
 	public static final RegistryObject<Item> RUBY_SHOVEL = REGISTRY.register("ruby_shovel", () -> new RubyShovelItem());
 	public static final RegistryObject<Item> RUBYHOE = REGISTRY.register("rubyhoe", () -> new RubyhoeItem());
+	public static final RegistryObject<Item> SAPPHIRE = REGISTRY.register("sapphire", () -> new SapphireItem());
+	public static final RegistryObject<Item> RENFORCED_GLASS_BLOCK = block(SlightlymoreoresModBlocks.RENFORCED_GLASS_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> SAPPHIRE_ORE = block(SlightlymoreoresModBlocks.SAPPHIRE_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
