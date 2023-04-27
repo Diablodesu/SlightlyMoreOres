@@ -17,3 +17,6 @@ gradle-app.setting
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
 .mcreator/generatorGradleCache
+
+# PREVENT PUTTING YOUR FUCKING MINECRAFT INSTANCE IN YOUR REPO
+run/
