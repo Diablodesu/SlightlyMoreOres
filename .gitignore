@@ -20,3 +20,6 @@ gradle-app.setting
 
 # i dont need that
 .settings/
+
+# PREVENT PUTTING YOUR FUCKING MINECRAFT INSTANCE IN YOUR REPO
+run/
