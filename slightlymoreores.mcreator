@@ -655,6 +655,58 @@
           "src/main/resources/data/slightlymoreores/recipes/reinforced_glass_recipe.json"
         ]
       }
+    },
+    {
+      "name": "RubyHelmetRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/ruby_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyChestRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_chest_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/ruby_chest_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyLegsRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_legs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/ruby_legs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyBootsRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/ruby_boots_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
