@@ -594,6 +594,119 @@
           "src/main/java/net/mcreator/slightlymoreores/item/RubyhoeItem.java"
         ]
       }
+    },
+    {
+      "name": "Sapphire",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/slightlymoreores/models/item/sapphire.json",
+          "src/main/java/net/mcreator/slightlymoreores/item/SapphireItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RenforcedGlassBlock",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "renforced_glass_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slightlymoreores/block/RenforcedGlassBlockBlock.java",
+          "src/main/resources/assets/slightlymoreores/models/block/renforced_glass_block.json",
+          "src/main/resources/assets/slightlymoreores/blockstates/renforced_glass_block.json",
+          "src/main/resources/assets/slightlymoreores/models/item/renforced_glass_block.json"
+        ]
+      }
+    },
+    {
+      "name": "SapphireOre",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/slightlymoreores/blockstates/sapphire_ore.json",
+          "src/main/resources/data/slightlymoreores/forge/biome_modifier/sapphire_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/slightlymoreores/block/SapphireOreBlock.java",
+          "src/main/resources/assets/slightlymoreores/models/item/sapphire_ore.json",
+          "src/main/java/net/mcreator/slightlymoreores/world/features/ores/SapphireOreFeature.java",
+          "src/main/resources/assets/slightlymoreores/models/block/sapphire_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "ReinforcedGlassRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_glass_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/reinforced_glass_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyHelmetRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/ruby_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyChestRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_chest_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/ruby_chest_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyLegsRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_legs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/ruby_legs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyBootsRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/ruby_boots_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -615,6 +728,7 @@
       "item.slightlymoreores.osmium": "Osmium",
       "advancements.magnesium_pill_crafted_achieve.descr": "Craft a Magnesium Pill",
       "item.slightlymoreores.ruby_shovel": "Ruby Shovel",
+      "block.slightlymoreores.sapphire_ore": "Sapphire Ore",
       "biome.slightlymoreores.osmium_biome": "Osmium Biome",
       "item.slightlymoreores.ruby_sword": "Ruby Sword",
       "block.slightlymoreores.magnesium_ore": "Magnesium Ore",
@@ -623,6 +737,8 @@
       "item.slightlymoreores.rubyhoe": "Rubyhoe",
       "item.slightlymoreores.ruby_axe": "Ruby Axe",
       "item.slightlymoreores.osmium_dimension": "Osmium Dimension Portal Key",
+      "block.slightlymoreores.renforced_glass_block": "Reinforced Glass Block",
+      "item.slightlymoreores.sapphire": "Sapphire",
       "block.slightlymoreores.uranium_ore": "Uranium Ore",
       "item.slightlymoreores.osmium_armor_leggings": "Osmium Armor Leggings",
       "advancements.magnesium_pill_crafted_achieve.title": "Artificial Supplements",

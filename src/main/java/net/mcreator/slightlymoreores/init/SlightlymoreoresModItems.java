@@ -30,6 +30,7 @@ import net.mcreator.slightlymoreores.item.MagnesiumPillItem;
 import net.mcreator.slightlymoreores.item.MagnesiumNuggetItem;
 import net.mcreator.slightlymoreores.item.MagnesiumIngotItem;
 import net.mcreator.slightlymoreores.item.LiquifiedOsmiumItem;
+import net.mcreator.slightlymoreores.item.EmeraldArmorItem;
 import net.mcreator.slightlymoreores.SlightlymoreoresMod;
 
 public class SlightlymoreoresModItems {
@@ -65,6 +66,10 @@ public class SlightlymoreoresModItems {
 	public static final RegistryObject<Item> SAPPHIRE = REGISTRY.register("sapphire", () -> new SapphireItem());
 	public static final RegistryObject<Item> RENFORCED_GLASS_BLOCK = block(SlightlymoreoresModBlocks.RENFORCED_GLASS_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> SAPPHIRE_ORE = block(SlightlymoreoresModBlocks.SAPPHIRE_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> EMERALD_ARMOR_HELMET = REGISTRY.register("emerald_armor_helmet", () -> new EmeraldArmorItem.Helmet());
+	public static final RegistryObject<Item> EMERALD_ARMOR_CHESTPLATE = REGISTRY.register("emerald_armor_chestplate", () -> new EmeraldArmorItem.Chestplate());
+	public static final RegistryObject<Item> EMERALD_ARMOR_LEGGINGS = REGISTRY.register("emerald_armor_leggings", () -> new EmeraldArmorItem.Leggings());
+	public static final RegistryObject<Item> EMERALD_ARMOR_BOOTS = REGISTRY.register("emerald_armor_boots", () -> new EmeraldArmorItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
