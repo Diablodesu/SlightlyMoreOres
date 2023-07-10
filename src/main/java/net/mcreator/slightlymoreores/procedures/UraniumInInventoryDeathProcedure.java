@@ -12,10 +12,10 @@ public class UraniumInInventoryDeathProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof Player _player && !_player.level.isClientSide())
-			_player.displayClientMessage(Component.literal("Shouldn't have touched that!"), (false));
-		if (entity instanceof LivingEntity _entity)
-			_entity.addEffect(new MobEffectInstance(MobEffects.HARM, 90, 1, (false), (false)));
-		if (entity instanceof LivingEntity _entity)
-			_entity.addEffect(new MobEffectInstance(MobEffects.POISON, 90, 13, (false), (false)));
+			_player.displayClientMessage(Component.literal("Shouldn't have touched that!"), false);
+		if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+			_entity.addEffect(new MobEffectInstance(MobEffects.HARM, 90, 1, false, false));
+		if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+			_entity.addEffect(new MobEffectInstance(MobEffects.POISON, 90, 13, false, false));
 	}
 }

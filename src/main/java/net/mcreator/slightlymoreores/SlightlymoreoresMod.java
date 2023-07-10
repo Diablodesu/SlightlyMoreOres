@@ -59,10 +59,11 @@ public class SlightlymoreoresMod {
 		SlightlymoreoresModItems.REGISTRY.register(bus);
 
 		SlightlymoreoresModFeatures.REGISTRY.register(bus);
-		SlightlymoreoresModFluids.REGISTRY.register(bus);
-		SlightlymoreoresModFluidTypes.REGISTRY.register(bus);
 
 		SlightlymoreoresModBiomes.REGISTRY.register(bus);
+
+		SlightlymoreoresModFluids.REGISTRY.register(bus);
+		SlightlymoreoresModFluidTypes.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

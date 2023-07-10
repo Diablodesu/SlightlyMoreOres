@@ -34,7 +34,10 @@ public class RubyOreFeature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new RubyOreFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("slightlymoreores:ruby_ore", FEATURE,
-				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(Blocks.STONE.defaultBlockState()), SlightlymoreoresModBlocks.RUBY_ORE.get().defaultBlockState())), 10));
+				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(Blocks.STONE.defaultBlockState()), SlightlymoreoresModBlocks.RUBY_ORE.get().defaultBlockState()),
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.GRANITE.defaultBlockState()), SlightlymoreoresModBlocks.RUBY_ORE.get().defaultBlockState()),
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.DIORITE.defaultBlockState()), SlightlymoreoresModBlocks.RUBY_ORE.get().defaultBlockState()),
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.ANDESITE.defaultBlockState()), SlightlymoreoresModBlocks.RUBY_ORE.get().defaultBlockState())), 10));
 		PLACED_FEATURE = PlacementUtils.register("slightlymoreores:ruby_ore", CONFIGURED_FEATURE,
 				List.of(CountPlacement.of(10), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(20)), BiomeFilter.biome()));
 		return FEATURE;

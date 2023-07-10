@@ -34,7 +34,10 @@ public class SapphireOreFeature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new SapphireOreFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("slightlymoreores:sapphire_ore", FEATURE,
-				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(Blocks.STONE.defaultBlockState()), SlightlymoreoresModBlocks.SAPPHIRE_ORE.get().defaultBlockState())), 8));
+				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(Blocks.STONE.defaultBlockState()), SlightlymoreoresModBlocks.SAPPHIRE_ORE.get().defaultBlockState()),
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.GRANITE.defaultBlockState()), SlightlymoreoresModBlocks.SAPPHIRE_ORE.get().defaultBlockState()),
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.DIORITE.defaultBlockState()), SlightlymoreoresModBlocks.SAPPHIRE_ORE.get().defaultBlockState()),
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.ANDESITE.defaultBlockState()), SlightlymoreoresModBlocks.SAPPHIRE_ORE.get().defaultBlockState())), 8));
 		PLACED_FEATURE = PlacementUtils.register("slightlymoreores:sapphire_ore", CONFIGURED_FEATURE,
 				List.of(CountPlacement.of(4), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(1), VerticalAnchor.absolute(40)), BiomeFilter.biome()));
 		return FEATURE;

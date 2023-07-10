@@ -36,6 +36,6 @@ public class RubyhoeItem extends HoeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(SlightlymoreoresModItems.RUBY.get()));
 			}
-		}, 0, -4E-16f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).fireResistant());
+		}, 0, -0f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).fireResistant());
 	}
 }

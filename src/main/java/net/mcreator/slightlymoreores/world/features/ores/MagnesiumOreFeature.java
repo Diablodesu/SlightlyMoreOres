@@ -34,7 +34,10 @@ public class MagnesiumOreFeature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new MagnesiumOreFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("slightlymoreores:magnesium_ore", FEATURE,
-				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(Blocks.STONE.defaultBlockState()), SlightlymoreoresModBlocks.MAGNESIUM_ORE.get().defaultBlockState())), 9));
+				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(Blocks.STONE.defaultBlockState()), SlightlymoreoresModBlocks.MAGNESIUM_ORE.get().defaultBlockState()),
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.GRANITE.defaultBlockState()), SlightlymoreoresModBlocks.MAGNESIUM_ORE.get().defaultBlockState()),
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.DIORITE.defaultBlockState()), SlightlymoreoresModBlocks.MAGNESIUM_ORE.get().defaultBlockState()),
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.ANDESITE.defaultBlockState()), SlightlymoreoresModBlocks.MAGNESIUM_ORE.get().defaultBlockState())), 9));
 		PLACED_FEATURE = PlacementUtils.register("slightlymoreores:magnesium_ore", CONFIGURED_FEATURE,
 				List.of(CountPlacement.of(15), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(64)), BiomeFilter.biome()));
 		return FEATURE;

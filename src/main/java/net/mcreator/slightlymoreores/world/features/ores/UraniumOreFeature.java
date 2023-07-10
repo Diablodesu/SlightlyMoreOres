@@ -34,7 +34,10 @@ public class UraniumOreFeature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new UraniumOreFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("slightlymoreores:uranium_ore", FEATURE,
-				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(Blocks.STONE.defaultBlockState()), SlightlymoreoresModBlocks.URANIUM_ORE.get().defaultBlockState())), 16));
+				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(Blocks.STONE.defaultBlockState()), SlightlymoreoresModBlocks.URANIUM_ORE.get().defaultBlockState()),
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.GRANITE.defaultBlockState()), SlightlymoreoresModBlocks.URANIUM_ORE.get().defaultBlockState()),
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.DIORITE.defaultBlockState()), SlightlymoreoresModBlocks.URANIUM_ORE.get().defaultBlockState()),
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.ANDESITE.defaultBlockState()), SlightlymoreoresModBlocks.URANIUM_ORE.get().defaultBlockState())), 16));
 		PLACED_FEATURE = PlacementUtils.register("slightlymoreores:uranium_ore", CONFIGURED_FEATURE,
 				List.of(CountPlacement.of(4), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(64)), BiomeFilter.biome()));
 		return FEATURE;

@@ -1,5 +1,5 @@
 {
-  "_fv": 39,
+  "_fv": 43,
   "_type": "dimension",
   "definition": {
     "biomesInDimension": [
@@ -31,6 +31,7 @@
     "portalSound": {
       "value": "block.portal.ambient"
     },
+    "enableIgniter": true,
     "igniterName": "Osmium Dimension Portal Key",
     "igniterTab": {
       "value": "MISC"

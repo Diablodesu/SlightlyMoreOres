@@ -10,9 +10,7 @@ credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://modrinth.com/mod/slightlymoreores"
 logoFile="logo.png"
 authors="Diablodesu"
-description='''
-Adds more ores to your minecraft world
-'''
+description="Adds more ores to your minecraft world"
 
 [[dependencies.slightlymoreores]]
     modId="minecraft"
