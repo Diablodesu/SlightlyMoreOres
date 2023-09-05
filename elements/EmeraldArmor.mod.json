@@ -1,15 +1,15 @@
 {
-  "_fv": 39,
+  "_fv": 47,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "emeraldhelmet",
+    "textureHelmet": "emeraldarmor_head",
     "enableBody": true,
-    "textureBody": "emeraldchestplate",
+    "textureBody": "emeraldarmor_body",
     "enableLeggings": true,
-    "textureLeggings": "emeraldleggings",
+    "textureLeggings": "emeraldarmor_leggings",
     "enableBoots": true,
-    "textureBoots": "emeraldboots",
+    "textureBoots": "emeraldarmor_boots",
     "creativeTab": {
       "value": "COMBAT"
     },
@@ -56,10 +56,10 @@
     "damageValueLeggings": 6,
     "damageValueBoots": 3,
     "enchantability": 10,
-    "toughness": 1.0,
+    "toughness": 1.4000000000000001,
     "knockbackResistance": 0.0,
     "equipSound": {
-      "value": ""
+      "value": "item.armor.equip_netherite"
     },
     "repairItems": [
       {

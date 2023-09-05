@@ -36,6 +36,11 @@ public class SlightlymoreoresModTabs {
 			tabData.accept(SlightlymoreoresModItems.RUBY_ARMOR_LEGGINGS.get());
 			tabData.accept(SlightlymoreoresModItems.RUBY_ARMOR_BOOTS.get());
 			tabData.accept(SlightlymoreoresModItems.RUBY_SWORD.get());
+			tabData.accept(SlightlymoreoresModItems.EMERALD_ARMOR_HELMET.get());
+			tabData.accept(SlightlymoreoresModItems.EMERALD_ARMOR_CHESTPLATE.get());
+			tabData.accept(SlightlymoreoresModItems.EMERALD_ARMOR_LEGGINGS.get());
+			tabData.accept(SlightlymoreoresModItems.EMERALD_ARMOR_BOOTS.get());
+			tabData.accept(SlightlymoreoresModItems.EMERALD_SWORD.get());
 		}
 
 		if (tabData.getTab() == CreativeModeTabs.SPAWN_EGGS) {

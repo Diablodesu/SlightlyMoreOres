@@ -667,13 +667,46 @@
           "src/main/resources/data/slightlymoreores/recipes/reinforced_glass_recipe.json"
         ]
       }
+    },
+    {
+      "name": "EmeraldArmor",
+      "type": "armor",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/slightlymoreores/models/item/emerald_armor_leggings.json",
+          "src/main/resources/assets/slightlymoreores/models/item/emerald_armor_chestplate.json",
+          "src/main/java/net/mcreator/slightlymoreores/item/EmeraldArmorItem.java",
+          "src/main/resources/assets/slightlymoreores/models/item/emerald_armor_boots.json",
+          "src/main/resources/assets/slightlymoreores/models/item/emerald_armor_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldSword",
+      "type": "tool",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slightlymoreores/item/EmeraldSwordItem.java",
+          "src/main/resources/assets/slightlymoreores/models/item/emerald_sword.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.slightlymoreores.emerald_armor_leggings": "Emerald Leggings",
       "item.slightlymoreores.ruby_armor_helmet": "Ruby Helmet",
+      "item.slightlymoreores.emerald_sword": "Emerald Sword",
       "item.slightlymoreores.ruby": "Ruby",
       "block.slightlymoreores.osmium_block": "Osmium Block",
       "item.slightlymoreores.osmium_armor_chestplate": "Osmium Armor Body",
@@ -692,6 +725,7 @@
       "biome.slightlymoreores.osmium_biome": "Osmium Biome",
       "item.slightlymoreores.ruby_sword": "Ruby Sword",
       "block.slightlymoreores.magnesium_ore": "Magnesium Ore",
+      "item.slightlymoreores.emerald_armor_chestplate": "Emerald Chestplate",
       "advancements.enter_osmium_dim.descr": "Enter The Osmium Dimension",
       "block.slightlymoreores.ruby_ore": "Ruby Ore",
       "item.slightlymoreores.rubyhoe": "Rubyhoe",
@@ -707,6 +741,8 @@
       "item.slightlymoreores.ruby_armor_chestplate": "Ruby Chestplate",
       "item.slightlymoreores.ruby_armor_boots": "Ruby Boots",
       "advancements.enter_osmium_dim.title": "What?",
+      "item.slightlymoreores.emerald_armor_boots": "Emerald Boots",
+      "item.slightlymoreores.emerald_armor_helmet": "Emerald Helmet",
       "item.slightlymoreores.osmium_armor_helmet": "Osmium Armor Helmet",
       "advancements.osmium_bucket_advancement.title": "Contents may be hot",
       "item.slightlymoreores.osmium_armor_boots": "Osmium Armor Boots",
