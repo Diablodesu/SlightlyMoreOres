@@ -22,10 +22,10 @@ import net.mcreator.slightlymoreores.SlightlymoreoresMod;
 @Mod.EventBusSubscriber
 public class SlightlymoreoresModFeatures {
 	public static final DeferredRegister<Feature<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.FEATURES, SlightlymoreoresMod.MODID);
-	public static final RegistryObject<Feature<?>> URANIUM_ORE = REGISTRY.register("uranium_ore", UraniumOreFeature::feature);
-	public static final RegistryObject<Feature<?>> OBSIDIAN_ORE = REGISTRY.register("obsidian_ore", ObsidianOreFeature::feature);
-	public static final RegistryObject<Feature<?>> OSMIUM_ORE = REGISTRY.register("osmium_ore", OsmiumOreFeature::feature);
-	public static final RegistryObject<Feature<?>> MAGNESIUM_ORE = REGISTRY.register("magnesium_ore", MagnesiumOreFeature::feature);
-	public static final RegistryObject<Feature<?>> RUBY_ORE = REGISTRY.register("ruby_ore", RubyOreFeature::feature);
-	public static final RegistryObject<Feature<?>> SAPPHIRE_ORE = REGISTRY.register("sapphire_ore", SapphireOreFeature::feature);
+	public static final RegistryObject<Feature<?>> URANIUM_ORE = REGISTRY.register("uranium_ore", UraniumOreFeature::new);
+	public static final RegistryObject<Feature<?>> OBSIDIAN_ORE = REGISTRY.register("obsidian_ore", ObsidianOreFeature::new);
+	public static final RegistryObject<Feature<?>> OSMIUM_ORE = REGISTRY.register("osmium_ore", OsmiumOreFeature::new);
+	public static final RegistryObject<Feature<?>> MAGNESIUM_ORE = REGISTRY.register("magnesium_ore", MagnesiumOreFeature::new);
+	public static final RegistryObject<Feature<?>> RUBY_ORE = REGISTRY.register("ruby_ore", RubyOreFeature::new);
+	public static final RegistryObject<Feature<?>> SAPPHIRE_ORE = REGISTRY.register("sapphire_ore", SapphireOreFeature::new);
 }

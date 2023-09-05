@@ -34,7 +34,6 @@ import net.mcreator.slightlymoreores.init.SlightlymoreoresModFluids;
 import net.mcreator.slightlymoreores.init.SlightlymoreoresModFluidTypes;
 import net.mcreator.slightlymoreores.init.SlightlymoreoresModFeatures;
 import net.mcreator.slightlymoreores.init.SlightlymoreoresModBlocks;
-import net.mcreator.slightlymoreores.init.SlightlymoreoresModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -52,15 +51,12 @@ public class SlightlymoreoresMod {
 
 	public SlightlymoreoresMod() {
 		MinecraftForge.EVENT_BUS.register(this);
-
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		SlightlymoreoresModBlocks.REGISTRY.register(bus);
 		SlightlymoreoresModItems.REGISTRY.register(bus);
 
 		SlightlymoreoresModFeatures.REGISTRY.register(bus);
-
-		SlightlymoreoresModBiomes.REGISTRY.register(bus);
 
 		SlightlymoreoresModFluids.REGISTRY.register(bus);
 		SlightlymoreoresModFluidTypes.REGISTRY.register(bus);

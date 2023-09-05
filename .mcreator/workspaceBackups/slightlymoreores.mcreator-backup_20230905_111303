@@ -9,7 +9,9 @@
       "registry_name": "uranium_ore",
       "metadata": {
         "files": [
+          "src/main/resources/data/slightlymoreores/worldgen/configured_feature/uranium_ore.json",
           "src/main/java/net/mcreator/slightlymoreores/block/UraniumOreBlock.java",
+          "src/main/resources/data/slightlymoreores/worldgen/placed_feature/uranium_ore.json",
           "src/main/java/net/mcreator/slightlymoreores/world/features/ores/UraniumOreFeature.java",
           "src/main/resources/assets/slightlymoreores/blockstates/uranium_ore.json",
           "src/main/resources/assets/slightlymoreores/models/block/uranium_ore.json",
@@ -60,6 +62,8 @@
       "registry_name": "obsidian_ore",
       "metadata": {
         "files": [
+          "src/main/resources/data/slightlymoreores/worldgen/configured_feature/obsidian_ore.json",
+          "src/main/resources/data/slightlymoreores/worldgen/placed_feature/obsidian_ore.json",
           "src/main/resources/assets/slightlymoreores/blockstates/obsidian_ore.json",
           "src/main/resources/data/slightlymoreores/forge/biome_modifier/obsidian_ore_biome_modifier.json",
           "src/main/java/net/mcreator/slightlymoreores/block/ObsidianOreBlock.java",
@@ -119,9 +123,11 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/slightlymoreores/block/OsmiumOreBlock.java",
+          "src/main/resources/data/slightlymoreores/worldgen/placed_feature/osmium_ore.json",
           "src/main/resources/assets/slightlymoreores/models/block/osmium_ore.json",
           "src/main/resources/assets/slightlymoreores/models/item/osmium_ore.json",
           "src/main/java/net/mcreator/slightlymoreores/world/features/ores/OsmiumOreFeature.java",
+          "src/main/resources/data/slightlymoreores/worldgen/configured_feature/osmium_ore.json",
           "src/main/resources/data/slightlymoreores/forge/biome_modifier/osmium_ore_biome_modifier.json",
           "src/main/resources/assets/slightlymoreores/blockstates/osmium_ore.json"
         ]
@@ -283,7 +289,7 @@
       "registry_name": "osmium_biome",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/slightlymoreores/world/biome/OsmiumBiomeBiome.java"
+          "src/main/resources/data/slightlymoreores/worldgen/biome/osmium_biome.json"
         ]
       }
     },
@@ -358,7 +364,9 @@
           "src/main/java/net/mcreator/slightlymoreores/world/features/ores/MagnesiumOreFeature.java",
           "src/main/resources/assets/slightlymoreores/blockstates/magnesium_ore.json",
           "src/main/resources/assets/slightlymoreores/models/block/magnesium_ore.json",
+          "src/main/resources/data/slightlymoreores/worldgen/configured_feature/magnesium_ore.json",
           "src/main/java/net/mcreator/slightlymoreores/block/MagnesiumOreBlock.java",
+          "src/main/resources/data/slightlymoreores/worldgen/placed_feature/magnesium_ore.json",
           "src/main/resources/assets/slightlymoreores/models/item/magnesium_ore.json",
           "src/main/resources/data/slightlymoreores/forge/biome_modifier/magnesium_ore_biome_modifier.json"
         ]
@@ -399,9 +407,6 @@
       "locked_code": false,
       "registry_name": "magnesium_pill_eat",
       "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/slightlymoreores/procedures/MagnesiumPillEatProcedure.java"
-        ],
         "dependencies": [
           {
             "name": "entity",
@@ -419,8 +424,8 @@
       "registry_name": "magnesium_pill",
       "metadata": {
         "files": [
-          "src/main/resources/assets/slightlymoreores/models/item/magnesium_pill.json",
-          "src/main/java/net/mcreator/slightlymoreores/item/MagnesiumPillItem.java"
+          "src/main/java/net/mcreator/slightlymoreores/item/MagnesiumPillItem.java",
+          "src/main/resources/assets/slightlymoreores/models/item/magnesium_pill.json"
         ]
       }
     },
@@ -485,8 +490,8 @@
       "registry_name": "ruby",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/slightlymoreores/item/RubyItem.java",
-          "src/main/resources/assets/slightlymoreores/models/item/ruby.json"
+          "src/main/resources/assets/slightlymoreores/models/item/ruby.json",
+          "src/main/java/net/mcreator/slightlymoreores/item/RubyItem.java"
         ]
       }
     },
@@ -499,11 +504,11 @@
       "registry_name": "ruby_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/slightlymoreores/blockstates/ruby_ore.json",
           "src/main/java/net/mcreator/slightlymoreores/world/features/ores/RubyOreFeature.java",
-          "src/main/resources/assets/slightlymoreores/models/block/ruby_ore.json",
-          "src/main/java/net/mcreator/slightlymoreores/block/RubyOreBlock.java",
           "src/main/resources/data/slightlymoreores/forge/biome_modifier/ruby_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/slightlymoreores/block/RubyOreBlock.java",
+          "src/main/resources/assets/slightlymoreores/blockstates/ruby_ore.json",
+          "src/main/resources/assets/slightlymoreores/models/block/ruby_ore.json",
           "src/main/resources/assets/slightlymoreores/models/item/ruby_ore.json"
         ]
       }
@@ -624,6 +629,37 @@
           "src/main/resources/assets/slightlymoreores/models/item/renforced_glass_block.json"
         ]
       }
+    },
+    {
+      "name": "SapphireOre",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slightlymoreores/world/features/ores/SapphireOreFeature.java",
+          "src/main/resources/assets/slightlymoreores/models/item/sapphire_ore.json",
+          "src/main/java/net/mcreator/slightlymoreores/block/SapphireOreBlock.java",
+          "src/main/resources/assets/slightlymoreores/models/block/sapphire_ore.json",
+          "src/main/resources/assets/slightlymoreores/blockstates/sapphire_ore.json",
+          "src/main/resources/data/slightlymoreores/forge/biome_modifier/sapphire_ore_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "ReinforcedGlassRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_glass_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/reinforced_glass_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -645,6 +681,7 @@
       "item.slightlymoreores.osmium": "Osmium",
       "advancements.magnesium_pill_crafted_achieve.descr": "Craft a Magnesium Pill",
       "item.slightlymoreores.ruby_shovel": "Ruby Shovel",
+      "block.slightlymoreores.sapphire_ore": "Sapphire Ore",
       "biome.slightlymoreores.osmium_biome": "Osmium Biome",
       "item.slightlymoreores.ruby_sword": "Ruby Sword",
       "block.slightlymoreores.magnesium_ore": "Magnesium Ore",
@@ -695,10 +732,10 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.19.2",
+    "currentGenerator": "forge-1.19.4",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.slightlymoreores",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300110610
+  "mcreatorVersion": 202300224119
 }

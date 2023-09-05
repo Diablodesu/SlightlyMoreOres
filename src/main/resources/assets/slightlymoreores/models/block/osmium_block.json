@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "slightlymoreores:blocks/osmiumblock",
-    "up": "slightlymoreores:blocks/osmiumblock",
-    "north": "slightlymoreores:blocks/osmiumblock",
-    "east": "slightlymoreores:blocks/osmiumblock",
-    "south": "slightlymoreores:blocks/osmiumblock",
-    "west": "slightlymoreores:blocks/osmiumblock",
-    "particle": "slightlymoreores:blocks/osmiumblock"
+    "down": "slightlymoreores:block/osmiumblock",
+    "up": "slightlymoreores:block/osmiumblock",
+    "north": "slightlymoreores:block/osmiumblock",
+    "east": "slightlymoreores:block/osmiumblock",
+    "south": "slightlymoreores:block/osmiumblock",
+    "west": "slightlymoreores:block/osmiumblock",
+    "particle": "slightlymoreores:block/osmiumblock"
   },
   "render_type": "solid"
 }

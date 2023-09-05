@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "slightlymoreores:items/key"
+    "layer0": "slightlymoreores:item/key"
   }
 }

@@ -21,7 +21,7 @@ public class LiquifiedOsmiumFluidType extends FluidType {
 	@Override
 	public void initializeClient(Consumer<IClientFluidTypeExtensions> consumer) {
 		consumer.accept(new IClientFluidTypeExtensions() {
-			private static final ResourceLocation STILL_TEXTURE = new ResourceLocation("slightlymoreores:blocks/liquifiedosmium"), FLOWING_TEXTURE = new ResourceLocation("slightlymoreores:blocks/liquifiedosmium");
+			private static final ResourceLocation STILL_TEXTURE = new ResourceLocation("slightlymoreores:block/liquifiedosmium"), FLOWING_TEXTURE = new ResourceLocation("slightlymoreores:block/liquifiedosmium");
 
 			@Override
 			public ResourceLocation getStillTexture() {

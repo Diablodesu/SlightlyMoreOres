@@ -6,7 +6,6 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 
 import net.mcreator.slightlymoreores.init.SlightlymoreoresModItems;
 
@@ -36,6 +35,6 @@ public class RubySwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(SlightlymoreoresModItems.RUBY.get()));
 			}
-		}, 3, -2.4f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).fireResistant());
+		}, 3, -2.4f, new Item.Properties().fireResistant());
 	}
 }

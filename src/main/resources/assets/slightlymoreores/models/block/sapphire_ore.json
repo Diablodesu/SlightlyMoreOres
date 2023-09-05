@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "slightlymoreores:blocks/sapphireore",
-    "up": "slightlymoreores:blocks/sapphireore",
-    "north": "slightlymoreores:blocks/sapphireore",
-    "east": "slightlymoreores:blocks/sapphireore",
-    "south": "slightlymoreores:blocks/sapphireore",
-    "west": "slightlymoreores:blocks/sapphireore",
-    "particle": "slightlymoreores:blocks/sapphireore"
+    "down": "slightlymoreores:block/sapphireore",
+    "up": "slightlymoreores:block/sapphireore",
+    "north": "slightlymoreores:block/sapphireore",
+    "east": "slightlymoreores:block/sapphireore",
+    "south": "slightlymoreores:block/sapphireore",
+    "west": "slightlymoreores:block/sapphireore",
+    "particle": "slightlymoreores:block/sapphireore"
   },
   "render_type": "solid"
 }

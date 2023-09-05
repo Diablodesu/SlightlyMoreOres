@@ -103,9 +103,9 @@ public class OsmiumDimensionTeleporter implements ITeleporter {
 				blockpos$mutableblockpos1.move(direction.getOpposite(), 1);
 				for (int l = j; l >= this.level.getMinBuildHeight(); --l) {
 					blockpos$mutableblockpos1.setY(l);
-					if (this.level.isEmptyBlock(blockpos$mutableblockpos1)) {
+					if (this.canPortalReplaceBlock(blockpos$mutableblockpos1)) {
 						int i1;
-						for (i1 = l; l > this.level.getMinBuildHeight() && this.level.isEmptyBlock(blockpos$mutableblockpos1.move(Direction.DOWN)); --l) {
+						for (i1 = l; l > this.level.getMinBuildHeight() && this.canPortalReplaceBlock(blockpos$mutableblockpos1.move(Direction.DOWN)); --l) {
 						}
 						if (l + 4 <= i) {
 							int j1 = i1 - l;
@@ -180,7 +180,7 @@ public class OsmiumDimensionTeleporter implements ITeleporter {
 				if (j < 0 && !this.level.getBlockState(p_77663_).getMaterial().isSolid()) {
 					return false;
 				}
-				if (j >= 0 && !this.level.isEmptyBlock(p_77663_)) {
+				if (j >= 0 && !this.canPortalReplaceBlock(p_77663_)) {
 					return false;
 				}
 			}
@@ -218,7 +218,7 @@ public class OsmiumDimensionTeleporter implements ITeleporter {
 		double d2 = Math.min(2.9999872E7D, worldborder.getMaxX() - 16.);
 		double d3 = Math.min(2.9999872E7D, worldborder.getMaxZ() - 16.);
 		double d4 = DimensionType.getTeleportationScale(entity.level.dimensionType(), server.dimensionType());
-		BlockPos blockpos1 = new BlockPos(Mth.clamp(entity.getX() * d4, d0, d2), entity.getY(), Mth.clamp(entity.getZ() * d4, d1, d3));
+		BlockPos blockpos1 = BlockPos.containing(Mth.clamp(entity.getX() * d4, d0, d2), entity.getY(), Mth.clamp(entity.getZ() * d4, d1, d3));
 		return this.getExitPortal(entity, blockpos1, worldborder).map(repositioner -> {
 			BlockState blockstate = entity.level.getBlockState(this.entityEnterPos);
 			Direction.Axis direction$axis;
@@ -231,7 +231,7 @@ public class OsmiumDimensionTeleporter implements ITeleporter {
 				direction$axis = Direction.Axis.X;
 				vector3d = new Vec3(0.5, 0, 0);
 			}
-			return OsmiumDimensionPortalShape.createPortalInfo(server, repositioner, direction$axis, vector3d, entity.getDimensions(entity.getPose()), entity.getDeltaMovement(), entity.getYRot(), entity.getXRot());
+			return OsmiumDimensionPortalShape.createPortalInfo(server, repositioner, direction$axis, vector3d, entity, entity.getDeltaMovement(), entity.getYRot(), entity.getXRot());
 		}).orElse(new PortalInfo(entity.position(), Vec3.ZERO, entity.getYRot(), entity.getXRot()));
 	}
 
@@ -247,5 +247,10 @@ public class OsmiumDimensionTeleporter implements ITeleporter {
 		} else {
 			return optional;
 		}
+	}
+
+	private boolean canPortalReplaceBlock(BlockPos.MutableBlockPos pos) {
+		BlockState blockstate = this.level.getBlockState(pos);
+		return blockstate.canBeReplaced() && blockstate.getFluidState().isEmpty();
 	}
 }

@@ -1,7 +1,7 @@
 {
   "textures": {
-    "particle": "slightlymoreores:blocks/white_portal_75",
-    "portal": "slightlymoreores:blocks/white_portal_75"
+    "particle": "slightlymoreores:block/white_portal_75",
+    "portal": "slightlymoreores:block/white_portal_75"
   },
   "elements": [
     {

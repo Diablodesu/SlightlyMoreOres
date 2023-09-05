@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "slightlymoreores:items/rubysword"
+    "layer0": "slightlymoreores:item/rubysword"
   }
 }

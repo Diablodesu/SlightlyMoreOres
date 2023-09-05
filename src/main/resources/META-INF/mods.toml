@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[43,)"
+loaderVersion="[45,)"
 license="MIT License"
 
 [[mods]]
@@ -15,7 +15,7 @@ description="Adds more ores to your minecraft world"
 [[dependencies.slightlymoreores]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.19.2]"
+    versionRange="[1.19.4]"
     ordering="NONE"
     side="BOTH"
 

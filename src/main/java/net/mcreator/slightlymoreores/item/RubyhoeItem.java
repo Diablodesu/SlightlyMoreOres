@@ -6,7 +6,6 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.HoeItem;
-import net.minecraft.world.item.CreativeModeTab;
 
 import net.mcreator.slightlymoreores.init.SlightlymoreoresModItems;
 
@@ -36,6 +35,6 @@ public class RubyhoeItem extends HoeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(SlightlymoreoresModItems.RUBY.get()));
 			}
-		}, 0, -0f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).fireResistant());
+		}, 0, -0f, new Item.Properties().fireResistant());
 	}
 }
