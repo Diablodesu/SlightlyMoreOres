@@ -30,6 +30,7 @@ import net.mcreator.slightlymoreores.item.MagnesiumNuggetItem;
 import net.mcreator.slightlymoreores.item.MagnesiumIngotItem;
 import net.mcreator.slightlymoreores.item.LiquifiedOsmiumItem;
 import net.mcreator.slightlymoreores.item.EmeraldSwordItem;
+import net.mcreator.slightlymoreores.item.EmeraldPickaxeItem;
 import net.mcreator.slightlymoreores.item.EmeraldArmorItem;
 import net.mcreator.slightlymoreores.SlightlymoreoresMod;
 
@@ -71,6 +72,7 @@ public class SlightlymoreoresModItems {
 	public static final RegistryObject<Item> EMERALD_ARMOR_LEGGINGS = REGISTRY.register("emerald_armor_leggings", () -> new EmeraldArmorItem.Leggings());
 	public static final RegistryObject<Item> EMERALD_ARMOR_BOOTS = REGISTRY.register("emerald_armor_boots", () -> new EmeraldArmorItem.Boots());
 	public static final RegistryObject<Item> EMERALD_SWORD = REGISTRY.register("emerald_sword", () -> new EmeraldSwordItem());
+	public static final RegistryObject<Item> EMERALD_PICKAXE = REGISTRY.register("emerald_pickaxe", () -> new EmeraldPickaxeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

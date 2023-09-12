@@ -67,6 +67,7 @@ public class SlightlymoreoresModTabs {
 			tabData.accept(SlightlymoreoresModItems.RUBY_AXE.get());
 			tabData.accept(SlightlymoreoresModItems.RUBY_SHOVEL.get());
 			tabData.accept(SlightlymoreoresModItems.RUBYHOE.get());
+			tabData.accept(SlightlymoreoresModItems.EMERALD_PICKAXE.get());
 		}
 	}
 }
