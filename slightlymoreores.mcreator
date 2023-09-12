@@ -712,58 +712,103 @@
           "src/main/resources/assets/slightlymoreores/models/item/emerald_pickaxe.json"
         ]
       }
+    },
+    {
+      "name": "EmeraldAxe",
+      "type": "tool",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slightlymoreores/item/EmeraldAxeItem.java",
+          "src/main/resources/assets/slightlymoreores/models/item/emerald_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldShovel",
+      "type": "tool",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slightlymoreores/item/EmeraldShovelItem.java",
+          "src/main/resources/assets/slightlymoreores/models/item/emerald_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldHoe",
+      "type": "tool",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slightlymoreores/item/EmeraldHoeItem.java",
+          "src/main/resources/assets/slightlymoreores/models/item/emerald_hoe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.slightlymoreores.emerald_armor_leggings": "Emerald Leggings",
-      "item.slightlymoreores.ruby_armor_helmet": "Ruby Helmet",
       "item.slightlymoreores.emerald_sword": "Emerald Sword",
       "item.slightlymoreores.ruby": "Ruby",
       "block.slightlymoreores.osmium_block": "Osmium Block",
-      "item.slightlymoreores.osmium_armor_chestplate": "Osmium Armor Body",
-      "item.slightlymoreores.magnesium_ingot": "Magnesium Ingot",
       "item.slightlymoreores.magnesium_pill": "Magnesium Pill",
-      "block.slightlymoreores.osmium_ore": "Osmium Ore",
       "item.slightlymoreores.magnesium_nugget": "Magnesium Nugget",
       "fluid.slightlymoreores.liquified_osmium": "Liquified Osmium",
       "item.slightlymoreores.liquified_osmium_bucket": "Liquified Osmium Bucket",
       "item.slightlymoreores.obsidian_nugget": "Obsidian Nugget",
       "block.slightlymoreores.liquified_osmium": "Liquified Osmium",
-      "item.slightlymoreores.osmium": "Osmium",
-      "advancements.magnesium_pill_crafted_achieve.descr": "Craft a Magnesium Pill",
       "item.slightlymoreores.ruby_shovel": "Ruby Shovel",
-      "block.slightlymoreores.sapphire_ore": "Sapphire Ore",
       "biome.slightlymoreores.osmium_biome": "Osmium Biome",
       "item.slightlymoreores.ruby_sword": "Ruby Sword",
-      "block.slightlymoreores.magnesium_ore": "Magnesium Ore",
-      "item.slightlymoreores.emerald_armor_chestplate": "Emerald Chestplate",
-      "advancements.enter_osmium_dim.descr": "Enter The Osmium Dimension",
       "block.slightlymoreores.ruby_ore": "Ruby Ore",
       "item.slightlymoreores.rubyhoe": "Rubyhoe",
       "item.slightlymoreores.ruby_axe": "Ruby Axe",
       "item.slightlymoreores.osmium_dimension": "Osmium Dimension Portal Key",
       "block.slightlymoreores.renforced_glass_block": "Reinforced Glass Block",
-      "item.slightlymoreores.sapphire": "Sapphire",
       "block.slightlymoreores.uranium_ore": "Uranium Ore",
       "item.slightlymoreores.osmium_armor_leggings": "Osmium Armor Leggings",
-      "advancements.magnesium_pill_crafted_achieve.title": "Artificial Supplements",
       "block.slightlymoreores.obsidian_ore": "Obsidian Ore",
+      "item.slightlymoreores.emerald_hoe": "Rubyhoe",
       "item.slightlymoreores.ruby_pickaxe": "Ruby Pickaxe",
       "item.slightlymoreores.ruby_armor_chestplate": "Ruby Chestplate",
-      "item.slightlymoreores.ruby_armor_boots": "Ruby Boots",
       "advancements.enter_osmium_dim.title": "What?",
       "item.slightlymoreores.emerald_armor_boots": "Emerald Boots",
       "item.slightlymoreores.emerald_armor_helmet": "Emerald Helmet",
-      "item.slightlymoreores.emerald_pickaxe": "Emerald Pickaxe",
       "item.slightlymoreores.osmium_armor_helmet": "Osmium Armor Helmet",
+      "item.slightlymoreores.ruby_armor_leggings": "Ruby Leggings",
+      "advancements.osmium_bucket_advancement.descr": "Obtain a bucket of Liquified Osmium",
+      "item.slightlymoreores.emerald_armor_leggings": "Emerald Leggings",
+      "item.slightlymoreores.ruby_armor_helmet": "Ruby Helmet",
+      "item.slightlymoreores.magnesium_ingot": "Magnesium Ingot",
+      "item.slightlymoreores.osmium_armor_chestplate": "Osmium Armor Body",
+      "block.slightlymoreores.osmium_ore": "Osmium Ore",
+      "item.slightlymoreores.osmium": "Osmium",
+      "advancements.magnesium_pill_crafted_achieve.descr": "Craft a Magnesium Pill",
+      "block.slightlymoreores.sapphire_ore": "Sapphire Ore",
+      "block.slightlymoreores.magnesium_ore": "Magnesium Ore",
+      "item.slightlymoreores.emerald_armor_chestplate": "Emerald Chestplate",
+      "advancements.enter_osmium_dim.descr": "Enter The Osmium Dimension",
+      "item.slightlymoreores.emerald_shovel": "Ruby Shovel",
+      "item.slightlymoreores.sapphire": "Sapphire",
+      "advancements.magnesium_pill_crafted_achieve.title": "Artificial Supplements",
+      "item.slightlymoreores.ruby_armor_boots": "Ruby Boots",
+      "item.slightlymoreores.emerald_pickaxe": "Emerald Pickaxe",
       "advancements.osmium_bucket_advancement.title": "Contents may be hot",
       "item.slightlymoreores.osmium_armor_boots": "Osmium Armor Boots",
       "item.slightlymoreores.uranium": "Uranium",
-      "item.slightlymoreores.ruby_armor_leggings": "Ruby Leggings",
-      "advancements.osmium_bucket_advancement.descr": "Obtain a bucket of Liquified Osmium"
+      "item.slightlymoreores.emerald_axe": "Emerald Axe"
     }
   },
   "foldersRoot": {

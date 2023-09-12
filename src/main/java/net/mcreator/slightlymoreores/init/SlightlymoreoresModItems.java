@@ -30,7 +30,10 @@ import net.mcreator.slightlymoreores.item.MagnesiumNuggetItem;
 import net.mcreator.slightlymoreores.item.MagnesiumIngotItem;
 import net.mcreator.slightlymoreores.item.LiquifiedOsmiumItem;
 import net.mcreator.slightlymoreores.item.EmeraldSwordItem;
+import net.mcreator.slightlymoreores.item.EmeraldShovelItem;
 import net.mcreator.slightlymoreores.item.EmeraldPickaxeItem;
+import net.mcreator.slightlymoreores.item.EmeraldHoeItem;
+import net.mcreator.slightlymoreores.item.EmeraldAxeItem;
 import net.mcreator.slightlymoreores.item.EmeraldArmorItem;
 import net.mcreator.slightlymoreores.SlightlymoreoresMod;
 
@@ -73,6 +76,9 @@ public class SlightlymoreoresModItems {
 	public static final RegistryObject<Item> EMERALD_ARMOR_BOOTS = REGISTRY.register("emerald_armor_boots", () -> new EmeraldArmorItem.Boots());
 	public static final RegistryObject<Item> EMERALD_SWORD = REGISTRY.register("emerald_sword", () -> new EmeraldSwordItem());
 	public static final RegistryObject<Item> EMERALD_PICKAXE = REGISTRY.register("emerald_pickaxe", () -> new EmeraldPickaxeItem());
+	public static final RegistryObject<Item> EMERALD_AXE = REGISTRY.register("emerald_axe", () -> new EmeraldAxeItem());
+	public static final RegistryObject<Item> EMERALD_SHOVEL = REGISTRY.register("emerald_shovel", () -> new EmeraldShovelItem());
+	public static final RegistryObject<Item> EMERALD_HOE = REGISTRY.register("emerald_hoe", () -> new EmeraldHoeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
