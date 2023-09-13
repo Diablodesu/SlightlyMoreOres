@@ -15,7 +15,6 @@ import dev.diablodesu.slightlymoreores.block.SapphireOreBlock;
 import dev.diablodesu.slightlymoreores.block.RubyOreBlock;
 import dev.diablodesu.slightlymoreores.block.RenforcedGlassBlockBlock;
 import dev.diablodesu.slightlymoreores.block.OsmiumOreBlock;
-import dev.diablodesu.slightlymoreores.block.OsmiumDimensionPortalBlock;
 import dev.diablodesu.slightlymoreores.block.OsmiumBlockBlock;
 import dev.diablodesu.slightlymoreores.block.ObsidianOreBlock;
 import dev.diablodesu.slightlymoreores.block.MagnesiumOreBlock;
@@ -28,7 +27,6 @@ public class SlightlymoreoresModBlocks {
 	public static final RegistryObject<Block> OBSIDIAN_ORE = REGISTRY.register("obsidian_ore", () -> new ObsidianOreBlock());
 	public static final RegistryObject<Block> OSMIUM_ORE = REGISTRY.register("osmium_ore", () -> new OsmiumOreBlock());
 	public static final RegistryObject<Block> OSMIUM_BLOCK = REGISTRY.register("osmium_block", () -> new OsmiumBlockBlock());
-	public static final RegistryObject<Block> OSMIUM_DIMENSION_PORTAL = REGISTRY.register("osmium_dimension_portal", () -> new OsmiumDimensionPortalBlock());
 	public static final RegistryObject<Block> LIQUIFIED_OSMIUM = REGISTRY.register("liquified_osmium", () -> new LiquifiedOsmiumBlock());
 	public static final RegistryObject<Block> MAGNESIUM_ORE = REGISTRY.register("magnesium_ore", () -> new MagnesiumOreBlock());
 	public static final RegistryObject<Block> RUBY_ORE = REGISTRY.register("ruby_ore", () -> new RubyOreBlock());

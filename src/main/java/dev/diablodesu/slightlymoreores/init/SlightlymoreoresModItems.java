@@ -22,7 +22,6 @@ import dev.diablodesu.slightlymoreores.item.RubyItem;
 import dev.diablodesu.slightlymoreores.item.RubyAxeItem;
 import dev.diablodesu.slightlymoreores.item.RubyArmorItem;
 import dev.diablodesu.slightlymoreores.item.OsmiumItem;
-import dev.diablodesu.slightlymoreores.item.OsmiumDimensionItem;
 import dev.diablodesu.slightlymoreores.item.OsmiumArmorItem;
 import dev.diablodesu.slightlymoreores.item.ObsidianNuggetItem;
 import dev.diablodesu.slightlymoreores.item.MagnesiumPillItem;
@@ -51,7 +50,6 @@ public class SlightlymoreoresModItems {
 	public static final RegistryObject<Item> OSMIUM_ARMOR_LEGGINGS = REGISTRY.register("osmium_armor_leggings", () -> new OsmiumArmorItem.Leggings());
 	public static final RegistryObject<Item> OSMIUM_ARMOR_BOOTS = REGISTRY.register("osmium_armor_boots", () -> new OsmiumArmorItem.Boots());
 	public static final RegistryObject<Item> OSMIUM_BLOCK = block(SlightlymoreoresModBlocks.OSMIUM_BLOCK);
-	public static final RegistryObject<Item> OSMIUM_DIMENSION = REGISTRY.register("osmium_dimension", () -> new OsmiumDimensionItem());
 	public static final RegistryObject<Item> LIQUIFIED_OSMIUM_BUCKET = REGISTRY.register("liquified_osmium_bucket", () -> new LiquifiedOsmiumItem());
 	public static final RegistryObject<Item> MAGNESIUM_NUGGET = REGISTRY.register("magnesium_nugget", () -> new MagnesiumNuggetItem());
 	public static final RegistryObject<Item> MAGNESIUM_ORE = block(SlightlymoreoresModBlocks.MAGNESIUM_ORE);

@@ -48,7 +48,6 @@ public class SlightlymoreoresModTabs {
 			tabData.accept(SlightlymoreoresModItems.URANIUM.get());
 			tabData.accept(SlightlymoreoresModItems.OBSIDIAN_NUGGET.get());
 			tabData.accept(SlightlymoreoresModItems.OSMIUM.get());
-			tabData.accept(SlightlymoreoresModItems.OSMIUM_DIMENSION.get());
 			tabData.accept(SlightlymoreoresModItems.LIQUIFIED_OSMIUM_BUCKET.get());
 		}
 
