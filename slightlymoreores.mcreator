@@ -746,6 +746,20 @@
           "src/main/java/dev/diablodesu/slightlymoreores/item/RubyBattleAxeItem.java"
         ]
       }
+    },
+    {
+      "name": "EmeraldLongsword",
+      "type": "tool",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_longsword",
+      "metadata": {
+        "files": [
+          "src/main/java/dev/diablodesu/slightlymoreores/item/EmeraldLongswordItem.java",
+          "src/main/resources/assets/slightlymoreores/models/item/emerald_longsword.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -767,6 +781,7 @@
       "item.slightlymoreores.rubyhoe": "Rubyhoe",
       "item.slightlymoreores.ruby_axe": "Ruby Axe",
       "block.slightlymoreores.renforced_glass_block": "Reinforced Glass Block",
+      "item.slightlymoreores.emerald_longsword": "Emerald Longsword",
       "block.slightlymoreores.uranium_ore": "Uranium Ore",
       "item.slightlymoreores.osmium_armor_leggings": "Osmium Armor Leggings",
       "block.slightlymoreores.obsidian_ore": "Obsidian Ore",
