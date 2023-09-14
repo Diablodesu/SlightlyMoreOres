@@ -19,6 +19,7 @@ import dev.diablodesu.slightlymoreores.item.RubySwordItem;
 import dev.diablodesu.slightlymoreores.item.RubyShovelItem;
 import dev.diablodesu.slightlymoreores.item.RubyPickaxeItem;
 import dev.diablodesu.slightlymoreores.item.RubyItem;
+import dev.diablodesu.slightlymoreores.item.RubyBattleAxeItem;
 import dev.diablodesu.slightlymoreores.item.RubyAxeItem;
 import dev.diablodesu.slightlymoreores.item.RubyArmorItem;
 import dev.diablodesu.slightlymoreores.item.OsmiumItem;
@@ -79,6 +80,7 @@ public class SlightlymoreoresModItems {
 	public static final RegistryObject<Item> EMERALD_SHOVEL = REGISTRY.register("emerald_shovel", () -> new EmeraldShovelItem());
 	public static final RegistryObject<Item> EMERALD_HOE = REGISTRY.register("emerald_hoe", () -> new EmeraldHoeItem());
 	public static final RegistryObject<Item> EMERALD_BATTLE_AXE = REGISTRY.register("emerald_battle_axe", () -> new EmeraldBattleAxeItem());
+	public static final RegistryObject<Item> RUBY_BATTLE_AXE = REGISTRY.register("ruby_battle_axe", () -> new RubyBattleAxeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

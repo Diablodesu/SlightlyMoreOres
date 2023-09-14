@@ -42,6 +42,7 @@ public class SlightlymoreoresModTabs {
 			tabData.accept(SlightlymoreoresModItems.EMERALD_ARMOR_BOOTS.get());
 			tabData.accept(SlightlymoreoresModItems.EMERALD_SWORD.get());
 			tabData.accept(SlightlymoreoresModItems.EMERALD_BATTLE_AXE.get());
+			tabData.accept(SlightlymoreoresModItems.RUBY_BATTLE_AXE.get());
 		}
 
 		if (tabData.getTab() == CreativeModeTabs.SPAWN_EGGS) {
