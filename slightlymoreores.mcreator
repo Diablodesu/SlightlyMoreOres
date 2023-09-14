@@ -9,14 +9,14 @@
       "registry_name": "uranium_ore",
       "metadata": {
         "files": [
-          "src/main/java/dev/diablodesu/slightlymoreores/world/features/ores/UraniumOreFeature.java",
-          "src/main/resources/data/slightlymoreores/worldgen/configured_feature/uranium_ore.json",
-          "src/main/resources/data/slightlymoreores/worldgen/placed_feature/uranium_ore.json",
           "src/main/resources/assets/slightlymoreores/blockstates/uranium_ore.json",
-          "src/main/resources/assets/slightlymoreores/models/block/uranium_ore.json",
-          "src/main/resources/assets/slightlymoreores/models/item/uranium_ore.json",
           "src/main/java/dev/diablodesu/slightlymoreores/block/UraniumOreBlock.java",
-          "src/main/resources/data/slightlymoreores/forge/biome_modifier/uranium_ore_biome_modifier.json"
+          "src/main/java/dev/diablodesu/slightlymoreores/world/features/ores/UraniumOreFeature.java",
+          "src/main/resources/data/slightlymoreores/forge/biome_modifier/uranium_ore_biome_modifier.json",
+          "src/main/resources/data/slightlymoreores/worldgen/configured_feature/uranium_ore.json",
+          "src/main/resources/assets/slightlymoreores/models/block/uranium_ore.json",
+          "src/main/resources/data/slightlymoreores/worldgen/placed_feature/uranium_ore.json",
+          "src/main/resources/assets/slightlymoreores/models/item/uranium_ore.json"
         ]
       }
     },
@@ -62,14 +62,14 @@
       "registry_name": "obsidian_ore",
       "metadata": {
         "files": [
+          "src/main/resources/assets/slightlymoreores/blockstates/obsidian_ore.json",
+          "src/main/resources/data/slightlymoreores/worldgen/placed_feature/obsidian_ore.json",
+          "src/main/resources/assets/slightlymoreores/models/block/obsidian_ore.json",
+          "src/main/java/dev/diablodesu/slightlymoreores/world/features/ores/ObsidianOreFeature.java",
           "src/main/resources/data/slightlymoreores/worldgen/configured_feature/obsidian_ore.json",
           "src/main/java/dev/diablodesu/slightlymoreores/block/ObsidianOreBlock.java",
-          "src/main/resources/data/slightlymoreores/worldgen/placed_feature/obsidian_ore.json",
-          "src/main/resources/assets/slightlymoreores/blockstates/obsidian_ore.json",
-          "src/main/java/dev/diablodesu/slightlymoreores/world/features/ores/ObsidianOreFeature.java",
-          "src/main/resources/data/slightlymoreores/forge/biome_modifier/obsidian_ore_biome_modifier.json",
           "src/main/resources/assets/slightlymoreores/models/item/obsidian_ore.json",
-          "src/main/resources/assets/slightlymoreores/models/block/obsidian_ore.json"
+          "src/main/resources/data/slightlymoreores/forge/biome_modifier/obsidian_ore_biome_modifier.json"
         ]
       }
     },
@@ -82,8 +82,8 @@
       "registry_name": "obsidian_nugget",
       "metadata": {
         "files": [
-          "src/main/resources/assets/slightlymoreores/models/item/obsidian_nugget.json",
-          "src/main/java/dev/diablodesu/slightlymoreores/item/ObsidianNuggetItem.java"
+          "src/main/java/dev/diablodesu/slightlymoreores/item/ObsidianNuggetItem.java",
+          "src/main/resources/assets/slightlymoreores/models/item/obsidian_nugget.json"
         ]
       }
     },
@@ -122,14 +122,14 @@
       "registry_name": "osmium_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/slightlymoreores/worldgen/placed_feature/osmium_ore.json",
+          "src/main/resources/assets/slightlymoreores/blockstates/osmium_ore.json",
           "src/main/resources/assets/slightlymoreores/models/block/osmium_ore.json",
+          "src/main/resources/data/slightlymoreores/worldgen/placed_feature/osmium_ore.json",
           "src/main/resources/assets/slightlymoreores/models/item/osmium_ore.json",
           "src/main/java/dev/diablodesu/slightlymoreores/world/features/ores/OsmiumOreFeature.java",
-          "src/main/resources/data/slightlymoreores/worldgen/configured_feature/osmium_ore.json",
+          "src/main/java/dev/diablodesu/slightlymoreores/block/OsmiumOreBlock.java",
           "src/main/resources/data/slightlymoreores/forge/biome_modifier/osmium_ore_biome_modifier.json",
-          "src/main/resources/assets/slightlymoreores/blockstates/osmium_ore.json",
-          "src/main/java/dev/diablodesu/slightlymoreores/block/OsmiumOreBlock.java"
+          "src/main/resources/data/slightlymoreores/worldgen/configured_feature/osmium_ore.json"
         ]
       }
     },
@@ -157,9 +157,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/slightlymoreores/models/item/osmium_armor_leggings.json",
-          "src/main/java/dev/diablodesu/slightlymoreores/item/OsmiumArmorItem.java",
           "src/main/resources/assets/slightlymoreores/models/item/osmium_armor_boots.json",
           "src/main/resources/assets/slightlymoreores/models/item/osmium_armor_chestplate.json",
+          "src/main/java/dev/diablodesu/slightlymoreores/item/OsmiumArmorItem.java",
           "src/main/resources/assets/slightlymoreores/models/item/osmium_armor_helmet.json"
         ]
       },
@@ -194,9 +194,9 @@
       "registry_name": "osmium_block",
       "metadata": {
         "files": [
-          "src/main/java/dev/diablodesu/slightlymoreores/block/OsmiumBlockBlock.java",
           "src/main/resources/assets/slightlymoreores/models/block/osmium_block.json",
           "src/main/resources/assets/slightlymoreores/models/item/osmium_block.json",
+          "src/main/java/dev/diablodesu/slightlymoreores/block/OsmiumBlockBlock.java",
           "src/main/resources/assets/slightlymoreores/blockstates/osmium_block.json"
         ]
       }
@@ -279,13 +279,13 @@
       "registry_name": "liquified_osmium",
       "metadata": {
         "files": [
+          "src/main/java/dev/diablodesu/slightlymoreores/fluid/LiquifiedOsmiumFluid.java",
           "src/main/resources/assets/slightlymoreores/blockstates/liquified_osmium.json",
           "src/main/java/dev/diablodesu/slightlymoreores/block/LiquifiedOsmiumBlock.java",
-          "src/main/java/dev/diablodesu/slightlymoreores/fluid/LiquifiedOsmiumFluid.java",
-          "src/main/resources/assets/slightlymoreores/models/item/liquified_osmium_bucket.json",
+          "src/main/resources/assets/slightlymoreores/models/block/liquified_osmium.json",
           "src/main/java/dev/diablodesu/slightlymoreores/item/LiquifiedOsmiumItem.java",
           "src/main/java/dev/diablodesu/slightlymoreores/fluid/types/LiquifiedOsmiumFluidType.java",
-          "src/main/resources/assets/slightlymoreores/models/block/liquified_osmium.json"
+          "src/main/resources/assets/slightlymoreores/models/item/liquified_osmium_bucket.json"
         ]
       }
     },
@@ -325,13 +325,13 @@
       "registry_name": "magnesium_ore",
       "metadata": {
         "files": [
+          "src/main/java/dev/diablodesu/slightlymoreores/block/MagnesiumOreBlock.java",
+          "src/main/resources/assets/slightlymoreores/models/item/magnesium_ore.json",
+          "src/main/resources/data/slightlymoreores/worldgen/configured_feature/magnesium_ore.json",
           "src/main/java/dev/diablodesu/slightlymoreores/world/features/ores/MagnesiumOreFeature.java",
           "src/main/resources/assets/slightlymoreores/blockstates/magnesium_ore.json",
           "src/main/resources/assets/slightlymoreores/models/block/magnesium_ore.json",
-          "src/main/resources/data/slightlymoreores/worldgen/configured_feature/magnesium_ore.json",
           "src/main/resources/data/slightlymoreores/worldgen/placed_feature/magnesium_ore.json",
-          "src/main/resources/assets/slightlymoreores/models/item/magnesium_ore.json",
-          "src/main/java/dev/diablodesu/slightlymoreores/block/MagnesiumOreBlock.java",
           "src/main/resources/data/slightlymoreores/forge/biome_modifier/magnesium_ore_biome_modifier.json"
         ]
       }
@@ -345,8 +345,8 @@
       "registry_name": "magnesium_ingot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/slightlymoreores/models/item/magnesium_ingot.json",
-          "src/main/java/dev/diablodesu/slightlymoreores/item/MagnesiumIngotItem.java"
+          "src/main/java/dev/diablodesu/slightlymoreores/item/MagnesiumIngotItem.java",
+          "src/main/resources/assets/slightlymoreores/models/item/magnesium_ingot.json"
         ]
       }
     },
@@ -457,8 +457,8 @@
       "registry_name": "ruby",
       "metadata": {
         "files": [
-          "src/main/java/dev/diablodesu/slightlymoreores/item/RubyItem.java",
-          "src/main/resources/assets/slightlymoreores/models/item/ruby.json"
+          "src/main/resources/assets/slightlymoreores/models/item/ruby.json",
+          "src/main/java/dev/diablodesu/slightlymoreores/item/RubyItem.java"
         ]
       }
     },
@@ -471,13 +471,13 @@
       "registry_name": "ruby_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/slightlymoreores/blockstates/ruby_ore.json",
-          "src/main/resources/data/slightlymoreores/worldgen/placed_feature/ruby_ore.json",
-          "src/main/java/dev/diablodesu/slightlymoreores/world/features/ores/RubyOreFeature.java",
-          "src/main/resources/assets/slightlymoreores/models/block/ruby_ore.json",
-          "src/main/resources/data/slightlymoreores/worldgen/configured_feature/ruby_ore.json",
           "src/main/java/dev/diablodesu/slightlymoreores/block/RubyOreBlock.java",
+          "src/main/resources/data/slightlymoreores/worldgen/configured_feature/ruby_ore.json",
+          "src/main/java/dev/diablodesu/slightlymoreores/world/features/ores/RubyOreFeature.java",
           "src/main/resources/data/slightlymoreores/forge/biome_modifier/ruby_ore_biome_modifier.json",
+          "src/main/resources/data/slightlymoreores/worldgen/placed_feature/ruby_ore.json",
+          "src/main/resources/assets/slightlymoreores/blockstates/ruby_ore.json",
+          "src/main/resources/assets/slightlymoreores/models/block/ruby_ore.json",
           "src/main/resources/assets/slightlymoreores/models/item/ruby_ore.json"
         ]
       }
@@ -492,9 +492,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/slightlymoreores/models/item/ruby_armor_chestplate.json",
-          "src/main/resources/assets/slightlymoreores/models/item/ruby_armor_leggings.json",
-          "src/main/resources/assets/slightlymoreores/models/item/ruby_armor_boots.json",
           "src/main/java/dev/diablodesu/slightlymoreores/item/RubyArmorItem.java",
+          "src/main/resources/assets/slightlymoreores/models/item/ruby_armor_boots.json",
+          "src/main/resources/assets/slightlymoreores/models/item/ruby_armor_leggings.json",
           "src/main/resources/assets/slightlymoreores/models/item/ruby_armor_helmet.json"
         ]
       }
@@ -508,8 +508,8 @@
       "registry_name": "ruby_sword",
       "metadata": {
         "files": [
-          "src/main/java/dev/diablodesu/slightlymoreores/item/RubySwordItem.java",
-          "src/main/resources/assets/slightlymoreores/models/item/ruby_sword.json"
+          "src/main/resources/assets/slightlymoreores/models/item/ruby_sword.json",
+          "src/main/java/dev/diablodesu/slightlymoreores/item/RubySwordItem.java"
         ]
       }
     },
@@ -522,8 +522,8 @@
       "registry_name": "ruby_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/dev/diablodesu/slightlymoreores/item/RubyPickaxeItem.java",
-          "src/main/resources/assets/slightlymoreores/models/item/ruby_pickaxe.json"
+          "src/main/resources/assets/slightlymoreores/models/item/ruby_pickaxe.json",
+          "src/main/java/dev/diablodesu/slightlymoreores/item/RubyPickaxeItem.java"
         ]
       }
     },
@@ -536,8 +536,8 @@
       "registry_name": "ruby_axe",
       "metadata": {
         "files": [
-          "src/main/java/dev/diablodesu/slightlymoreores/item/RubyAxeItem.java",
-          "src/main/resources/assets/slightlymoreores/models/item/ruby_axe.json"
+          "src/main/resources/assets/slightlymoreores/models/item/ruby_axe.json",
+          "src/main/java/dev/diablodesu/slightlymoreores/item/RubyAxeItem.java"
         ]
       }
     },
@@ -564,8 +564,8 @@
       "registry_name": "rubyhoe",
       "metadata": {
         "files": [
-          "src/main/java/dev/diablodesu/slightlymoreores/item/RubyhoeItem.java",
-          "src/main/resources/assets/slightlymoreores/models/item/rubyhoe.json"
+          "src/main/resources/assets/slightlymoreores/models/item/rubyhoe.json",
+          "src/main/java/dev/diablodesu/slightlymoreores/item/RubyhoeItem.java"
         ]
       }
     },
@@ -608,14 +608,14 @@
       "registry_name": "sapphire_ore",
       "metadata": {
         "files": [
+          "src/main/resources/data/slightlymoreores/worldgen/placed_feature/sapphire_ore.json",
           "src/main/java/dev/diablodesu/slightlymoreores/block/SapphireOreBlock.java",
-          "src/main/resources/data/slightlymoreores/worldgen/configured_feature/sapphire_ore.json",
-          "src/main/resources/assets/slightlymoreores/blockstates/sapphire_ore.json",
-          "src/main/resources/data/slightlymoreores/forge/biome_modifier/sapphire_ore_biome_modifier.json",
           "src/main/resources/assets/slightlymoreores/models/item/sapphire_ore.json",
           "src/main/java/dev/diablodesu/slightlymoreores/world/features/ores/SapphireOreFeature.java",
-          "src/main/resources/data/slightlymoreores/worldgen/placed_feature/sapphire_ore.json",
-          "src/main/resources/assets/slightlymoreores/models/block/sapphire_ore.json"
+          "src/main/resources/assets/slightlymoreores/models/block/sapphire_ore.json",
+          "src/main/resources/assets/slightlymoreores/blockstates/sapphire_ore.json",
+          "src/main/resources/data/slightlymoreores/forge/biome_modifier/sapphire_ore_biome_modifier.json",
+          "src/main/resources/data/slightlymoreores/worldgen/configured_feature/sapphire_ore.json"
         ]
       }
     },
@@ -642,10 +642,10 @@
       "metadata": {
         "files": [
           "src/main/java/dev/diablodesu/slightlymoreores/item/EmeraldArmorItem.java",
-          "src/main/resources/assets/slightlymoreores/models/item/emerald_armor_leggings.json",
-          "src/main/resources/assets/slightlymoreores/models/item/emerald_armor_chestplate.json",
           "src/main/resources/assets/slightlymoreores/models/item/emerald_armor_boots.json",
-          "src/main/resources/assets/slightlymoreores/models/item/emerald_armor_helmet.json"
+          "src/main/resources/assets/slightlymoreores/models/item/emerald_armor_leggings.json",
+          "src/main/resources/assets/slightlymoreores/models/item/emerald_armor_helmet.json",
+          "src/main/resources/assets/slightlymoreores/models/item/emerald_armor_chestplate.json"
         ]
       }
     },
@@ -658,8 +658,8 @@
       "registry_name": "emerald_sword",
       "metadata": {
         "files": [
-          "src/main/java/dev/diablodesu/slightlymoreores/item/EmeraldSwordItem.java",
-          "src/main/resources/assets/slightlymoreores/models/item/emerald_sword.json"
+          "src/main/resources/assets/slightlymoreores/models/item/emerald_sword.json",
+          "src/main/java/dev/diablodesu/slightlymoreores/item/EmeraldSwordItem.java"
         ]
       }
     },
@@ -740,13 +740,13 @@
     "en_us": {
       "item.slightlymoreores.emerald_sword": "Emerald Sword",
       "item.slightlymoreores.ruby": "Ruby",
-      "block.slightlymoreores.osmium_block": "Osmium Block",
       "item.slightlymoreores.magnesium_pill": "Magnesium Pill",
+      "block.slightlymoreores.osmium_block": "Osmium Block",
       "item.slightlymoreores.magnesium_nugget": "Magnesium Nugget",
       "fluid.slightlymoreores.liquified_osmium": "Liquified Osmium",
       "item.slightlymoreores.liquified_osmium_bucket": "Liquified Osmium Bucket",
-      "item.slightlymoreores.obsidian_nugget": "Obsidian Nugget",
       "block.slightlymoreores.liquified_osmium": "Liquified Osmium",
+      "item.slightlymoreores.obsidian_nugget": "Obsidian Nugget",
       "item.slightlymoreores.ruby_shovel": "Ruby Shovel",
       "item.slightlymoreores.ruby_sword": "Ruby Sword",
       "block.slightlymoreores.ruby_ore": "Ruby Ore",
@@ -812,7 +812,7 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.19.4",
+    "currentGenerator": "forge-1.20.1",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "dev.diablodesu.slightlymoreores",
     "lockBaseModFiles": false

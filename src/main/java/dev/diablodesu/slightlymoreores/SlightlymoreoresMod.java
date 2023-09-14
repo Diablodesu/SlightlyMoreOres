@@ -38,6 +38,7 @@ import java.util.Collection;
 import java.util.ArrayList;
 import java.util.AbstractMap;
 
+import dev.diablodesu.slightlymoreores.init.SlightlymoreoresModTabs;
 import dev.diablodesu.slightlymoreores.init.SlightlymoreoresModItems;
 import dev.diablodesu.slightlymoreores.init.SlightlymoreoresModFluids;
 import dev.diablodesu.slightlymoreores.init.SlightlymoreoresModFluidTypes;
@@ -54,8 +55,10 @@ public class SlightlymoreoresMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		SlightlymoreoresModBlocks.REGISTRY.register(bus);
+
 		SlightlymoreoresModItems.REGISTRY.register(bus);
 
+		SlightlymoreoresModTabs.REGISTRY.register(bus);
 		SlightlymoreoresModFeatures.REGISTRY.register(bus);
 
 		SlightlymoreoresModFluids.REGISTRY.register(bus);
