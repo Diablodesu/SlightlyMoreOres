@@ -9,13 +9,13 @@
       "registry_name": "uranium_ore",
       "metadata": {
         "files": [
+          "src/main/java/dev/diablodesu/slightlymoreores/world/features/ores/UraniumOreFeature.java",
           "src/main/resources/data/slightlymoreores/worldgen/configured_feature/uranium_ore.json",
-          "src/main/java/net/mcreator/slightlymoreores/block/UraniumOreBlock.java",
           "src/main/resources/data/slightlymoreores/worldgen/placed_feature/uranium_ore.json",
-          "src/main/java/net/mcreator/slightlymoreores/world/features/ores/UraniumOreFeature.java",
           "src/main/resources/assets/slightlymoreores/blockstates/uranium_ore.json",
           "src/main/resources/assets/slightlymoreores/models/block/uranium_ore.json",
           "src/main/resources/assets/slightlymoreores/models/item/uranium_ore.json",
+          "src/main/java/dev/diablodesu/slightlymoreores/block/UraniumOreBlock.java",
           "src/main/resources/data/slightlymoreores/forge/biome_modifier/uranium_ore_biome_modifier.json"
         ]
       }
@@ -29,7 +29,7 @@
       "registry_name": "uranium",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/slightlymoreores/item/UraniumItem.java",
+          "src/main/java/dev/diablodesu/slightlymoreores/item/UraniumItem.java",
           "src/main/resources/assets/slightlymoreores/models/item/uranium.json"
         ]
       }
@@ -43,12 +43,16 @@
       "registry_name": "uranium_in_inventory_death",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/slightlymoreores/procedures/UraniumInInventoryDeathProcedure.java"
+          "src/main/java/dev/diablodesu/slightlymoreores/procedures/UraniumInInventoryDeathProcedure.java"
         ],
         "dependencies": [
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -63,11 +67,11 @@
       "metadata": {
         "files": [
           "src/main/resources/data/slightlymoreores/worldgen/configured_feature/obsidian_ore.json",
+          "src/main/java/dev/diablodesu/slightlymoreores/block/ObsidianOreBlock.java",
           "src/main/resources/data/slightlymoreores/worldgen/placed_feature/obsidian_ore.json",
           "src/main/resources/assets/slightlymoreores/blockstates/obsidian_ore.json",
+          "src/main/java/dev/diablodesu/slightlymoreores/world/features/ores/ObsidianOreFeature.java",
           "src/main/resources/data/slightlymoreores/forge/biome_modifier/obsidian_ore_biome_modifier.json",
-          "src/main/java/net/mcreator/slightlymoreores/block/ObsidianOreBlock.java",
-          "src/main/java/net/mcreator/slightlymoreores/world/features/ores/ObsidianOreFeature.java",
           "src/main/resources/assets/slightlymoreores/models/item/obsidian_ore.json",
           "src/main/resources/assets/slightlymoreores/models/block/obsidian_ore.json"
         ]
@@ -82,7 +86,7 @@
       "registry_name": "obsidian_nugget",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/slightlymoreores/item/ObsidianNuggetItem.java",
+          "src/main/java/dev/diablodesu/slightlymoreores/item/ObsidianNuggetItem.java",
           "src/main/resources/assets/slightlymoreores/models/item/obsidian_nugget.json"
         ]
       }
@@ -122,14 +126,14 @@
       "registry_name": "osmium_ore",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/slightlymoreores/block/OsmiumOreBlock.java",
           "src/main/resources/data/slightlymoreores/worldgen/placed_feature/osmium_ore.json",
           "src/main/resources/assets/slightlymoreores/models/block/osmium_ore.json",
           "src/main/resources/assets/slightlymoreores/models/item/osmium_ore.json",
-          "src/main/java/net/mcreator/slightlymoreores/world/features/ores/OsmiumOreFeature.java",
+          "src/main/java/dev/diablodesu/slightlymoreores/world/features/ores/OsmiumOreFeature.java",
           "src/main/resources/data/slightlymoreores/worldgen/configured_feature/osmium_ore.json",
           "src/main/resources/data/slightlymoreores/forge/biome_modifier/osmium_ore_biome_modifier.json",
-          "src/main/resources/assets/slightlymoreores/blockstates/osmium_ore.json"
+          "src/main/resources/assets/slightlymoreores/blockstates/osmium_ore.json",
+          "src/main/java/dev/diablodesu/slightlymoreores/block/OsmiumOreBlock.java"
         ]
       }
     },
@@ -142,8 +146,8 @@
       "registry_name": "osmium",
       "metadata": {
         "files": [
-          "src/main/resources/assets/slightlymoreores/models/item/osmium.json",
-          "src/main/java/net/mcreator/slightlymoreores/item/OsmiumItem.java"
+          "src/main/java/dev/diablodesu/slightlymoreores/item/OsmiumItem.java",
+          "src/main/resources/assets/slightlymoreores/models/item/osmium.json"
         ]
       }
     },
@@ -157,10 +161,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/slightlymoreores/models/item/osmium_armor_leggings.json",
+          "src/main/java/dev/diablodesu/slightlymoreores/item/OsmiumArmorItem.java",
           "src/main/resources/assets/slightlymoreores/models/item/osmium_armor_boots.json",
           "src/main/resources/assets/slightlymoreores/models/item/osmium_armor_chestplate.json",
-          "src/main/resources/assets/slightlymoreores/models/item/osmium_armor_helmet.json",
-          "src/main/java/net/mcreator/slightlymoreores/item/OsmiumArmorItem.java"
+          "src/main/resources/assets/slightlymoreores/models/item/osmium_armor_helmet.json"
         ]
       },
       "path": "~/Armor"
@@ -174,7 +178,7 @@
       "registry_name": "osmium_armor_helmet_heavy",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/slightlymoreores/procedures/OsmiumArmorHelmetHeavyProcedure.java"
+          "src/main/java/dev/diablodesu/slightlymoreores/procedures/OsmiumArmorHelmetHeavyProcedure.java"
         ],
         "dependencies": [
           {
@@ -196,8 +200,8 @@
         "files": [
           "src/main/resources/assets/slightlymoreores/models/block/osmium_block.json",
           "src/main/resources/assets/slightlymoreores/models/item/osmium_block.json",
-          "src/main/resources/assets/slightlymoreores/blockstates/osmium_block.json",
-          "src/main/java/net/mcreator/slightlymoreores/block/OsmiumBlockBlock.java"
+          "src/main/java/dev/diablodesu/slightlymoreores/block/OsmiumBlockBlock.java",
+          "src/main/resources/assets/slightlymoreores/blockstates/osmium_block.json"
         ]
       }
     },
@@ -258,42 +262,6 @@
       "path": "~/Armor"
     },
     {
-      "name": "OsmiumDimension",
-      "type": "dimension",
-      "sortid": 17,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "osmium_dimension",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/slightlymoreores/world/teleporter/OsmiumDimensionTeleporter.java",
-          "src/main/resources/assets/slightlymoreores/models/block/osmium_dimension_portal_ns.json",
-          "src/main/java/net/mcreator/slightlymoreores/world/dimension/OsmiumDimensionDimension.java",
-          "src/main/resources/data/slightlymoreores/dimension/osmium_dimension.json",
-          "src/main/resources/assets/slightlymoreores/models/item/osmium_dimension.json",
-          "src/main/resources/data/slightlymoreores/dimension_type/osmium_dimension.json",
-          "src/main/resources/assets/slightlymoreores/blockstates/osmium_dimension_portal.json",
-          "src/main/resources/assets/slightlymoreores/models/block/osmium_dimension_portal_ew.json",
-          "src/main/java/net/mcreator/slightlymoreores/block/OsmiumDimensionPortalBlock.java",
-          "src/main/java/net/mcreator/slightlymoreores/item/OsmiumDimensionItem.java",
-          "src/main/java/net/mcreator/slightlymoreores/world/teleporter/OsmiumDimensionPortalShape.java"
-        ]
-      }
-    },
-    {
-      "name": "OsmiumBiome",
-      "type": "biome",
-      "sortid": 36,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "osmium_biome",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/slightlymoreores/worldgen/biome/osmium_biome.json"
-        ]
-      }
-    },
-    {
       "name": "OsmiumBlockRecipe",
       "type": "recipe",
       "sortid": 18,
@@ -315,13 +283,13 @@
       "registry_name": "liquified_osmium",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/slightlymoreores/fluid/types/LiquifiedOsmiumFluidType.java",
+          "src/main/java/dev/diablodesu/slightlymoreores/fluid/LiquifiedOsmiumFluid.java",
           "src/main/resources/assets/slightlymoreores/blockstates/liquified_osmium.json",
-          "src/main/resources/assets/slightlymoreores/models/item/liquified_osmium_bucket.json",
-          "src/main/java/net/mcreator/slightlymoreores/fluid/LiquifiedOsmiumFluid.java",
-          "src/main/java/net/mcreator/slightlymoreores/item/LiquifiedOsmiumItem.java",
+          "src/main/java/dev/diablodesu/slightlymoreores/block/LiquifiedOsmiumBlock.java",
           "src/main/resources/assets/slightlymoreores/models/block/liquified_osmium.json",
-          "src/main/java/net/mcreator/slightlymoreores/block/LiquifiedOsmiumBlock.java"
+          "src/main/java/dev/diablodesu/slightlymoreores/item/LiquifiedOsmiumItem.java",
+          "src/main/java/dev/diablodesu/slightlymoreores/fluid/types/LiquifiedOsmiumFluidType.java",
+          "src/main/resources/assets/slightlymoreores/models/item/liquified_osmium_bucket.json"
         ]
       }
     },
@@ -347,7 +315,7 @@
       "registry_name": "magnesium_nugget",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/slightlymoreores/item/MagnesiumNuggetItem.java",
+          "src/main/java/dev/diablodesu/slightlymoreores/item/MagnesiumNuggetItem.java",
           "src/main/resources/assets/slightlymoreores/models/item/magnesium_nugget.json"
         ]
       }
@@ -361,13 +329,13 @@
       "registry_name": "magnesium_ore",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/slightlymoreores/world/features/ores/MagnesiumOreFeature.java",
+          "src/main/java/dev/diablodesu/slightlymoreores/world/features/ores/MagnesiumOreFeature.java",
           "src/main/resources/assets/slightlymoreores/blockstates/magnesium_ore.json",
           "src/main/resources/assets/slightlymoreores/models/block/magnesium_ore.json",
           "src/main/resources/data/slightlymoreores/worldgen/configured_feature/magnesium_ore.json",
-          "src/main/java/net/mcreator/slightlymoreores/block/MagnesiumOreBlock.java",
           "src/main/resources/data/slightlymoreores/worldgen/placed_feature/magnesium_ore.json",
           "src/main/resources/assets/slightlymoreores/models/item/magnesium_ore.json",
+          "src/main/java/dev/diablodesu/slightlymoreores/block/MagnesiumOreBlock.java",
           "src/main/resources/data/slightlymoreores/forge/biome_modifier/magnesium_ore_biome_modifier.json"
         ]
       }
@@ -382,7 +350,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/slightlymoreores/models/item/magnesium_ingot.json",
-          "src/main/java/net/mcreator/slightlymoreores/item/MagnesiumIngotItem.java"
+          "src/main/java/dev/diablodesu/slightlymoreores/item/MagnesiumIngotItem.java"
         ]
       }
     },
@@ -408,7 +376,7 @@
       "registry_name": "magnesium_pill_eat",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/slightlymoreores/procedures/MagnesiumPillEatProcedure.java"
+          "src/main/java/dev/diablodesu/slightlymoreores/procedures/MagnesiumPillEatProcedure.java"
         ],
         "dependencies": [
           {
@@ -428,7 +396,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/slightlymoreores/models/item/magnesium_pill.json",
-          "src/main/java/net/mcreator/slightlymoreores/item/MagnesiumPillItem.java"
+          "src/main/java/dev/diablodesu/slightlymoreores/item/MagnesiumPillItem.java"
         ]
       }
     },
@@ -493,7 +461,7 @@
       "registry_name": "ruby",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/slightlymoreores/item/RubyItem.java",
+          "src/main/java/dev/diablodesu/slightlymoreores/item/RubyItem.java",
           "src/main/resources/assets/slightlymoreores/models/item/ruby.json"
         ]
       }
@@ -509,10 +477,10 @@
         "files": [
           "src/main/resources/assets/slightlymoreores/blockstates/ruby_ore.json",
           "src/main/resources/data/slightlymoreores/worldgen/placed_feature/ruby_ore.json",
-          "src/main/java/net/mcreator/slightlymoreores/world/features/ores/RubyOreFeature.java",
+          "src/main/java/dev/diablodesu/slightlymoreores/world/features/ores/RubyOreFeature.java",
           "src/main/resources/assets/slightlymoreores/models/block/ruby_ore.json",
-          "src/main/java/net/mcreator/slightlymoreores/block/RubyOreBlock.java",
           "src/main/resources/data/slightlymoreores/worldgen/configured_feature/ruby_ore.json",
+          "src/main/java/dev/diablodesu/slightlymoreores/block/RubyOreBlock.java",
           "src/main/resources/data/slightlymoreores/forge/biome_modifier/ruby_ore_biome_modifier.json",
           "src/main/resources/assets/slightlymoreores/models/item/ruby_ore.json"
         ]
@@ -528,9 +496,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/slightlymoreores/models/item/ruby_armor_chestplate.json",
-          "src/main/java/net/mcreator/slightlymoreores/item/RubyArmorItem.java",
           "src/main/resources/assets/slightlymoreores/models/item/ruby_armor_leggings.json",
           "src/main/resources/assets/slightlymoreores/models/item/ruby_armor_boots.json",
+          "src/main/java/dev/diablodesu/slightlymoreores/item/RubyArmorItem.java",
           "src/main/resources/assets/slightlymoreores/models/item/ruby_armor_helmet.json"
         ]
       }
@@ -544,8 +512,8 @@
       "registry_name": "ruby_sword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/slightlymoreores/item/RubySwordItem.java",
-          "src/main/resources/assets/slightlymoreores/models/item/ruby_sword.json"
+          "src/main/resources/assets/slightlymoreores/models/item/ruby_sword.json",
+          "src/main/java/dev/diablodesu/slightlymoreores/item/RubySwordItem.java"
         ]
       }
     },
@@ -558,7 +526,7 @@
       "registry_name": "ruby_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/slightlymoreores/item/RubyPickaxeItem.java",
+          "src/main/java/dev/diablodesu/slightlymoreores/item/RubyPickaxeItem.java",
           "src/main/resources/assets/slightlymoreores/models/item/ruby_pickaxe.json"
         ]
       }
@@ -572,8 +540,8 @@
       "registry_name": "ruby_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/slightlymoreores/models/item/ruby_axe.json",
-          "src/main/java/net/mcreator/slightlymoreores/item/RubyAxeItem.java"
+          "src/main/java/dev/diablodesu/slightlymoreores/item/RubyAxeItem.java",
+          "src/main/resources/assets/slightlymoreores/models/item/ruby_axe.json"
         ]
       }
     },
@@ -586,7 +554,7 @@
       "registry_name": "ruby_shovel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/slightlymoreores/item/RubyShovelItem.java",
+          "src/main/java/dev/diablodesu/slightlymoreores/item/RubyShovelItem.java",
           "src/main/resources/assets/slightlymoreores/models/item/ruby_shovel.json"
         ]
       }
@@ -600,7 +568,7 @@
       "registry_name": "rubyhoe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/slightlymoreores/item/RubyhoeItem.java",
+          "src/main/java/dev/diablodesu/slightlymoreores/item/RubyhoeItem.java",
           "src/main/resources/assets/slightlymoreores/models/item/rubyhoe.json"
         ]
       }
@@ -615,7 +583,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/slightlymoreores/models/item/sapphire.json",
-          "src/main/java/net/mcreator/slightlymoreores/item/SapphireItem.java"
+          "src/main/java/dev/diablodesu/slightlymoreores/item/SapphireItem.java"
         ]
       }
     },
@@ -628,7 +596,7 @@
       "registry_name": "renforced_glass_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/slightlymoreores/block/RenforcedGlassBlockBlock.java",
+          "src/main/java/dev/diablodesu/slightlymoreores/block/RenforcedGlassBlockBlock.java",
           "src/main/resources/assets/slightlymoreores/models/block/renforced_glass_block.json",
           "src/main/resources/assets/slightlymoreores/blockstates/renforced_glass_block.json",
           "src/main/resources/assets/slightlymoreores/models/item/renforced_glass_block.json"
@@ -644,13 +612,13 @@
       "registry_name": "sapphire_ore",
       "metadata": {
         "files": [
+          "src/main/java/dev/diablodesu/slightlymoreores/block/SapphireOreBlock.java",
           "src/main/resources/data/slightlymoreores/worldgen/configured_feature/sapphire_ore.json",
           "src/main/resources/assets/slightlymoreores/blockstates/sapphire_ore.json",
           "src/main/resources/data/slightlymoreores/forge/biome_modifier/sapphire_ore_biome_modifier.json",
-          "src/main/java/net/mcreator/slightlymoreores/block/SapphireOreBlock.java",
           "src/main/resources/assets/slightlymoreores/models/item/sapphire_ore.json",
+          "src/main/java/dev/diablodesu/slightlymoreores/world/features/ores/SapphireOreFeature.java",
           "src/main/resources/data/slightlymoreores/worldgen/placed_feature/sapphire_ore.json",
-          "src/main/java/net/mcreator/slightlymoreores/world/features/ores/SapphireOreFeature.java",
           "src/main/resources/assets/slightlymoreores/models/block/sapphire_ore.json"
         ]
       }
@@ -677,9 +645,9 @@
       "registry_name": "emerald_armor",
       "metadata": {
         "files": [
+          "src/main/java/dev/diablodesu/slightlymoreores/item/EmeraldArmorItem.java",
           "src/main/resources/assets/slightlymoreores/models/item/emerald_armor_leggings.json",
           "src/main/resources/assets/slightlymoreores/models/item/emerald_armor_chestplate.json",
-          "src/main/java/net/mcreator/slightlymoreores/item/EmeraldArmorItem.java",
           "src/main/resources/assets/slightlymoreores/models/item/emerald_armor_boots.json",
           "src/main/resources/assets/slightlymoreores/models/item/emerald_armor_helmet.json"
         ]
@@ -694,8 +662,167 @@
       "registry_name": "emerald_sword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/slightlymoreores/item/EmeraldSwordItem.java",
-          "src/main/resources/assets/slightlymoreores/models/item/emerald_sword.json"
+          "src/main/resources/assets/slightlymoreores/models/item/emerald_sword.json",
+          "src/main/java/dev/diablodesu/slightlymoreores/item/EmeraldSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldPickaxe",
+      "type": "tool",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/dev/diablodesu/slightlymoreores/item/EmeraldPickaxeItem.java",
+          "src/main/resources/assets/slightlymoreores/models/item/emerald_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldAxe",
+      "type": "tool",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/slightlymoreores/models/item/emerald_axe.json",
+          "src/main/java/dev/diablodesu/slightlymoreores/item/EmeraldAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldShovel",
+      "type": "tool",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/dev/diablodesu/slightlymoreores/item/EmeraldShovelItem.java",
+          "src/main/resources/assets/slightlymoreores/models/item/emerald_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldHoe",
+      "type": "tool",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/slightlymoreores/models/item/emerald_hoe.json",
+          "src/main/java/dev/diablodesu/slightlymoreores/item/EmeraldHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldBattleAxe",
+      "type": "tool",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_battle_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/dev/diablodesu/slightlymoreores/item/EmeraldBattleAxeItem.java",
+          "src/main/resources/assets/slightlymoreores/models/item/emerald_battle_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyBattleAxe",
+      "type": "tool",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_battle_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/slightlymoreores/models/item/ruby_battle_axe.json",
+          "src/main/java/dev/diablodesu/slightlymoreores/item/RubyBattleAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "UraniumIngot",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/dev/diablodesu/slightlymoreores/item/UraniumIngotItem.java",
+          "src/main/resources/assets/slightlymoreores/models/item/uranium_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "BlockOfUranium",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_uranium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/slightlymoreores/blockstates/block_of_uranium.json",
+          "src/main/resources/assets/slightlymoreores/models/item/block_of_uranium.json",
+          "src/main/java/dev/diablodesu/slightlymoreores/block/BlockOfUraniumBlock.java",
+          "src/main/resources/assets/slightlymoreores/models/block/block_of_uranium.json"
+        ]
+      }
+    },
+    {
+      "name": "UraniumIngotSmelt",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ingot_smelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/uranium_ingot_smelt.json"
+        ]
+      }
+    },
+    {
+      "name": "UraniumBlockRecipe",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/uranium_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Blockofuraniumtouch",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockofuraniumtouch",
+      "metadata": {
+        "files": [
+          "src/main/java/dev/diablodesu/slightlymoreores/procedures/BlockofuraniumtouchProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
         ]
       }
     }
@@ -704,51 +831,57 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.slightlymoreores.emerald_armor_leggings": "Emerald Leggings",
-      "item.slightlymoreores.ruby_armor_helmet": "Ruby Helmet",
       "item.slightlymoreores.emerald_sword": "Emerald Sword",
       "item.slightlymoreores.ruby": "Ruby",
       "block.slightlymoreores.osmium_block": "Osmium Block",
-      "item.slightlymoreores.osmium_armor_chestplate": "Osmium Armor Body",
-      "item.slightlymoreores.magnesium_ingot": "Magnesium Ingot",
       "item.slightlymoreores.magnesium_pill": "Magnesium Pill",
-      "block.slightlymoreores.osmium_ore": "Osmium Ore",
       "item.slightlymoreores.magnesium_nugget": "Magnesium Nugget",
       "fluid.slightlymoreores.liquified_osmium": "Liquified Osmium",
       "item.slightlymoreores.liquified_osmium_bucket": "Liquified Osmium Bucket",
       "item.slightlymoreores.obsidian_nugget": "Obsidian Nugget",
       "block.slightlymoreores.liquified_osmium": "Liquified Osmium",
-      "item.slightlymoreores.osmium": "Osmium",
-      "advancements.magnesium_pill_crafted_achieve.descr": "Craft a Magnesium Pill",
       "item.slightlymoreores.ruby_shovel": "Ruby Shovel",
-      "block.slightlymoreores.sapphire_ore": "Sapphire Ore",
-      "biome.slightlymoreores.osmium_biome": "Osmium Biome",
       "item.slightlymoreores.ruby_sword": "Ruby Sword",
-      "block.slightlymoreores.magnesium_ore": "Magnesium Ore",
-      "item.slightlymoreores.emerald_armor_chestplate": "Emerald Chestplate",
-      "advancements.enter_osmium_dim.descr": "Enter The Osmium Dimension",
       "block.slightlymoreores.ruby_ore": "Ruby Ore",
       "item.slightlymoreores.rubyhoe": "Rubyhoe",
       "item.slightlymoreores.ruby_axe": "Ruby Axe",
-      "item.slightlymoreores.osmium_dimension": "Osmium Dimension Portal Key",
       "block.slightlymoreores.renforced_glass_block": "Reinforced Glass Block",
-      "item.slightlymoreores.sapphire": "Sapphire",
+      "item.slightlymoreores.uranium_ingot": "Uranium Ingot",
       "block.slightlymoreores.uranium_ore": "Uranium Ore",
       "item.slightlymoreores.osmium_armor_leggings": "Osmium Armor Leggings",
-      "advancements.magnesium_pill_crafted_achieve.title": "Artificial Supplements",
       "block.slightlymoreores.obsidian_ore": "Obsidian Ore",
+      "item.slightlymoreores.emerald_hoe": "Rubyhoe",
       "item.slightlymoreores.ruby_pickaxe": "Ruby Pickaxe",
       "item.slightlymoreores.ruby_armor_chestplate": "Ruby Chestplate",
-      "item.slightlymoreores.ruby_armor_boots": "Ruby Boots",
       "advancements.enter_osmium_dim.title": "What?",
       "item.slightlymoreores.emerald_armor_boots": "Emerald Boots",
       "item.slightlymoreores.emerald_armor_helmet": "Emerald Helmet",
       "item.slightlymoreores.osmium_armor_helmet": "Osmium Armor Helmet",
+      "item.slightlymoreores.ruby_armor_leggings": "Ruby Leggings",
+      "advancements.osmium_bucket_advancement.descr": "Obtain a bucket of Liquified Osmium",
+      "item.slightlymoreores.emerald_armor_leggings": "Emerald Leggings",
+      "item.slightlymoreores.ruby_armor_helmet": "Ruby Helmet",
+      "item.slightlymoreores.emerald_battle_axe": "Emerald Battle Axe",
+      "item.slightlymoreores.magnesium_ingot": "Magnesium Ingot",
+      "item.slightlymoreores.osmium_armor_chestplate": "Osmium Armor Body",
+      "block.slightlymoreores.osmium_ore": "Osmium Ore",
+      "item.slightlymoreores.osmium": "Osmium",
+      "advancements.magnesium_pill_crafted_achieve.descr": "Craft a Magnesium Pill",
+      "block.slightlymoreores.sapphire_ore": "Sapphire Ore",
+      "block.slightlymoreores.magnesium_ore": "Magnesium Ore",
+      "item.slightlymoreores.emerald_armor_chestplate": "Emerald Chestplate",
+      "advancements.enter_osmium_dim.descr": "Enter The Osmium Dimension",
+      "item.slightlymoreores.emerald_shovel": "Ruby Shovel",
+      "item.slightlymoreores.sapphire": "Sapphire",
+      "advancements.magnesium_pill_crafted_achieve.title": "Artificial Supplements",
+      "item.slightlymoreores.ruby_armor_boots": "Ruby Boots",
+      "item.slightlymoreores.ruby_battle_axe": "Ruby Battle Axe",
+      "item.slightlymoreores.emerald_pickaxe": "Emerald Pickaxe",
       "advancements.osmium_bucket_advancement.title": "Contents may be hot",
       "item.slightlymoreores.osmium_armor_boots": "Osmium Armor Boots",
+      "block.slightlymoreores.block_of_uranium": "Block Of Uranium",
       "item.slightlymoreores.uranium": "Uranium",
-      "item.slightlymoreores.ruby_armor_leggings": "Ruby Leggings",
-      "advancements.osmium_bucket_advancement.descr": "Obtain a bucket of Liquified Osmium"
+      "item.slightlymoreores.emerald_axe": "Emerald Axe"
     }
   },
   "foldersRoot": {
@@ -763,7 +896,7 @@
   "workspaceSettings": {
     "modid": "slightlymoreores",
     "modName": "SlightlyMoreOres",
-    "version": "1.4.0",
+    "version": "1.7",
     "description": "Adds more ores to your minecraft world",
     "author": "Diablodesu",
     "websiteURL": "https://modrinth.com/mod/slightlymoreores",
@@ -777,7 +910,7 @@
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.19.4",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
-    "modElementsPackage": "net.mcreator.slightlymoreores",
+    "modElementsPackage": "dev.diablodesu.slightlymoreores",
     "lockBaseModFiles": false
   },
   "mcreatorVersion": 202300336712

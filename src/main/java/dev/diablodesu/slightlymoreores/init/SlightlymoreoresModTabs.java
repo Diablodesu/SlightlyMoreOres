@@ -24,6 +24,7 @@ public class SlightlymoreoresModTabs {
 			tabData.accept(SlightlymoreoresModBlocks.RUBY_ORE.get().asItem());
 			tabData.accept(SlightlymoreoresModBlocks.RENFORCED_GLASS_BLOCK.get().asItem());
 			tabData.accept(SlightlymoreoresModBlocks.SAPPHIRE_ORE.get().asItem());
+			tabData.accept(SlightlymoreoresModBlocks.BLOCK_OF_URANIUM.get().asItem());
 		}
 
 		if (tabData.getTab() == CreativeModeTabs.COMBAT) {
@@ -43,14 +44,6 @@ public class SlightlymoreoresModTabs {
 			tabData.accept(SlightlymoreoresModItems.EMERALD_SWORD.get());
 			tabData.accept(SlightlymoreoresModItems.EMERALD_BATTLE_AXE.get());
 			tabData.accept(SlightlymoreoresModItems.RUBY_BATTLE_AXE.get());
-			tabData.accept(SlightlymoreoresModItems.EMERALD_LONGSWORD.get());
-		}
-
-		if (tabData.getTab() == CreativeModeTabs.SPAWN_EGGS) {
-			tabData.accept(SlightlymoreoresModItems.URANIUM.get());
-			tabData.accept(SlightlymoreoresModItems.OBSIDIAN_NUGGET.get());
-			tabData.accept(SlightlymoreoresModItems.OSMIUM.get());
-			tabData.accept(SlightlymoreoresModItems.LIQUIFIED_OSMIUM_BUCKET.get());
 		}
 
 		if (tabData.getTab() == CreativeModeTabs.INGREDIENTS) {
@@ -58,6 +51,7 @@ public class SlightlymoreoresModTabs {
 			tabData.accept(SlightlymoreoresModItems.MAGNESIUM_INGOT.get());
 			tabData.accept(SlightlymoreoresModItems.RUBY.get());
 			tabData.accept(SlightlymoreoresModItems.SAPPHIRE.get());
+			tabData.accept(SlightlymoreoresModItems.URANIUM_INGOT.get());
 		}
 
 		if (tabData.getTab() == CreativeModeTabs.FOOD_AND_DRINKS) {

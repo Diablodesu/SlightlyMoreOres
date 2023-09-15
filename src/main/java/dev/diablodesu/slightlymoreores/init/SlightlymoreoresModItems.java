@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import dev.diablodesu.slightlymoreores.item.UraniumItem;
+import dev.diablodesu.slightlymoreores.item.UraniumIngotItem;
 import dev.diablodesu.slightlymoreores.item.SapphireItem;
 import dev.diablodesu.slightlymoreores.item.RubyhoeItem;
 import dev.diablodesu.slightlymoreores.item.RubySwordItem;
@@ -32,7 +33,6 @@ import dev.diablodesu.slightlymoreores.item.LiquifiedOsmiumItem;
 import dev.diablodesu.slightlymoreores.item.EmeraldSwordItem;
 import dev.diablodesu.slightlymoreores.item.EmeraldShovelItem;
 import dev.diablodesu.slightlymoreores.item.EmeraldPickaxeItem;
-import dev.diablodesu.slightlymoreores.item.EmeraldLongswordItem;
 import dev.diablodesu.slightlymoreores.item.EmeraldHoeItem;
 import dev.diablodesu.slightlymoreores.item.EmeraldBattleAxeItem;
 import dev.diablodesu.slightlymoreores.item.EmeraldAxeItem;
@@ -82,7 +82,8 @@ public class SlightlymoreoresModItems {
 	public static final RegistryObject<Item> EMERALD_HOE = REGISTRY.register("emerald_hoe", () -> new EmeraldHoeItem());
 	public static final RegistryObject<Item> EMERALD_BATTLE_AXE = REGISTRY.register("emerald_battle_axe", () -> new EmeraldBattleAxeItem());
 	public static final RegistryObject<Item> RUBY_BATTLE_AXE = REGISTRY.register("ruby_battle_axe", () -> new RubyBattleAxeItem());
-	public static final RegistryObject<Item> EMERALD_LONGSWORD = REGISTRY.register("emerald_longsword", () -> new EmeraldLongswordItem());
+	public static final RegistryObject<Item> URANIUM_INGOT = REGISTRY.register("uranium_ingot", () -> new UraniumIngotItem());
+	public static final RegistryObject<Item> BLOCK_OF_URANIUM = block(SlightlymoreoresModBlocks.BLOCK_OF_URANIUM);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

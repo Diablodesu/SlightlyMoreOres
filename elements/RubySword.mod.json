@@ -4,7 +4,7 @@
   "definition": {
     "toolType": "Sword",
     "renderType": 0,
-    "texture": "rubysword",
+    "texture": "ruby_sword",
     "customModelName": "Normal",
     "name": "Ruby Sword",
     "specialInfo": [],
