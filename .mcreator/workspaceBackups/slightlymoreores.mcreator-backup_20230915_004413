@@ -86,8 +86,8 @@
       "registry_name": "obsidian_nugget",
       "metadata": {
         "files": [
-          "src/main/resources/assets/slightlymoreores/models/item/obsidian_nugget.json",
-          "src/main/java/dev/diablodesu/slightlymoreores/item/ObsidianNuggetItem.java"
+          "src/main/java/dev/diablodesu/slightlymoreores/item/ObsidianNuggetItem.java",
+          "src/main/resources/assets/slightlymoreores/models/item/obsidian_nugget.json"
         ]
       }
     },
@@ -198,9 +198,9 @@
       "registry_name": "osmium_block",
       "metadata": {
         "files": [
-          "src/main/java/dev/diablodesu/slightlymoreores/block/OsmiumBlockBlock.java",
           "src/main/resources/assets/slightlymoreores/models/block/osmium_block.json",
           "src/main/resources/assets/slightlymoreores/models/item/osmium_block.json",
+          "src/main/java/dev/diablodesu/slightlymoreores/block/OsmiumBlockBlock.java",
           "src/main/resources/assets/slightlymoreores/blockstates/osmium_block.json"
         ]
       }
@@ -283,13 +283,13 @@
       "registry_name": "liquified_osmium",
       "metadata": {
         "files": [
+          "src/main/java/dev/diablodesu/slightlymoreores/fluid/LiquifiedOsmiumFluid.java",
           "src/main/resources/assets/slightlymoreores/blockstates/liquified_osmium.json",
           "src/main/java/dev/diablodesu/slightlymoreores/block/LiquifiedOsmiumBlock.java",
-          "src/main/java/dev/diablodesu/slightlymoreores/fluid/LiquifiedOsmiumFluid.java",
-          "src/main/resources/assets/slightlymoreores/models/item/liquified_osmium_bucket.json",
+          "src/main/resources/assets/slightlymoreores/models/block/liquified_osmium.json",
           "src/main/java/dev/diablodesu/slightlymoreores/item/LiquifiedOsmiumItem.java",
           "src/main/java/dev/diablodesu/slightlymoreores/fluid/types/LiquifiedOsmiumFluidType.java",
-          "src/main/resources/assets/slightlymoreores/models/block/liquified_osmium.json"
+          "src/main/resources/assets/slightlymoreores/models/item/liquified_osmium_bucket.json"
         ]
       }
     },
@@ -806,22 +806,56 @@
           "src/main/resources/data/slightlymoreores/recipes/uranium_block_recipe.json"
         ]
       }
+    },
+    {
+      "name": "Blockofuraniumtouch",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockofuraniumtouch",
+      "metadata": {
+        "files": [
+          "src/main/java/dev/diablodesu/slightlymoreores/procedures/BlockofuraniumtouchProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dieviauraniumblock",
+      "type": "achievement",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dieviauraniumblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/advancements/dieviauraniumblock.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "advancements.dieviauraniumblock.title": "Stay away from that!",
       "item.slightlymoreores.emerald_sword": "Emerald Sword",
       "item.slightlymoreores.ruby": "Ruby",
-      "block.slightlymoreores.osmium_block": "Osmium Block",
       "item.slightlymoreores.magnesium_pill": "Magnesium Pill",
+      "block.slightlymoreores.osmium_block": "Osmium Block",
       "item.slightlymoreores.magnesium_nugget": "Magnesium Nugget",
       "fluid.slightlymoreores.liquified_osmium": "Liquified Osmium",
       "item.slightlymoreores.liquified_osmium_bucket": "Liquified Osmium Bucket",
       "item.slightlymoreores.obsidian_nugget": "Obsidian Nugget",
       "block.slightlymoreores.liquified_osmium": "Liquified Osmium",
       "item.slightlymoreores.ruby_shovel": "Ruby Shovel",
+      "advancements.dieviauraniumblock.descr": "Take damage from a block of uranium",
       "item.slightlymoreores.ruby_sword": "Ruby Sword",
       "block.slightlymoreores.ruby_ore": "Ruby Ore",
       "item.slightlymoreores.rubyhoe": "Rubyhoe",
@@ -853,6 +887,7 @@
       "item.slightlymoreores.emerald_armor_chestplate": "Emerald Chestplate",
       "advancements.enter_osmium_dim.descr": "Enter The Osmium Dimension",
       "item.slightlymoreores.emerald_shovel": "Ruby Shovel",
+      "death.attack.uraniumblock": "%s was poisoned by Uranium",
       "item.slightlymoreores.sapphire": "Sapphire",
       "advancements.magnesium_pill_crafted_achieve.title": "Artificial Supplements",
       "item.slightlymoreores.ruby_armor_boots": "Ruby Boots",
@@ -877,7 +912,7 @@
   "workspaceSettings": {
     "modid": "slightlymoreores",
     "modName": "SlightlyMoreOres",
-    "version": "1.7",
+    "version": "1.8",
     "description": "Adds more ores to your minecraft world",
     "author": "Diablodesu",
     "websiteURL": "https://modrinth.com/mod/slightlymoreores",
@@ -890,7 +925,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.19.4",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "credits": "Created with MCreator",
     "modElementsPackage": "dev.diablodesu.slightlymoreores",
     "lockBaseModFiles": false
   },

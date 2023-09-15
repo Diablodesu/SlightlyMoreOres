@@ -912,7 +912,7 @@
   "workspaceSettings": {
     "modid": "slightlymoreores",
     "modName": "SlightlyMoreOres",
-    "version": "1.7",
+    "version": "1.8",
     "description": "Adds more ores to your minecraft world",
     "author": "Diablodesu",
     "websiteURL": "https://modrinth.com/mod/slightlymoreores",
@@ -925,7 +925,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.19.4",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "credits": "Created with MCreator",
     "modElementsPackage": "dev.diablodesu.slightlymoreores",
     "lockBaseModFiles": false
   },
