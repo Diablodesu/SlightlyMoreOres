@@ -3,18 +3,18 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "uranium",
+    "texture": "yes_this_is_a_pure_uranium_bar",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Uranium",
-    "rarity": "RARE",
+    "name": "Uranium Ingot",
+    "rarity": "COMMON",
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "MATERIALS"
     },
     "stackSize": 64,
     "enchantability": 0,
-    "useDuration": 32,
+    "useDuration": 0,
     "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {
@@ -31,9 +31,6 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "onItemInInventoryTick": {
-      "name": "UraniumInInventoryDeath"
-    },
     "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,
@@ -42,6 +39,6 @@
     },
     "isMeat": false,
     "isAlwaysEdible": false,
-    "animation": "eat"
+    "animation": "none"
   }
 }

@@ -2,20 +2,20 @@
   "_fv": 47,
   "_type": "tool",
   "definition": {
-    "toolType": "Sword",
+    "toolType": "Axe",
     "renderType": 0,
-    "texture": "ruby_sword",
+    "texture": "rubybattleaxe",
     "customModelName": "Normal",
-    "name": "Ruby Sword",
+    "name": "Ruby Battle Axe",
     "specialInfo": [],
     "creativeTab": {
       "value": "COMBAT"
     },
-    "harvestLevel": 1,
-    "efficiency": 4.0,
-    "attackSpeed": 1.6,
-    "enchantability": 2,
-    "damageVsEntity": 8.0,
+    "harvestLevel": 3,
+    "efficiency": 7.5,
+    "attackSpeed": 1.0,
+    "enchantability": 13,
+    "damageVsEntity": 12.5,
     "usageCount": 2032,
     "blocksAffected": [],
     "hasGlow": false,
@@ -24,7 +24,7 @@
         "value": "CUSTOM:Ruby"
       }
     ],
-    "immuneToFire": true,
+    "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

@@ -24,7 +24,7 @@
     "generateBucket": true,
     "textureBucket": "osmiumbucket",
     "creativeTab": {
-      "value": "MISC"
+      "value": "No creative tab entry"
     },
     "emptySound": {
       "value": "item.bucket.empty_lava"

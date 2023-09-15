@@ -4,9 +4,11 @@
     "slightlymoreores:uranium_ore",
     "slightlymoreores:obsidian_ore",
     "slightlymoreores:osmium_ore",
+    "slightlymoreores:osmium_block",
     "slightlymoreores:magnesium_ore",
     "slightlymoreores:ruby_ore",
     "slightlymoreores:renforced_glass_block",
-    "slightlymoreores:sapphire_ore"
+    "slightlymoreores:sapphire_ore",
+    "slightlymoreores:block_of_uranium"
   ]
 }
