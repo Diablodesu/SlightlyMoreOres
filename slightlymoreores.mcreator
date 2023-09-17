@@ -838,6 +838,32 @@
           "src/main/resources/data/slightlymoreores/advancements/dieviauraniumblock.json"
         ]
       }
+    },
+    {
+      "name": "RubyBattleAxeRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_battle_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/ruby_battle_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldBattleAxeRecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_battle_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/emerald_battle_axe_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -847,8 +873,8 @@
       "advancements.dieviauraniumblock.title": "Stay away from that!",
       "item.slightlymoreores.emerald_sword": "Emerald Sword",
       "item.slightlymoreores.ruby": "Ruby",
-      "item.slightlymoreores.magnesium_pill": "Magnesium Pill",
       "block.slightlymoreores.osmium_block": "Osmium Block",
+      "item.slightlymoreores.magnesium_pill": "Magnesium Pill",
       "item.slightlymoreores.magnesium_nugget": "Magnesium Nugget",
       "fluid.slightlymoreores.liquified_osmium": "Liquified Osmium",
       "item.slightlymoreores.liquified_osmium_bucket": "Liquified Osmium Bucket",
