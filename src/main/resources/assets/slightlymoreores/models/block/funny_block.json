@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "slightlymoreores:block/my_blaze_rod",
+    "up": "slightlymoreores:block/my_blaze_rod",
+    "north": "slightlymoreores:block/my_blaze_rod",
+    "east": "slightlymoreores:block/my_blaze_rod",
+    "south": "slightlymoreores:block/my_blaze_rod",
+    "west": "slightlymoreores:block/my_blaze_rod",
+    "particle": "slightlymoreores:block/my_blaze_rod"
+  },
+  "render_type": "solid"
+}

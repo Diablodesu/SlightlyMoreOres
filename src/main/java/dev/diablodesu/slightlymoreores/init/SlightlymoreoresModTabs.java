@@ -27,6 +27,10 @@ public class SlightlymoreoresModTabs {
 			tabData.accept(SlightlymoreoresModBlocks.BLOCK_OF_URANIUM.get().asItem());
 		}
 
+		if (tabData.getTab() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
+			tabData.accept(SlightlymoreoresModBlocks.FUNNY_BLOCK.get().asItem());
+		}
+
 		if (tabData.getTab() == CreativeModeTabs.COMBAT) {
 			tabData.accept(SlightlymoreoresModItems.OSMIUM_ARMOR_HELMET.get());
 			tabData.accept(SlightlymoreoresModItems.OSMIUM_ARMOR_CHESTPLATE.get());
@@ -67,6 +71,7 @@ public class SlightlymoreoresModTabs {
 			tabData.accept(SlightlymoreoresModItems.EMERALD_AXE.get());
 			tabData.accept(SlightlymoreoresModItems.EMERALD_SHOVEL.get());
 			tabData.accept(SlightlymoreoresModItems.EMERALD_HOE.get());
+			tabData.accept(SlightlymoreoresModItems.ULTRA_PICKAXE.get());
 		}
 	}
 }

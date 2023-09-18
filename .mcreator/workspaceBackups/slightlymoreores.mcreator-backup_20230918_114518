@@ -825,22 +825,77 @@
           }
         ]
       }
+    },
+    {
+      "name": "Dieviauraniumblock",
+      "type": "achievement",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dieviauraniumblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/advancements/dieviauraniumblock.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyBattleAxeRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_battle_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/ruby_battle_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldBattleAxeRecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_battle_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/emerald_battle_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "UltraPickaxe",
+      "type": "tool",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultra_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/slightlymoreores/models/item/ultra_pickaxe.json",
+          "src/main/java/dev/diablodesu/slightlymoreores/item/UltraPickaxeItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "advancements.dieviauraniumblock.title": "Stay away from that!",
       "item.slightlymoreores.emerald_sword": "Emerald Sword",
       "item.slightlymoreores.ruby": "Ruby",
-      "block.slightlymoreores.osmium_block": "Osmium Block",
       "item.slightlymoreores.magnesium_pill": "Magnesium Pill",
+      "block.slightlymoreores.osmium_block": "Osmium Block",
       "item.slightlymoreores.magnesium_nugget": "Magnesium Nugget",
       "fluid.slightlymoreores.liquified_osmium": "Liquified Osmium",
       "item.slightlymoreores.liquified_osmium_bucket": "Liquified Osmium Bucket",
       "item.slightlymoreores.obsidian_nugget": "Obsidian Nugget",
       "block.slightlymoreores.liquified_osmium": "Liquified Osmium",
       "item.slightlymoreores.ruby_shovel": "Ruby Shovel",
+      "advancements.dieviauraniumblock.descr": "Take damage from a block of uranium",
       "item.slightlymoreores.ruby_sword": "Ruby Sword",
       "block.slightlymoreores.ruby_ore": "Ruby Ore",
       "item.slightlymoreores.rubyhoe": "Rubyhoe",
@@ -856,6 +911,7 @@
       "advancements.enter_osmium_dim.title": "What?",
       "item.slightlymoreores.emerald_armor_boots": "Emerald Boots",
       "item.slightlymoreores.emerald_armor_helmet": "Emerald Helmet",
+      "item.slightlymoreores.ultra_pickaxe": "Ultra Pickaxe",
       "item.slightlymoreores.osmium_armor_helmet": "Osmium Armor Helmet",
       "item.slightlymoreores.ruby_armor_leggings": "Ruby Leggings",
       "advancements.osmium_bucket_advancement.descr": "Obtain a bucket of Liquified Osmium",
@@ -872,6 +928,7 @@
       "item.slightlymoreores.emerald_armor_chestplate": "Emerald Chestplate",
       "advancements.enter_osmium_dim.descr": "Enter The Osmium Dimension",
       "item.slightlymoreores.emerald_shovel": "Ruby Shovel",
+      "death.attack.uraniumblock": "%s was poisoned by Uranium",
       "item.slightlymoreores.sapphire": "Sapphire",
       "advancements.magnesium_pill_crafted_achieve.title": "Artificial Supplements",
       "item.slightlymoreores.ruby_armor_boots": "Ruby Boots",
@@ -896,7 +953,7 @@
   "workspaceSettings": {
     "modid": "slightlymoreores",
     "modName": "SlightlyMoreOres",
-    "version": "1.7",
+    "version": "1.8",
     "description": "Adds more ores to your minecraft world",
     "author": "Diablodesu",
     "websiteURL": "https://modrinth.com/mod/slightlymoreores",
@@ -909,7 +966,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.19.4",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "credits": "Created with MCreator",
     "modElementsPackage": "dev.diablodesu.slightlymoreores",
     "lockBaseModFiles": false
   },
