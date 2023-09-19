@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "slightlymoreores:ruby"
+    },
+    "1": {
+      "item": "slightlymoreores:ruby"
+    },
+    "2": {
+      "item": "slightlymoreores:ruby"
+    },
+    "3": {
+      "item": "minecraft:nether_star"
+    },
+    "4": {
+      "item": "minecraft:blaze_rod"
+    },
+    "5": {
+      "item": "minecraft:nether_star"
+    },
+    "7": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "result": {
+    "item": "slightlymoreores:ultra_pickaxe",
+    "count": 1
+  }
+}

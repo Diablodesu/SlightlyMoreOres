@@ -19,6 +19,7 @@ import dev.diablodesu.slightlymoreores.block.OsmiumBlockBlock;
 import dev.diablodesu.slightlymoreores.block.ObsidianOreBlock;
 import dev.diablodesu.slightlymoreores.block.MagnesiumOreBlock;
 import dev.diablodesu.slightlymoreores.block.LiquifiedOsmiumBlock;
+import dev.diablodesu.slightlymoreores.block.FunnyBlockBlock;
 import dev.diablodesu.slightlymoreores.block.BlockOfUraniumBlock;
 import dev.diablodesu.slightlymoreores.SlightlymoreoresMod;
 
@@ -34,4 +35,5 @@ public class SlightlymoreoresModBlocks {
 	public static final RegistryObject<Block> RENFORCED_GLASS_BLOCK = REGISTRY.register("renforced_glass_block", () -> new RenforcedGlassBlockBlock());
 	public static final RegistryObject<Block> SAPPHIRE_ORE = REGISTRY.register("sapphire_ore", () -> new SapphireOreBlock());
 	public static final RegistryObject<Block> BLOCK_OF_URANIUM = REGISTRY.register("block_of_uranium", () -> new BlockOfUraniumBlock());
+	public static final RegistryObject<Block> FUNNY_BLOCK = REGISTRY.register("funny_block", () -> new FunnyBlockBlock());
 }

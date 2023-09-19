@@ -14,6 +14,7 @@ import net.minecraft.world.item.BlockItem;
 
 import dev.diablodesu.slightlymoreores.item.UraniumItem;
 import dev.diablodesu.slightlymoreores.item.UraniumIngotItem;
+import dev.diablodesu.slightlymoreores.item.UltraPickaxeItem;
 import dev.diablodesu.slightlymoreores.item.SapphireItem;
 import dev.diablodesu.slightlymoreores.item.RubyhoeItem;
 import dev.diablodesu.slightlymoreores.item.RubySwordItem;
@@ -84,6 +85,8 @@ public class SlightlymoreoresModItems {
 	public static final RegistryObject<Item> RUBY_BATTLE_AXE = REGISTRY.register("ruby_battle_axe", () -> new RubyBattleAxeItem());
 	public static final RegistryObject<Item> URANIUM_INGOT = REGISTRY.register("uranium_ingot", () -> new UraniumIngotItem());
 	public static final RegistryObject<Item> BLOCK_OF_URANIUM = block(SlightlymoreoresModBlocks.BLOCK_OF_URANIUM);
+	public static final RegistryObject<Item> ULTRA_PICKAXE = REGISTRY.register("ultra_pickaxe", () -> new UltraPickaxeItem());
+	public static final RegistryObject<Item> FUNNY_BLOCK = block(SlightlymoreoresModBlocks.FUNNY_BLOCK);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

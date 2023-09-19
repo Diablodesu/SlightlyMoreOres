@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Ruby"
+      },
+      {
+        "value": "CUSTOM:Ruby"
+      },
+      {
+        "value": "CUSTOM:Ruby"
+      },
+      {
+        "value": "Items.NETHER_STAR"
+      },
+      {
+        "value": "Items.BLAZE_ROD"
+      },
+      {
+        "value": "Items.NETHER_STAR"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.BLAZE_ROD"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:UltraPickaxe"
+    },
+    "name": "ultrapickrecipe",
+    "namespace": "mod"
+  }
+}
