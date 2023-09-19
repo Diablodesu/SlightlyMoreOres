@@ -3,7 +3,7 @@
 !src/**/build/
 
 # MCreator Garbage
-.mcreator
+.mcreator/*
 
 # Ignore Gradle GUI config
 gradle-app.setting
