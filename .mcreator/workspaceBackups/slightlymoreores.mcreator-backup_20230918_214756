@@ -878,6 +878,66 @@
           "src/main/java/dev/diablodesu/slightlymoreores/item/UltraPickaxeItem.java"
         ]
       }
+    },
+    {
+      "name": "Ultrapickrecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultrapickrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/ultrapickrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TheFunny",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "execute_the_funny",
+      "metadata": {
+        "files": [
+          "src/main/java/dev/diablodesu/slightlymoreores/procedures/TheFunnyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FunnyBlock",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "funny_block",
+      "metadata": {
+        "files": [
+          "src/main/java/dev/diablodesu/slightlymoreores/block/FunnyBlockBlock.java",
+          "src/main/resources/assets/slightlymoreores/models/item/funny_block.json",
+          "src/main/resources/assets/slightlymoreores/blockstates/funny_block.json",
+          "src/main/resources/assets/slightlymoreores/models/block/funny_block.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -887,8 +947,8 @@
       "advancements.dieviauraniumblock.title": "Stay away from that!",
       "item.slightlymoreores.emerald_sword": "Emerald Sword",
       "item.slightlymoreores.ruby": "Ruby",
-      "item.slightlymoreores.magnesium_pill": "Magnesium Pill",
       "block.slightlymoreores.osmium_block": "Osmium Block",
+      "item.slightlymoreores.magnesium_pill": "Magnesium Pill",
       "item.slightlymoreores.magnesium_nugget": "Magnesium Nugget",
       "fluid.slightlymoreores.liquified_osmium": "Liquified Osmium",
       "item.slightlymoreores.liquified_osmium_bucket": "Liquified Osmium Bucket",
@@ -927,6 +987,7 @@
       "block.slightlymoreores.magnesium_ore": "Magnesium Ore",
       "item.slightlymoreores.emerald_armor_chestplate": "Emerald Chestplate",
       "advancements.enter_osmium_dim.descr": "Enter The Osmium Dimension",
+      "block.slightlymoreores.funny_block": "Funny Block",
       "item.slightlymoreores.emerald_shovel": "Ruby Shovel",
       "death.attack.uraniumblock": "%s was poisoned by Uranium",
       "item.slightlymoreores.sapphire": "Sapphire",
