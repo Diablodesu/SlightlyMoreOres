@@ -30,19 +30,19 @@
         "value": "CUSTOM:Ruby"
       },
       {
-        "value": "CUSTOM:Ruby"
+        "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:Ruby"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:RubyArmor.legs"
+      "value": "CUSTOM:RubyArmor.helmet"
     },
-    "name": "rubylegsrecipe",
+    "name": "rubyhelmrecipe",
     "namespace": "mod"
   }
 }

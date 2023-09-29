@@ -12,37 +12,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Ruby"
+        "value": "Items.DYE#4"
       },
       {
-        "value": "CUSTOM:Ruby"
+        "value": "Items.DYE#4"
       },
       {
-        "value": "CUSTOM:Ruby"
+        "value": "Items.DYE#4"
       },
       {
-        "value": "CUSTOM:Ruby"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Ruby"
-      },
-      {
-        "value": "CUSTOM:Ruby"
+        "value": "Items.DYE#4"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:Ruby"
+        "value": "Items.DYE#4"
+      },
+      {
+        "value": "Items.DYE#4"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.DYE#4"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:RubyArmor.legs"
+      "value": "CUSTOM:LapisArmor.legs"
     },
-    "name": "rubylegsrecipe",
+    "name": "lapislegsrecipe",
     "namespace": "mod"
   }
 }

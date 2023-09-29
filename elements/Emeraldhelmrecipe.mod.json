@@ -12,37 +12,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Ruby"
+        "value": "Items.EMERALD"
       },
       {
-        "value": "CUSTOM:Ruby"
+        "value": "Items.EMERALD"
       },
       {
-        "value": "CUSTOM:Ruby"
+        "value": "Items.EMERALD"
       },
       {
-        "value": "CUSTOM:Ruby"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Ruby"
-      },
-      {
-        "value": "CUSTOM:Ruby"
+        "value": "Items.EMERALD"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:Ruby"
+        "value": "Items.EMERALD"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:RubyArmor.legs"
+      "value": "CUSTOM:EmeraldArmor.helmet"
     },
-    "name": "rubylegsrecipe",
+    "name": "emeraldhelmrecipe",
     "namespace": "mod"
   }
 }

@@ -1,12 +1,14 @@
 {
-  "_fv": 39,
+  "_fv": 47,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "xpReward": 0.0,
-    "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
       {
@@ -40,7 +42,7 @@
     "recipeReturnStack": {
       "value": "CUSTOM:RubyArmor.boots"
     },
-    "name": "ruby_boots_recipe",
+    "name": "rubybootsrecipe",
     "namespace": "mod"
   }
 }

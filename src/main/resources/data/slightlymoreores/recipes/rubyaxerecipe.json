@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "slightlymoreores:ruby"
+    },
+    "1": {
+      "item": "slightlymoreores:ruby"
+    },
+    "2": {
+      "item": "slightlymoreores:ruby"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "slightlymoreores:ruby_axe",
+    "count": 1
+  }
+}

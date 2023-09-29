@@ -12,18 +12,6 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Ruby"
-      },
-      {
-        "value": "CUSTOM:Ruby"
-      },
-      {
-        "value": "CUSTOM:Ruby"
-      },
-      {
-        "value": "CUSTOM:Ruby"
-      },
-      {
         "value": ""
       },
       {
@@ -36,13 +24,25 @@
         "value": ""
       },
       {
+        "value": "Items.STICK"
+      },
+      {
         "value": "CUSTOM:Ruby"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:RubyArmor.legs"
+      "value": "CUSTOM:RubyAxe"
     },
-    "name": "rubylegsrecipe",
+    "name": "rubyaxerecipe_2",
     "namespace": "mod"
   }
 }

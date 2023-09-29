@@ -21,28 +21,28 @@
         "value": "CUSTOM:Ruby"
       },
       {
-        "value": "CUSTOM:Ruby"
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:Ruby"
-      },
-      {
-        "value": "CUSTOM:Ruby"
-      },
-      {
         "value": ""
       },
       {
-        "value": "CUSTOM:Ruby"
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:RubyArmor.legs"
+      "value": "CUSTOM:RubyPickaxe"
     },
-    "name": "rubylegsrecipe",
+    "name": "rubypickrecipe",
     "namespace": "mod"
   }
 }

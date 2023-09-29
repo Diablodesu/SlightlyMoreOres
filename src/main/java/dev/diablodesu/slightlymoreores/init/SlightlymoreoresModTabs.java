@@ -48,9 +48,14 @@ public class SlightlymoreoresModTabs {
 			tabData.accept(SlightlymoreoresModItems.EMERALD_SWORD.get());
 			tabData.accept(SlightlymoreoresModItems.EMERALD_BATTLE_AXE.get());
 			tabData.accept(SlightlymoreoresModItems.RUBY_BATTLE_AXE.get());
+			tabData.accept(SlightlymoreoresModItems.LAPIS_ARMOR_HELMET.get());
+			tabData.accept(SlightlymoreoresModItems.LAPIS_ARMOR_CHESTPLATE.get());
+			tabData.accept(SlightlymoreoresModItems.LAPIS_ARMOR_LEGGINGS.get());
+			tabData.accept(SlightlymoreoresModItems.LAPIS_ARMOR_BOOTS.get());
 		}
 
 		if (tabData.getTab() == CreativeModeTabs.INGREDIENTS) {
+			tabData.accept(SlightlymoreoresModItems.OSMIUM.get());
 			tabData.accept(SlightlymoreoresModItems.MAGNESIUM_NUGGET.get());
 			tabData.accept(SlightlymoreoresModItems.MAGNESIUM_INGOT.get());
 			tabData.accept(SlightlymoreoresModItems.RUBY.get());

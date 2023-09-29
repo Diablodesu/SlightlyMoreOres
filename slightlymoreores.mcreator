@@ -938,6 +938,361 @@
           "src/main/resources/assets/slightlymoreores/models/block/funny_block.json"
         ]
       }
+    },
+    {
+      "name": "LapisArmor",
+      "type": "armor",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/slightlymoreores/models/item/lapis_armor_boots.json",
+          "src/main/java/dev/diablodesu/slightlymoreores/item/LapisArmorItem.java",
+          "src/main/resources/assets/slightlymoreores/models/item/lapis_armor_chestplate.json",
+          "src/main/resources/assets/slightlymoreores/models/item/lapis_armor_leggings.json",
+          "src/main/resources/assets/slightlymoreores/models/item/lapis_armor_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubyhelmrecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyhelmrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/rubyhelmrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubychestrecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubychestrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/rubychestrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubylegsrecipe",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubylegsrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/rubylegsrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubybootsrecipe",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubybootsrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/rubybootsrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubyswordrecipe",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyswordrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/rubyswordrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubypickrecipe",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubypickrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/rubypickrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubyaxerecipe",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyaxerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/rubyaxerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubyaxerecipe2",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyaxerecipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/rubyaxerecipe_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubyshovelrecipe",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyshovelrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/rubyshovelrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubyhoerecipe",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyhoerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/rubyhoerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubyhoerecipe2",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyhoerecipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/rubyhoerecipe_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldhelmrecipe",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldhelmrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/emeraldhelmrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldchestrecipe",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldchestrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/emeraldchestrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldlegsrecipe",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldlegsrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/emeraldlegsrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldbootsrecipe",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldbootsrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/emeraldbootsrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldswordrecipe",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldswordrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/emeraldswordrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldpickrecipe",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldpickrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/emeraldpickrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldaxerecipe",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldaxerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/emeraldaxerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldaxerecipe2",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldaxerecipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/emeraldaxerecipe_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldshovelrecipe",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldshovelrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/emeraldshovelrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldhoerecipe",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldhoerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/emeraldhoerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldhoerecipe2",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldhoerecipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/emeraldhoerecipe_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Lapishelmrecipe",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapishelmrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/lapishelmrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Lapischestrecipe",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapischestrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/lapischestrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Lapislegsrecipe",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapislegsrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/lapislegsrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Lapisbootsrecipe",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapisbootsrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/lapisbootsrecipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -967,6 +1322,7 @@
       "block.slightlymoreores.obsidian_ore": "Obsidian Ore",
       "item.slightlymoreores.emerald_hoe": "Rubyhoe",
       "item.slightlymoreores.ruby_pickaxe": "Ruby Pickaxe",
+      "item.slightlymoreores.lapis_armor_helmet": "Lapis Helmet",
       "item.slightlymoreores.ruby_armor_chestplate": "Ruby Chestplate",
       "advancements.enter_osmium_dim.title": "What?",
       "item.slightlymoreores.emerald_armor_boots": "Emerald Boots",
@@ -974,7 +1330,9 @@
       "item.slightlymoreores.ultra_pickaxe": "Ultra Pickaxe",
       "item.slightlymoreores.osmium_armor_helmet": "Osmium Armor Helmet",
       "item.slightlymoreores.ruby_armor_leggings": "Ruby Leggings",
+      "item.slightlymoreores.lapis_armor_boots": "Lapis Boots",
       "advancements.osmium_bucket_advancement.descr": "Obtain a bucket of Liquified Osmium",
+      "item.slightlymoreores.lapis_armor_leggings": "Lapis Leggings",
       "item.slightlymoreores.emerald_armor_leggings": "Emerald Leggings",
       "item.slightlymoreores.ruby_armor_helmet": "Ruby Helmet",
       "item.slightlymoreores.emerald_battle_axe": "Emerald Battle Axe",
@@ -988,6 +1346,7 @@
       "item.slightlymoreores.emerald_armor_chestplate": "Emerald Chestplate",
       "advancements.enter_osmium_dim.descr": "Enter The Osmium Dimension",
       "block.slightlymoreores.funny_block": "Funny Block",
+      "item.slightlymoreores.lapis_armor_chestplate": "Lapis Chestplate",
       "item.slightlymoreores.emerald_shovel": "Ruby Shovel",
       "death.attack.uraniumblock": "%s was poisoned by Uranium",
       "item.slightlymoreores.sapphire": "Sapphire",
