@@ -1007,6 +1007,97 @@
           "src/main/resources/data/slightlymoreores/recipes/rubybootsrecipe.json"
         ]
       }
+    },
+    {
+      "name": "Rubyswordrecipe",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyswordrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/rubyswordrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubypickrecipe",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubypickrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/rubypickrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubyaxerecipe",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyaxerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/rubyaxerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubyaxerecipe2",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyaxerecipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/rubyaxerecipe_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubyshovelrecipe",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyshovelrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/rubyshovelrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubyhoerecipe",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyhoerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/rubyhoerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubyhoerecipe2",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyhoerecipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/rubyhoerecipe_2.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
