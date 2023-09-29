@@ -955,6 +955,58 @@
           "src/main/resources/assets/slightlymoreores/models/item/lapis_armor_helmet.json"
         ]
       }
+    },
+    {
+      "name": "Rubyhelmrecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyhelmrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/rubyhelmrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubychestrecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubychestrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/rubychestrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubylegsrecipe",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubylegsrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/rubylegsrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubybootsrecipe",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubybootsrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/rubybootsrecipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -964,8 +1016,8 @@
       "advancements.dieviauraniumblock.title": "Stay away from that!",
       "item.slightlymoreores.emerald_sword": "Emerald Sword",
       "item.slightlymoreores.ruby": "Ruby",
-      "item.slightlymoreores.magnesium_pill": "Magnesium Pill",
       "block.slightlymoreores.osmium_block": "Osmium Block",
+      "item.slightlymoreores.magnesium_pill": "Magnesium Pill",
       "item.slightlymoreores.magnesium_nugget": "Magnesium Nugget",
       "fluid.slightlymoreores.liquified_osmium": "Liquified Osmium",
       "item.slightlymoreores.liquified_osmium_bucket": "Liquified Osmium Bucket",
