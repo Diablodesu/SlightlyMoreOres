@@ -55,6 +55,7 @@ public class SlightlymoreoresModTabs {
 		}
 
 		if (tabData.getTab() == CreativeModeTabs.INGREDIENTS) {
+			tabData.accept(SlightlymoreoresModItems.OSMIUM.get());
 			tabData.accept(SlightlymoreoresModItems.MAGNESIUM_NUGGET.get());
 			tabData.accept(SlightlymoreoresModItems.MAGNESIUM_INGOT.get());
 			tabData.accept(SlightlymoreoresModItems.RUBY.get());

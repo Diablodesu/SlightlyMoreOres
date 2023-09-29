@@ -1241,6 +1241,58 @@
           "src/main/resources/data/slightlymoreores/recipes/emeraldhoerecipe_2.json"
         ]
       }
+    },
+    {
+      "name": "Lapishelmrecipe",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapishelmrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/lapishelmrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Lapischestrecipe",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapischestrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/lapischestrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Lapislegsrecipe",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapislegsrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/lapislegsrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Lapisbootsrecipe",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapisbootsrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/lapisbootsrecipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
