@@ -12,15 +12,6 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
         "value": "Items.EMERALD"
       },
       {
@@ -33,16 +24,25 @@
         "value": "Items.EMERALD"
       },
       {
-        "value": ""
+        "value": "Items.EMERALD"
+      },
+      {
+        "value": "Items.EMERALD"
+      },
+      {
+        "value": "Items.EMERALD"
+      },
+      {
+        "value": "Items.EMERALD"
       },
       {
         "value": "Items.EMERALD"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:EmeraldArmor.boots"
+      "value": "CUSTOM:EmeraldArmor.body"
     },
-    "name": "emeraldbootsrecipe",
+    "name": "emeraldchestrecipe",
     "namespace": "mod"
   }
 }

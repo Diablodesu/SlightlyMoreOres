@@ -1098,6 +1098,149 @@
           "src/main/resources/data/slightlymoreores/recipes/rubyhoerecipe_2.json"
         ]
       }
+    },
+    {
+      "name": "Emeraldhelmrecipe",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldhelmrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/emeraldhelmrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldchestrecipe",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldchestrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/emeraldchestrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldlegsrecipe",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldlegsrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/emeraldlegsrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldbootsrecipe",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldbootsrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/emeraldbootsrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldswordrecipe",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldswordrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/emeraldswordrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldpickrecipe",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldpickrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/emeraldpickrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldaxerecipe",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldaxerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/emeraldaxerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldaxerecipe2",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldaxerecipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/emeraldaxerecipe_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldshovelrecipe",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldshovelrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/emeraldshovelrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldhoerecipe",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldhoerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/emeraldhoerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldhoerecipe2",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldhoerecipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/emeraldhoerecipe_2.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],

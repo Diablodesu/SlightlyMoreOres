@@ -15,34 +15,34 @@
         "value": ""
       },
       {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
         "value": "Items.EMERALD"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.EMERALD"
+        "value": ""
       },
       {
-        "value": "Items.EMERALD"
+        "value": "Items.STICK"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.EMERALD"
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:EmeraldArmor.boots"
+      "value": "CUSTOM:EmeraldShovel"
     },
-    "name": "emeraldbootsrecipe",
+    "name": "emeraldshovelrecipe",
     "namespace": "mod"
   }
 }

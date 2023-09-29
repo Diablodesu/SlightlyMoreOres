@@ -15,18 +15,6 @@
         "value": ""
       },
       {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.EMERALD"
-      },
-      {
-        "value": ""
-      },
-      {
         "value": "Items.EMERALD"
       },
       {
@@ -36,13 +24,25 @@
         "value": ""
       },
       {
+        "value": "Items.STICK"
+      },
+      {
         "value": "Items.EMERALD"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:EmeraldArmor.boots"
+      "value": "CUSTOM:EmeraldAxe"
     },
-    "name": "emeraldbootsrecipe",
+    "name": "emeraldaxerecipe_2",
     "namespace": "mod"
   }
 }

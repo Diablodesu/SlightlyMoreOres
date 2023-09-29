@@ -12,13 +12,13 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "Items.EMERALD"
       },
       {
-        "value": ""
+        "value": "Items.EMERALD"
       },
       {
-        "value": ""
+        "value": "Items.EMERALD"
       },
       {
         "value": "Items.EMERALD"
@@ -40,9 +40,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:EmeraldArmor.boots"
+      "value": "CUSTOM:EmeraldArmor.legs"
     },
-    "name": "emeraldbootsrecipe",
+    "name": "emeraldlegsrecipe",
     "namespace": "mod"
   }
 }

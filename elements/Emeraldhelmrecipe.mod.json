@@ -12,19 +12,10 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
         "value": "Items.EMERALD"
       },
       {
-        "value": ""
+        "value": "Items.EMERALD"
       },
       {
         "value": "Items.EMERALD"
@@ -37,12 +28,21 @@
       },
       {
         "value": "Items.EMERALD"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:EmeraldArmor.boots"
+      "value": "CUSTOM:EmeraldArmor.helmet"
     },
-    "name": "emeraldbootsrecipe",
+    "name": "emeraldhelmrecipe",
     "namespace": "mod"
   }
 }
