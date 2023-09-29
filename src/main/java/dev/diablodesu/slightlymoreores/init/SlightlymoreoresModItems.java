@@ -31,6 +31,7 @@ import dev.diablodesu.slightlymoreores.item.MagnesiumPillItem;
 import dev.diablodesu.slightlymoreores.item.MagnesiumNuggetItem;
 import dev.diablodesu.slightlymoreores.item.MagnesiumIngotItem;
 import dev.diablodesu.slightlymoreores.item.LiquifiedOsmiumItem;
+import dev.diablodesu.slightlymoreores.item.LapisArmorItem;
 import dev.diablodesu.slightlymoreores.item.EmeraldSwordItem;
 import dev.diablodesu.slightlymoreores.item.EmeraldShovelItem;
 import dev.diablodesu.slightlymoreores.item.EmeraldPickaxeItem;
@@ -87,6 +88,10 @@ public class SlightlymoreoresModItems {
 	public static final RegistryObject<Item> BLOCK_OF_URANIUM = block(SlightlymoreoresModBlocks.BLOCK_OF_URANIUM);
 	public static final RegistryObject<Item> ULTRA_PICKAXE = REGISTRY.register("ultra_pickaxe", () -> new UltraPickaxeItem());
 	public static final RegistryObject<Item> FUNNY_BLOCK = block(SlightlymoreoresModBlocks.FUNNY_BLOCK);
+	public static final RegistryObject<Item> LAPIS_ARMOR_HELMET = REGISTRY.register("lapis_armor_helmet", () -> new LapisArmorItem.Helmet());
+	public static final RegistryObject<Item> LAPIS_ARMOR_CHESTPLATE = REGISTRY.register("lapis_armor_chestplate", () -> new LapisArmorItem.Chestplate());
+	public static final RegistryObject<Item> LAPIS_ARMOR_LEGGINGS = REGISTRY.register("lapis_armor_leggings", () -> new LapisArmorItem.Leggings());
+	public static final RegistryObject<Item> LAPIS_ARMOR_BOOTS = REGISTRY.register("lapis_armor_boots", () -> new LapisArmorItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
