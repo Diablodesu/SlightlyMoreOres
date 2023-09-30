@@ -52,6 +52,11 @@ public class SlightlymoreoresModTabs {
 			tabData.accept(SlightlymoreoresModItems.LAPIS_ARMOR_CHESTPLATE.get());
 			tabData.accept(SlightlymoreoresModItems.LAPIS_ARMOR_LEGGINGS.get());
 			tabData.accept(SlightlymoreoresModItems.LAPIS_ARMOR_BOOTS.get());
+			tabData.accept(SlightlymoreoresModItems.AMETHYST_ARMOR_HELMET.get());
+			tabData.accept(SlightlymoreoresModItems.AMETHYST_ARMOR_CHESTPLATE.get());
+			tabData.accept(SlightlymoreoresModItems.AMETHYST_ARMOR_LEGGINGS.get());
+			tabData.accept(SlightlymoreoresModItems.AMETHYST_ARMOR_BOOTS.get());
+			tabData.accept(SlightlymoreoresModItems.AMETHYST_SWORD.get());
 		}
 
 		if (tabData.getTab() == CreativeModeTabs.INGREDIENTS) {
