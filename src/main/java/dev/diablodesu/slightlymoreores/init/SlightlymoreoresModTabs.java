@@ -57,6 +57,7 @@ public class SlightlymoreoresModTabs {
 			tabData.accept(SlightlymoreoresModItems.AMETHYST_ARMOR_LEGGINGS.get());
 			tabData.accept(SlightlymoreoresModItems.AMETHYST_ARMOR_BOOTS.get());
 			tabData.accept(SlightlymoreoresModItems.AMETHYST_SWORD.get());
+			tabData.accept(SlightlymoreoresModItems.ROSE_QUARTZ_SWORD.get());
 		}
 
 		if (tabData.getTab() == CreativeModeTabs.INGREDIENTS) {
@@ -66,6 +67,9 @@ public class SlightlymoreoresModTabs {
 			tabData.accept(SlightlymoreoresModItems.RUBY.get());
 			tabData.accept(SlightlymoreoresModItems.SAPPHIRE.get());
 			tabData.accept(SlightlymoreoresModItems.URANIUM_INGOT.get());
+			tabData.accept(SlightlymoreoresModItems.ROSE_QUARTZ_SHARD.get());
+			tabData.accept(SlightlymoreoresModItems.ROSE_QUARTZ_INGOT.get());
+			tabData.accept(SlightlymoreoresModItems.ROSE_QUARTZ_INFUSED_STICK.get());
 		}
 
 		if (tabData.getTab() == CreativeModeTabs.FOOD_AND_DRINKS) {

@@ -24,6 +24,10 @@ import dev.diablodesu.slightlymoreores.item.RubyItem;
 import dev.diablodesu.slightlymoreores.item.RubyBattleAxeItem;
 import dev.diablodesu.slightlymoreores.item.RubyAxeItem;
 import dev.diablodesu.slightlymoreores.item.RubyArmorItem;
+import dev.diablodesu.slightlymoreores.item.RoseQuartzSwordItem;
+import dev.diablodesu.slightlymoreores.item.RoseQuartzShardItem;
+import dev.diablodesu.slightlymoreores.item.RoseQuartzIngotItem;
+import dev.diablodesu.slightlymoreores.item.RoseQuartzInfusedStickItem;
 import dev.diablodesu.slightlymoreores.item.OsmiumItem;
 import dev.diablodesu.slightlymoreores.item.OsmiumArmorItem;
 import dev.diablodesu.slightlymoreores.item.ObsidianNuggetItem;
@@ -99,6 +103,10 @@ public class SlightlymoreoresModItems {
 	public static final RegistryObject<Item> AMETHYST_ARMOR_LEGGINGS = REGISTRY.register("amethyst_armor_leggings", () -> new AmethystArmorItem.Leggings());
 	public static final RegistryObject<Item> AMETHYST_ARMOR_BOOTS = REGISTRY.register("amethyst_armor_boots", () -> new AmethystArmorItem.Boots());
 	public static final RegistryObject<Item> AMETHYST_SWORD = REGISTRY.register("amethyst_sword", () -> new AmethystSwordItem());
+	public static final RegistryObject<Item> ROSE_QUARTZ_SHARD = REGISTRY.register("rose_quartz_shard", () -> new RoseQuartzShardItem());
+	public static final RegistryObject<Item> ROSE_QUARTZ_INGOT = REGISTRY.register("rose_quartz_ingot", () -> new RoseQuartzIngotItem());
+	public static final RegistryObject<Item> ROSE_QUARTZ_INFUSED_STICK = REGISTRY.register("rose_quartz_infused_stick", () -> new RoseQuartzInfusedStickItem());
+	public static final RegistryObject<Item> ROSE_QUARTZ_SWORD = REGISTRY.register("rose_quartz_sword", () -> new RoseQuartzSwordItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
