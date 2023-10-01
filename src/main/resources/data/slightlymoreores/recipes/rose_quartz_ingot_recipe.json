@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "slightlymoreores:rose_quartz_shard"
+    },
+    {
+      "item": "slightlymoreores:rose_quartz_shard"
+    },
+    {
+      "item": "slightlymoreores:rose_quartz_shard"
+    },
+    {
+      "item": "slightlymoreores:rose_quartz_shard"
+    }
+  ],
+  "result": {
+    "item": "slightlymoreores:rose_quartz_ingot",
+    "count": 1
+  }
+}

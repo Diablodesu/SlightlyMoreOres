@@ -1,4 +1,6 @@
-# SlightlyMoreOres
+# SlightlyMoreOres (DEVELOPMENT BRANCH)
+## This branch is used for development, and features on it may be untested/broken. Use with caution
+
 ![](itemframes.png)
 
 ### Add some more fun to your Minecraft world with this mod!

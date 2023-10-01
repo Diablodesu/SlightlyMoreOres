@@ -24,6 +24,10 @@ import dev.diablodesu.slightlymoreores.item.RubyItem;
 import dev.diablodesu.slightlymoreores.item.RubyBattleAxeItem;
 import dev.diablodesu.slightlymoreores.item.RubyAxeItem;
 import dev.diablodesu.slightlymoreores.item.RubyArmorItem;
+import dev.diablodesu.slightlymoreores.item.RoseQuartzSwordItem;
+import dev.diablodesu.slightlymoreores.item.RoseQuartzShardItem;
+import dev.diablodesu.slightlymoreores.item.RoseQuartzIngotItem;
+import dev.diablodesu.slightlymoreores.item.RoseQuartzInfusedStickItem;
 import dev.diablodesu.slightlymoreores.item.OsmiumItem;
 import dev.diablodesu.slightlymoreores.item.OsmiumArmorItem;
 import dev.diablodesu.slightlymoreores.item.ObsidianNuggetItem;
@@ -39,6 +43,8 @@ import dev.diablodesu.slightlymoreores.item.EmeraldHoeItem;
 import dev.diablodesu.slightlymoreores.item.EmeraldBattleAxeItem;
 import dev.diablodesu.slightlymoreores.item.EmeraldAxeItem;
 import dev.diablodesu.slightlymoreores.item.EmeraldArmorItem;
+import dev.diablodesu.slightlymoreores.item.AmethystSwordItem;
+import dev.diablodesu.slightlymoreores.item.AmethystArmorItem;
 import dev.diablodesu.slightlymoreores.SlightlymoreoresMod;
 
 public class SlightlymoreoresModItems {
@@ -92,6 +98,15 @@ public class SlightlymoreoresModItems {
 	public static final RegistryObject<Item> LAPIS_ARMOR_CHESTPLATE = REGISTRY.register("lapis_armor_chestplate", () -> new LapisArmorItem.Chestplate());
 	public static final RegistryObject<Item> LAPIS_ARMOR_LEGGINGS = REGISTRY.register("lapis_armor_leggings", () -> new LapisArmorItem.Leggings());
 	public static final RegistryObject<Item> LAPIS_ARMOR_BOOTS = REGISTRY.register("lapis_armor_boots", () -> new LapisArmorItem.Boots());
+	public static final RegistryObject<Item> AMETHYST_ARMOR_HELMET = REGISTRY.register("amethyst_armor_helmet", () -> new AmethystArmorItem.Helmet());
+	public static final RegistryObject<Item> AMETHYST_ARMOR_CHESTPLATE = REGISTRY.register("amethyst_armor_chestplate", () -> new AmethystArmorItem.Chestplate());
+	public static final RegistryObject<Item> AMETHYST_ARMOR_LEGGINGS = REGISTRY.register("amethyst_armor_leggings", () -> new AmethystArmorItem.Leggings());
+	public static final RegistryObject<Item> AMETHYST_ARMOR_BOOTS = REGISTRY.register("amethyst_armor_boots", () -> new AmethystArmorItem.Boots());
+	public static final RegistryObject<Item> AMETHYST_SWORD = REGISTRY.register("amethyst_sword", () -> new AmethystSwordItem());
+	public static final RegistryObject<Item> ROSE_QUARTZ_SHARD = REGISTRY.register("rose_quartz_shard", () -> new RoseQuartzShardItem());
+	public static final RegistryObject<Item> ROSE_QUARTZ_INGOT = REGISTRY.register("rose_quartz_ingot", () -> new RoseQuartzIngotItem());
+	public static final RegistryObject<Item> ROSE_QUARTZ_INFUSED_STICK = REGISTRY.register("rose_quartz_infused_stick", () -> new RoseQuartzInfusedStickItem());
+	public static final RegistryObject<Item> ROSE_QUARTZ_SWORD = REGISTRY.register("rose_quartz_sword", () -> new RoseQuartzSwordItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
