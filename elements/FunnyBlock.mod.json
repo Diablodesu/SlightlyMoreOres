@@ -2,12 +2,12 @@
   "_fv": 47,
   "_type": "block",
   "definition": {
-    "texture": "my_blaze_rod",
-    "textureTop": "my_blaze_rod",
-    "textureLeft": "my_blaze_rod",
-    "textureFront": "my_blaze_rod",
-    "textureRight": "my_blaze_rod",
-    "textureBack": "my_blaze_rod",
+    "texture": "funny",
+    "textureTop": "funny",
+    "textureLeft": "funny",
+    "textureFront": "funny",
+    "textureRight": "funny",
+    "textureBack": "funny",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -117,9 +117,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onBlockAdded": {
-      "name": "TheFunny"
-    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

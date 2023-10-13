@@ -7,15 +7,12 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.core.BlockPos;
 
 import java.util.List;
 import java.util.Collections;
-
-import dev.diablodesu.slightlymoreores.procedures.TheFunnyProcedure;
 
 public class FunnyBlockBlock extends Block {
 	public FunnyBlockBlock() {
@@ -33,11 +30,5 @@ public class FunnyBlockBlock extends Block {
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
 		return Collections.singletonList(new ItemStack(this, 1));
-	}
-
-	@Override
-	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
-		super.onPlace(blockstate, world, pos, oldState, moving);
-		TheFunnyProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 }

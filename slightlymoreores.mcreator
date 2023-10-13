@@ -905,6 +905,10 @@
         ],
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -932,10 +936,10 @@
       "registry_name": "funny_block",
       "metadata": {
         "files": [
-          "src/main/java/dev/diablodesu/slightlymoreores/block/FunnyBlockBlock.java",
-          "src/main/resources/assets/slightlymoreores/models/item/funny_block.json",
+          "src/main/resources/assets/slightlymoreores/models/block/funny_block.json",
           "src/main/resources/assets/slightlymoreores/blockstates/funny_block.json",
-          "src/main/resources/assets/slightlymoreores/models/block/funny_block.json"
+          "src/main/resources/assets/slightlymoreores/models/item/funny_block.json",
+          "src/main/java/dev/diablodesu/slightlymoreores/block/FunnyBlockBlock.java"
         ]
       }
     },
