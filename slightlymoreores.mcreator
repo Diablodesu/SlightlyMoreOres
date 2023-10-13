@@ -512,8 +512,8 @@
       "registry_name": "ruby_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/slightlymoreores/models/item/ruby_sword.json",
-          "src/main/java/dev/diablodesu/slightlymoreores/item/RubySwordItem.java"
+          "src/main/java/dev/diablodesu/slightlymoreores/item/RubySwordItem.java",
+          "src/main/resources/assets/slightlymoreores/models/item/ruby_sword.json"
         ]
       }
     },
