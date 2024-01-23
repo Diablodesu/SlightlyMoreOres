@@ -1,18 +1,6 @@
 
 package dev.diablodesu.slightlymoreores.fluid;
 
-import net.minecraftforge.fluids.ForgeFlowingFluid;
-
-import net.minecraft.world.level.material.FluidState;
-import net.minecraft.world.level.material.Fluid;
-import net.minecraft.world.level.block.state.StateDefinition;
-import net.minecraft.world.level.block.LiquidBlock;
-
-import dev.diablodesu.slightlymoreores.init.SlightlymoreoresModItems;
-import dev.diablodesu.slightlymoreores.init.SlightlymoreoresModFluids;
-import dev.diablodesu.slightlymoreores.init.SlightlymoreoresModFluidTypes;
-import dev.diablodesu.slightlymoreores.init.SlightlymoreoresModBlocks;
-
 public abstract class LiquifiedOsmiumFluid extends ForgeFlowingFluid {
 	public static final ForgeFlowingFluid.Properties PROPERTIES = new ForgeFlowingFluid.Properties(() -> SlightlymoreoresModFluidTypes.LIQUIFIED_OSMIUM_TYPE.get(), () -> SlightlymoreoresModFluids.LIQUIFIED_OSMIUM.get(),
 			() -> SlightlymoreoresModFluids.FLOWING_LIQUIFIED_OSMIUM.get()).explosionResistance(100f).tickRate(11).bucket(() -> SlightlymoreoresModItems.LIQUIFIED_OSMIUM_BUCKET.get())

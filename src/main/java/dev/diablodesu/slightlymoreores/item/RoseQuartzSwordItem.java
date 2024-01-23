@@ -1,13 +1,7 @@
 
 package dev.diablodesu.slightlymoreores.item;
 
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.SwordItem;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-
-import dev.diablodesu.slightlymoreores.init.SlightlymoreoresModItems;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 
 public class RoseQuartzSwordItem extends SwordItem {
 	public RoseQuartzSwordItem() {
@@ -36,5 +30,10 @@ public class RoseQuartzSwordItem extends SwordItem {
 				return Ingredient.of(new ItemStack(SlightlymoreoresModItems.ROSE_QUARTZ_INGOT.get()));
 			}
 		}, 3, -2.4f, new Item.Properties());
+	}
+
+	@Override
+	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, world, list, flag);
 	}
 }

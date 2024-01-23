@@ -1,5 +1,5 @@
 {
-  "type": "slightlymoreores:ruby_ore",
+  "type": "minecraft:ore",
   "config": {
     "size": 10,
     "discard_chance_on_air_exposure": 0,

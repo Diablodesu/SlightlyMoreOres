@@ -41,7 +41,6 @@ import java.util.AbstractMap;
 import dev.diablodesu.slightlymoreores.init.SlightlymoreoresModItems;
 import dev.diablodesu.slightlymoreores.init.SlightlymoreoresModFluids;
 import dev.diablodesu.slightlymoreores.init.SlightlymoreoresModFluidTypes;
-import dev.diablodesu.slightlymoreores.init.SlightlymoreoresModFeatures;
 import dev.diablodesu.slightlymoreores.init.SlightlymoreoresModBlocks;
 
 @Mod("slightlymoreores")
@@ -55,8 +54,6 @@ public class SlightlymoreoresMod {
 
 		SlightlymoreoresModBlocks.REGISTRY.register(bus);
 		SlightlymoreoresModItems.REGISTRY.register(bus);
-
-		SlightlymoreoresModFeatures.REGISTRY.register(bus);
 
 		SlightlymoreoresModFluids.REGISTRY.register(bus);
 		SlightlymoreoresModFluidTypes.REGISTRY.register(bus);

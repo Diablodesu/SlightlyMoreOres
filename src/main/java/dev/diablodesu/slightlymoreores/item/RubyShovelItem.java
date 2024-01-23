@@ -1,13 +1,7 @@
 
 package dev.diablodesu.slightlymoreores.item;
 
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.ShovelItem;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-
-import dev.diablodesu.slightlymoreores.init.SlightlymoreoresModItems;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 
 public class RubyShovelItem extends ShovelItem {
 	public RubyShovelItem() {
@@ -36,5 +30,10 @@ public class RubyShovelItem extends ShovelItem {
 				return Ingredient.of(new ItemStack(SlightlymoreoresModItems.RUBY.get()));
 			}
 		}, 1, -3f, new Item.Properties().fireResistant());
+	}
+
+	@Override
+	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, world, list, flag);
 	}
 }

@@ -1,12 +1,7 @@
 
 package dev.diablodesu.slightlymoreores.item;
 
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.Items;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.AxeItem;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 
 public class EmeraldBattleAxeItem extends AxeItem {
 	public EmeraldBattleAxeItem() {
@@ -35,5 +30,10 @@ public class EmeraldBattleAxeItem extends AxeItem {
 				return Ingredient.of(new ItemStack(Items.EMERALD));
 			}
 		}, 1, -3f, new Item.Properties());
+	}
+
+	@Override
+	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, world, list, flag);
 	}
 }

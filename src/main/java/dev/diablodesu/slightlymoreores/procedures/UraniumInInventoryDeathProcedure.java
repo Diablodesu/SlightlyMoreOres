@@ -1,10 +1,8 @@
 package dev.diablodesu.slightlymoreores.procedures;
 
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.world.damagesource.DamageTypes;
-import net.minecraft.world.damagesource.DamageSource;
-import net.minecraft.core.registries.Registries;
+import net.minecraftforge.eventbus.api.Event;
+
+import javax.annotation.Nullable;
 
 public class UraniumInInventoryDeathProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
