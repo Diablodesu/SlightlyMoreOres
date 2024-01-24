@@ -1,12 +1,23 @@
 
 package dev.diablodesu.slightlymoreores.item;
 
+import net.minecraft.world.level.Level;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ArmorMaterial;
+import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundEvent;
-import java.util.function.Consumer;
-import net.minecraft.client.model.Model;
+import net.minecraft.network.chat.Component;
+
+import java.util.List;
 
 public abstract class LapisArmorItem extends ArmorItem {
-
 	public LapisArmorItem(ArmorItem.Type type, Item.Properties properties) {
 		super(new ArmorMaterial() {
 			@Override
@@ -52,7 +63,6 @@ public abstract class LapisArmorItem extends ArmorItem {
 	}
 
 	public static class Helmet extends LapisArmorItem {
-
 		public Helmet() {
 			super(ArmorItem.Type.HELMET, new Item.Properties());
 		}
@@ -66,11 +76,9 @@ public abstract class LapisArmorItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "slightlymoreores:textures/models/armor/lapisarmor_layer_1.png";
 		}
-
 	}
 
 	public static class Chestplate extends LapisArmorItem {
-
 		public Chestplate() {
 			super(ArmorItem.Type.CHESTPLATE, new Item.Properties());
 		}
@@ -84,11 +92,9 @@ public abstract class LapisArmorItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "slightlymoreores:textures/models/armor/lapisarmor_layer_1.png";
 		}
-
 	}
 
 	public static class Leggings extends LapisArmorItem {
-
 		public Leggings() {
 			super(ArmorItem.Type.LEGGINGS, new Item.Properties());
 		}
@@ -102,11 +108,9 @@ public abstract class LapisArmorItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "slightlymoreores:textures/models/armor/lapisarmor_layer_2.png";
 		}
-
 	}
 
 	public static class Boots extends LapisArmorItem {
-
 		public Boots() {
 			super(ArmorItem.Type.BOOTS, new Item.Properties());
 		}
@@ -120,7 +124,5 @@ public abstract class LapisArmorItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "slightlymoreores:textures/models/armor/lapisarmor_layer_1.png";
 		}
-
 	}
-
 }

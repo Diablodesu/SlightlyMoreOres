@@ -1495,6 +1495,19 @@
           "src/main/resources/data/slightlymoreores/recipes/rq_sword_recipe.json"
         ]
       }
+    },
+    {
+      "name": "RQShardRecipe",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rq_shard_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slightlymoreores/recipes/rq_shard_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],

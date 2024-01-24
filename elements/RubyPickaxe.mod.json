@@ -22,6 +22,9 @@
     "damageVsEntity": 6.0,
     "usageCount": 2032,
     "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
     "repairItems": [
       {
         "value": "CUSTOM:Ruby"
