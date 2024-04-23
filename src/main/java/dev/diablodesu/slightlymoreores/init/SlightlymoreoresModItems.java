@@ -31,6 +31,7 @@ import dev.diablodesu.slightlymoreores.item.RoseQuartzInfusedStickItem;
 import dev.diablodesu.slightlymoreores.item.OsmiumItem;
 import dev.diablodesu.slightlymoreores.item.OsmiumArmorItem;
 import dev.diablodesu.slightlymoreores.item.ObsidianNuggetItem;
+import dev.diablodesu.slightlymoreores.item.ObamaItem;
 import dev.diablodesu.slightlymoreores.item.MagnesiumPillItem;
 import dev.diablodesu.slightlymoreores.item.MagnesiumNuggetItem;
 import dev.diablodesu.slightlymoreores.item.MagnesiumIngotItem;
@@ -107,6 +108,7 @@ public class SlightlymoreoresModItems {
 	public static final RegistryObject<Item> ROSE_QUARTZ_INGOT = REGISTRY.register("rose_quartz_ingot", () -> new RoseQuartzIngotItem());
 	public static final RegistryObject<Item> ROSE_QUARTZ_INFUSED_STICK = REGISTRY.register("rose_quartz_infused_stick", () -> new RoseQuartzInfusedStickItem());
 	public static final RegistryObject<Item> ROSE_QUARTZ_SWORD = REGISTRY.register("rose_quartz_sword", () -> new RoseQuartzSwordItem());
+	public static final RegistryObject<Item> OBAMA = REGISTRY.register("obama", () -> new ObamaItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
