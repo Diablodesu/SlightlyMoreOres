@@ -1,33 +1,13 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "pattern": [
-    "0 2",
-    "345",
-    "678"
+    "a a",
+    "aaa",
+    "aaa"
   ],
   "key": {
-    "0": {
-      "item": "slightlymoreores:osmium"
-    },
-    "2": {
-      "item": "slightlymoreores:osmium"
-    },
-    "3": {
-      "item": "slightlymoreores:osmium"
-    },
-    "4": {
-      "item": "slightlymoreores:osmium"
-    },
-    "5": {
-      "item": "slightlymoreores:osmium"
-    },
-    "6": {
-      "item": "slightlymoreores:osmium"
-    },
-    "7": {
-      "item": "slightlymoreores:osmium"
-    },
-    "8": {
+    "a": {
       "item": "slightlymoreores:osmium"
     }
   },

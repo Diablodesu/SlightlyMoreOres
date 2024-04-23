@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "slightlymoreores:rose_quartz_ingot"
+    },
+    "b": {
+      "item": "slightlymoreores:rose_quartz_infused_stick"
+    }
+  },
+  "result": {
+    "item": "slightlymoreores:rose_quartz_sword",
+    "count": 1
+  }
+}

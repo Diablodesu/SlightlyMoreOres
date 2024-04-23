@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "slightlymoreores:block/funny",
+    "up": "slightlymoreores:block/funny",
+    "north": "slightlymoreores:block/funny",
+    "east": "slightlymoreores:block/funny",
+    "south": "slightlymoreores:block/funny",
+    "west": "slightlymoreores:block/funny",
+    "particle": "slightlymoreores:block/funny"
+  },
+  "render_type": "solid"
+}

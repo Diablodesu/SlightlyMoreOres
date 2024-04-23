@@ -19,7 +19,7 @@
     "enter_osmium_dim": {
       "trigger": "minecraft:changed_dimension",
       "conditions": {
-        "to": "slightlymoreores:osmium_dimension"
+        "to": "slightlymoreores:deleted_mod_element"
       }
     }
   },

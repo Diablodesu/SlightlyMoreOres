@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "slightlymoreores:ruby"
+    },
+    "b": {
+      "item": "minecraft:nether_star"
+    },
+    "c": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "result": {
+    "item": "slightlymoreores:ultra_pickaxe",
+    "count": 1
+  }
+}
