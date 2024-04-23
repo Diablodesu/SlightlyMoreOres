@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "slightlymoreores:block/osmium_dimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "slightlymoreores:block/osmium_dimension_portal_ns"
+    }
+  }
+}

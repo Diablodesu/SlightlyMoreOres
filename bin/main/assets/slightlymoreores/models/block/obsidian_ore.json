@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "slightlymoreores:block/obsidianore",
-    "up": "slightlymoreores:block/obsidianore",
-    "north": "slightlymoreores:block/obsidianore",
-    "east": "slightlymoreores:block/obsidianore",
-    "south": "slightlymoreores:block/obsidianore",
-    "west": "slightlymoreores:block/obsidianore",
-    "particle": "slightlymoreores:block/obsidianore"
+    "down": "slightlymoreores:blocks/obsidianore",
+    "up": "slightlymoreores:blocks/obsidianore",
+    "north": "slightlymoreores:blocks/obsidianore",
+    "east": "slightlymoreores:blocks/obsidianore",
+    "south": "slightlymoreores:blocks/obsidianore",
+    "west": "slightlymoreores:blocks/obsidianore",
+    "particle": "slightlymoreores:blocks/obsidianore"
   },
   "render_type": "solid"
 }

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "slightlymoreores:items/magnesiumpill"
+    "layer0": "slightlymoreores:items/key"
   }
 }
