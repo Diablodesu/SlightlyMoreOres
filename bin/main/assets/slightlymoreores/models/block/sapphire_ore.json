@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "slightlymoreores:block/sapphireore",
+    "up": "slightlymoreores:block/sapphireore",
+    "north": "slightlymoreores:block/sapphireore",
+    "east": "slightlymoreores:block/sapphireore",
+    "south": "slightlymoreores:block/sapphireore",
+    "west": "slightlymoreores:block/sapphireore",
+    "particle": "slightlymoreores:block/sapphireore"
+  },
+  "render_type": "solid"
+}

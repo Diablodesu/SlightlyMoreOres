@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "slightlymoreores:sapphire"
+    },
+    "1": {
+      "item": "slightlymoreores:sapphire"
+    },
+    "2": {
+      "item": "slightlymoreores:sapphire"
+    },
+    "3": {
+      "item": "slightlymoreores:sapphire"
+    },
+    "4": {
+      "item": "minecraft:glass"
+    },
+    "5": {
+      "item": "slightlymoreores:sapphire"
+    },
+    "6": {
+      "item": "slightlymoreores:sapphire"
+    },
+    "7": {
+      "item": "slightlymoreores:sapphire"
+    },
+    "8": {
+      "item": "slightlymoreores:sapphire"
+    }
+  },
+  "result": {
+    "item": "slightlymoreores:renforced_glass_block",
+    "count": 4
+  }
+}

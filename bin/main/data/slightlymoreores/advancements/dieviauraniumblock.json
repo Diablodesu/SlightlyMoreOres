@@ -1,0 +1,26 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "slightlymoreores:block_of_uranium"
+    },
+    "title": {
+      "translate": "advancements.dieviauraniumblock.title"
+    },
+    "description": {
+      "translate": "advancements.dieviauraniumblock.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dieviauraniumblock": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 20
+  }
+}

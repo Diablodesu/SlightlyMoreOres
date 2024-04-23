@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "slightlymoreores:uranium"
+    },
+    "1": {
+      "item": "slightlymoreores:uranium"
+    },
+    "2": {
+      "item": "slightlymoreores:uranium"
+    },
+    "3": {
+      "item": "slightlymoreores:uranium"
+    },
+    "4": {
+      "item": "slightlymoreores:uranium"
+    },
+    "5": {
+      "item": "slightlymoreores:uranium"
+    },
+    "6": {
+      "item": "slightlymoreores:uranium"
+    },
+    "7": {
+      "item": "slightlymoreores:uranium"
+    },
+    "8": {
+      "item": "slightlymoreores:uranium"
+    }
+  },
+  "result": {
+    "item": "slightlymoreores:block_of_uranium",
+    "count": 1
+  }
+}
