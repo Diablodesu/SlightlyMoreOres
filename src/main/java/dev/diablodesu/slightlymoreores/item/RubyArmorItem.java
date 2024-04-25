@@ -3,9 +3,7 @@ package dev.diablodesu.slightlymoreores.item;
 
 import net.minecraftforge.registries.ForgeRegistries;
 
-import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ArmorMaterial;
@@ -14,9 +12,6 @@ import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.chat.Component;
-
-import java.util.List;
 
 import dev.diablodesu.slightlymoreores.init.SlightlymoreoresModItems;
 
@@ -71,11 +66,6 @@ public abstract class RubyArmorItem extends ArmorItem {
 		}
 
 		@Override
-		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
-			super.appendHoverText(itemstack, world, list, flag);
-		}
-
-		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "slightlymoreores:textures/models/armor/rubyarmor_layer_1.png";
 		}
@@ -84,11 +74,6 @@ public abstract class RubyArmorItem extends ArmorItem {
 	public static class Chestplate extends RubyArmorItem {
 		public Chestplate() {
 			super(ArmorItem.Type.CHESTPLATE, new Item.Properties());
-		}
-
-		@Override
-		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
-			super.appendHoverText(itemstack, world, list, flag);
 		}
 
 		@Override
@@ -103,11 +88,6 @@ public abstract class RubyArmorItem extends ArmorItem {
 		}
 
 		@Override
-		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
-			super.appendHoverText(itemstack, world, list, flag);
-		}
-
-		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "slightlymoreores:textures/models/armor/rubyarmor_layer_2.png";
 		}
@@ -116,11 +96,6 @@ public abstract class RubyArmorItem extends ArmorItem {
 	public static class Boots extends RubyArmorItem {
 		public Boots() {
 			super(ArmorItem.Type.BOOTS, new Item.Properties());
-		}
-
-		@Override
-		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
-			super.appendHoverText(itemstack, world, list, flag);
 		}
 
 		@Override

@@ -31,7 +31,6 @@ import dev.diablodesu.slightlymoreores.item.RoseQuartzInfusedStickItem;
 import dev.diablodesu.slightlymoreores.item.OsmiumItem;
 import dev.diablodesu.slightlymoreores.item.OsmiumArmorItem;
 import dev.diablodesu.slightlymoreores.item.ObsidianNuggetItem;
-import dev.diablodesu.slightlymoreores.item.ObamaItem;
 import dev.diablodesu.slightlymoreores.item.MagnesiumPillItem;
 import dev.diablodesu.slightlymoreores.item.MagnesiumNuggetItem;
 import dev.diablodesu.slightlymoreores.item.MagnesiumIngotItem;
@@ -50,8 +49,8 @@ import dev.diablodesu.slightlymoreores.SlightlymoreoresMod;
 
 public class SlightlymoreoresModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, SlightlymoreoresMod.MODID);
-	public static final RegistryObject<Item> URANIUM = REGISTRY.register("uranium", () -> new UraniumItem());
 	public static final RegistryObject<Item> URANIUM_ORE = block(SlightlymoreoresModBlocks.URANIUM_ORE);
+	public static final RegistryObject<Item> URANIUM = REGISTRY.register("uranium", () -> new UraniumItem());
 	public static final RegistryObject<Item> OBSIDIAN_ORE = block(SlightlymoreoresModBlocks.OBSIDIAN_ORE);
 	public static final RegistryObject<Item> OBSIDIAN_NUGGET = REGISTRY.register("obsidian_nugget", () -> new ObsidianNuggetItem());
 	public static final RegistryObject<Item> OSMIUM_ORE = block(SlightlymoreoresModBlocks.OSMIUM_ORE);
@@ -108,8 +107,9 @@ public class SlightlymoreoresModItems {
 	public static final RegistryObject<Item> ROSE_QUARTZ_INGOT = REGISTRY.register("rose_quartz_ingot", () -> new RoseQuartzIngotItem());
 	public static final RegistryObject<Item> ROSE_QUARTZ_INFUSED_STICK = REGISTRY.register("rose_quartz_infused_stick", () -> new RoseQuartzInfusedStickItem());
 	public static final RegistryObject<Item> ROSE_QUARTZ_SWORD = REGISTRY.register("rose_quartz_sword", () -> new RoseQuartzSwordItem());
-	public static final RegistryObject<Item> OBAMA = REGISTRY.register("obama", () -> new ObamaItem());
 
+	// Start of user code block custom items
+	// End of user code block custom items
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
 	}

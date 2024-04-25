@@ -1,16 +1,11 @@
 
 package dev.diablodesu.slightlymoreores.item;
 
-import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.HoeItem;
-import net.minecraft.network.chat.Component;
-
-import java.util.List;
 
 import dev.diablodesu.slightlymoreores.init.SlightlymoreoresModItems;
 
@@ -26,7 +21,7 @@ public class RubyhoeItem extends HoeItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return -1f;
+				return 0f;
 			}
 
 			public int getLevel() {
@@ -41,10 +36,5 @@ public class RubyhoeItem extends HoeItem {
 				return Ingredient.of(new ItemStack(SlightlymoreoresModItems.RUBY.get()));
 			}
 		}, 0, -0f, new Item.Properties().fireResistant());
-	}
-
-	@Override
-	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, world, list, flag);
 	}
 }

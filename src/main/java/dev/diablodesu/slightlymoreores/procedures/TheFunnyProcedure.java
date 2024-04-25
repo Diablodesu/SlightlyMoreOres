@@ -16,7 +16,7 @@ public class TheFunnyProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		if (entity instanceof Player _player && !_player.level.isClientSide())
+		if (entity instanceof Player _player && !_player.level().isClientSide())
 			_player.displayClientMessage(Component.literal("uh oh."), false);
 		SlightlymoreoresMod.queueServerWork(30, () -> {
 			if (world instanceof ServerLevel _level)
