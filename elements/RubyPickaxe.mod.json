@@ -1,13 +1,17 @@
 {
-  "_fv": 47,
+  "_fv": 60,
   "_type": "tool",
   "definition": {
     "toolType": "Pickaxe",
     "renderType": 0,
+    "blockingRenderType": 0,
     "texture": "rubypickaxe",
     "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
     "name": "Ruby Pickaxe",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "creativeTab": {
       "value": "TOOLS"
     },
@@ -18,7 +22,9 @@
     "damageVsEntity": 6.0,
     "usageCount": 2032,
     "blocksAffected": [],
-    "hasGlow": false,
+    "glowCondition": {
+      "fixedValue": false
+    },
     "repairItems": [
       {
         "value": "CUSTOM:Ruby"

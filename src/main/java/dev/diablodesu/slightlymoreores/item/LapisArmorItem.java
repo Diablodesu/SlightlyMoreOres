@@ -22,7 +22,7 @@ public abstract class LapisArmorItem extends ArmorItem {
 
 			@Override
 			public int getDefenseForType(ArmorItem.Type type) {
-				return new int[]{6, 8, 10, 5}[type.getSlot().getIndex()];
+				return new int[]{5, 8, 10, 5}[type.getSlot().getIndex()];
 			}
 
 			@Override

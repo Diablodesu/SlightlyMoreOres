@@ -2,18 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "0",
-    "1",
-    "2"
+    "a",
+    "a",
+    "b"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "slightlymoreores:ruby"
     },
-    "1": {
-      "item": "slightlymoreores:ruby"
-    },
-    "2": {
+    "b": {
       "item": "minecraft:stick"
     }
   },

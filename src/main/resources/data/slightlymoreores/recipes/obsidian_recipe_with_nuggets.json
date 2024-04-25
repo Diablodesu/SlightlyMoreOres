@@ -2,36 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aaa",
+    "aaa",
+    "aaa"
   ],
   "key": {
-    "0": {
-      "item": "slightlymoreores:obsidian_nugget"
-    },
-    "1": {
-      "item": "slightlymoreores:obsidian_nugget"
-    },
-    "2": {
-      "item": "slightlymoreores:obsidian_nugget"
-    },
-    "3": {
-      "item": "slightlymoreores:obsidian_nugget"
-    },
-    "4": {
-      "item": "slightlymoreores:obsidian_nugget"
-    },
-    "5": {
-      "item": "slightlymoreores:obsidian_nugget"
-    },
-    "6": {
-      "item": "slightlymoreores:obsidian_nugget"
-    },
-    "7": {
-      "item": "slightlymoreores:obsidian_nugget"
-    },
-    "8": {
+    "a": {
       "item": "slightlymoreores:obsidian_nugget"
     }
   },

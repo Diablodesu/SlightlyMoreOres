@@ -1,24 +1,26 @@
 modLoader="javafml"
-loaderVersion="[45,)"
+loaderVersion="[47,)"
 license="MIT License"
 
 [[mods]]
 modId="slightlymoreores"
-version="1.8"
+version="1.10"
 displayName="SlightlyMoreOres"
-credits="Created with MCreator"
 displayURL="https://modrinth.com/mod/slightlymoreores"
 logoFile="logo.png"
+credits="Created with MCreator"
 authors="Diablodesu"
 description="Adds more ores to your minecraft world"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
 
 [[dependencies.slightlymoreores]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.19.4]"
+    versionRange="[1.20.1]"
     ordering="NONE"
     side="BOTH"
-
 
 
 

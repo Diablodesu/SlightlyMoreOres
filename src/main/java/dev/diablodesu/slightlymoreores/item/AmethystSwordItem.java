@@ -20,7 +20,7 @@ public class AmethystSwordItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 6f;
+				return 4f;
 			}
 
 			public int getLevel() {

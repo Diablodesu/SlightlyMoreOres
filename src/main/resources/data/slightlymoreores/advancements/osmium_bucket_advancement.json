@@ -16,7 +16,7 @@
     "hidden": false
   },
   "criteria": {
-    "osmium_bucket_advancement": {
+    "osmium_bucket_advancement_0": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

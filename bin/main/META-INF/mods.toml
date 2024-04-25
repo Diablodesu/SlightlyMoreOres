@@ -4,11 +4,11 @@ license="MIT License"
 
 [[mods]]
 modId="slightlymoreores"
-version="1.8"
+version="1.10"
 displayName="SlightlyMoreOres"
-credits="Created with MCreator"
 displayURL="https://modrinth.com/mod/slightlymoreores"
 logoFile="logo.png"
+credits="Created with MCreator"
 authors="Diablodesu"
 description="Adds more ores to your minecraft world"
 

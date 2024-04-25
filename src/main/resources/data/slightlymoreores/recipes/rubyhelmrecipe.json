@@ -2,23 +2,11 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "3 5"
+    "aaa",
+    "a a"
   ],
   "key": {
-    "0": {
-      "item": "slightlymoreores:ruby"
-    },
-    "1": {
-      "item": "slightlymoreores:ruby"
-    },
-    "2": {
-      "item": "slightlymoreores:ruby"
-    },
-    "3": {
-      "item": "slightlymoreores:ruby"
-    },
-    "5": {
+    "a": {
       "item": "slightlymoreores:ruby"
     }
   },

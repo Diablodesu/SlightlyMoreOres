@@ -16,7 +16,7 @@
     "hidden": false
   },
   "criteria": {
-    "magnesium_pill_crafted_achieve": {
+    "magnesium_pill_crafted_achieve_0": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

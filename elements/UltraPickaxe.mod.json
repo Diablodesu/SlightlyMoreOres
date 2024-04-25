@@ -1,13 +1,17 @@
 {
-  "_fv": 47,
+  "_fv": 60,
   "_type": "tool",
   "definition": {
     "toolType": "Pickaxe",
     "renderType": 0,
+    "blockingRenderType": 0,
     "texture": "ultrapickaxe",
     "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
     "name": "Ultra Pickaxe",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "creativeTab": {
       "value": "TOOLS"
     },
@@ -18,7 +22,6 @@
     "damageVsEntity": 4.0,
     "usageCount": 4500,
     "blocksAffected": [],
-    "hasGlow": false,
     "repairItems": [],
     "immuneToFire": true,
     "stayInGridWhenCrafting": false,

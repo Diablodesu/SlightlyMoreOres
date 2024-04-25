@@ -36,4 +36,6 @@ public class SlightlymoreoresModBlocks {
 	public static final RegistryObject<Block> SAPPHIRE_ORE = REGISTRY.register("sapphire_ore", () -> new SapphireOreBlock());
 	public static final RegistryObject<Block> BLOCK_OF_URANIUM = REGISTRY.register("block_of_uranium", () -> new BlockOfUraniumBlock());
 	public static final RegistryObject<Block> FUNNY_BLOCK = REGISTRY.register("funny_block", () -> new FunnyBlockBlock());
+	// Start of user code block custom blocks
+	// End of user code block custom blocks
 }

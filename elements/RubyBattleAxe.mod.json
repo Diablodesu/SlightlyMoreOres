@@ -1,13 +1,17 @@
 {
-  "_fv": 47,
+  "_fv": 60,
   "_type": "tool",
   "definition": {
     "toolType": "Axe",
     "renderType": 0,
+    "blockingRenderType": 0,
     "texture": "rubybattleaxe",
     "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
     "name": "Ruby Battle Axe",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "creativeTab": {
       "value": "COMBAT"
     },
@@ -18,7 +22,6 @@
     "damageVsEntity": 12.5,
     "usageCount": 2032,
     "blocksAffected": [],
-    "hasGlow": false,
     "repairItems": [
       {
         "value": "CUSTOM:Ruby"

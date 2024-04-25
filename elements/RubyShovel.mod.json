@@ -1,13 +1,17 @@
 {
-  "_fv": 47,
+  "_fv": 60,
   "_type": "tool",
   "definition": {
     "toolType": "Spade",
     "renderType": 0,
+    "blockingRenderType": 0,
     "texture": "rubyshovel",
     "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
     "name": "Ruby Shovel",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "creativeTab": {
       "value": "TOOLS"
     },
@@ -18,7 +22,6 @@
     "damageVsEntity": 1.2,
     "usageCount": 2032,
     "blocksAffected": [],
-    "hasGlow": false,
     "repairItems": [
       {
         "value": "CUSTOM:Ruby"

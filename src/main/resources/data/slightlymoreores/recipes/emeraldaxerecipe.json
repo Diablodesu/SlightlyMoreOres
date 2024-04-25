@@ -2,24 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "01",
-    "23",
-    " 5"
+    "aa",
+    "ab",
+    " b"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "minecraft:emerald"
     },
-    "1": {
-      "item": "minecraft:emerald"
-    },
-    "2": {
-      "item": "minecraft:emerald"
-    },
-    "3": {
-      "item": "minecraft:stick"
-    },
-    "5": {
+    "b": {
       "item": "minecraft:stick"
     }
   },

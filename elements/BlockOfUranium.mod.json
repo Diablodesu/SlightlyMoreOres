@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 60,
   "_type": "block",
   "definition": {
     "texture": "blockofuranium",
@@ -34,7 +34,9 @@
       }
     ],
     "name": "Block Of Uranium",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
@@ -124,7 +126,7 @@
     "onEntityWalksOn": {
       "name": "Blockofuraniumtouch"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
       {

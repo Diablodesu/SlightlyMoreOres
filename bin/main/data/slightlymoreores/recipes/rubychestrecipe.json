@@ -2,33 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "0 2",
-    "345",
-    "678"
+    "a a",
+    "aaa",
+    "aaa"
   ],
   "key": {
-    "0": {
-      "item": "slightlymoreores:ruby"
-    },
-    "2": {
-      "item": "slightlymoreores:ruby"
-    },
-    "3": {
-      "item": "slightlymoreores:ruby"
-    },
-    "4": {
-      "item": "slightlymoreores:ruby"
-    },
-    "5": {
-      "item": "slightlymoreores:ruby"
-    },
-    "6": {
-      "item": "slightlymoreores:ruby"
-    },
-    "7": {
-      "item": "slightlymoreores:ruby"
-    },
-    "8": {
+    "a": {
       "item": "slightlymoreores:ruby"
     }
   },

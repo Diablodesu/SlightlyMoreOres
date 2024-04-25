@@ -16,7 +16,7 @@
     "hidden": false
   },
   "criteria": {
-    "dieviauraniumblock": {
+    "dieviauraniumblock_0": {
       "trigger": "minecraft:impossible"
     }
   },

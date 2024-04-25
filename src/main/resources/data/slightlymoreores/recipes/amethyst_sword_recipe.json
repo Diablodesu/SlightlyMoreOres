@@ -2,18 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "0",
-    "1",
-    "2"
+    "a",
+    "a",
+    "b"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "minecraft:amethyst_shard"
     },
-    "1": {
-      "item": "minecraft:amethyst_shard"
-    },
-    "2": {
+    "b": {
       "item": "minecraft:stick"
     }
   },

@@ -1,20 +1,20 @@
 {
-  "_fv": 47,
+  "_fv": 60,
   "_type": "block",
   "definition": {
-    "texture": "my_blaze_rod",
-    "textureTop": "my_blaze_rod",
-    "textureLeft": "my_blaze_rod",
-    "textureFront": "my_blaze_rod",
-    "textureRight": "my_blaze_rod",
-    "textureBack": "my_blaze_rod",
+    "texture": "funny",
+    "textureTop": "funny",
+    "textureLeft": "funny",
+    "textureFront": "funny",
+    "textureRight": "funny",
+    "textureBack": "funny",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "",
+    "itemTexture": "trol",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
@@ -34,7 +34,9 @@
       }
     ],
     "name": "Funny Block",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
@@ -117,10 +119,7 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onBlockAdded": {
-      "name": "TheFunny"
-    },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
