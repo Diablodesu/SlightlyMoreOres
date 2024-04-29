@@ -6,11 +6,12 @@ out/
 classes/
 gradle-app.setting
 .gradletasknamecache
+gradle.properties
 
 # MCreator Garbage
 .mcreator/
 
-# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+# Don't ignoring Gradle wrapper jar file (.jar files are usually ignored)
 !gradle-wrapper.jar
 
 # Eclipse Gradle plugin generated files
@@ -27,7 +28,7 @@ bin/
 .classpath
 .project
 
-# PREVENT PUTTING YOUR FUCKING MINECRAFT INSTANCE IN YOUR REPO
+# fucking minecraft instance lol
 run/
 
 # Windows ig??
