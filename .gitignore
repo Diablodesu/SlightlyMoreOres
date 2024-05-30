@@ -28,6 +28,9 @@ bin/
 .classpath
 .project
 
+# IntelliJ
+!.indea
+
 # fucking minecraft instance lol
 run/
 
