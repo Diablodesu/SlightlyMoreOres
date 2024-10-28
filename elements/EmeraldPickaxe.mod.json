@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 69,
   "_type": "tool",
   "definition": {
     "toolType": "Pickaxe",
@@ -12,22 +12,24 @@
     "specialInformation": {
       "fixedValue": []
     },
-    "creativeTab": {
-      "value": "TOOLS"
-    },
-    "harvestLevel": 4,
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      }
+    ],
     "efficiency": 10.0,
     "attackSpeed": 1.2000000000000002,
     "enchantability": 14,
     "damageVsEntity": 6.0,
     "usageCount": 2032,
-    "blocksAffected": [],
     "repairItems": [
       {
         "value": "Items.EMERALD"
       }
     ],
     "immuneToFire": true,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

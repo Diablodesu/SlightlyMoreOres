@@ -38,6 +38,8 @@ public class SlightlymoreoresMod {
 	public static final String MODID = "slightlymoreores";
 
 	public SlightlymoreoresMod() {
+		// Start of user code block mod constructor
+		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
@@ -49,6 +51,7 @@ public class SlightlymoreoresMod {
 
 		SlightlymoreoresModFluids.REGISTRY.register(bus);
 		SlightlymoreoresModFluidTypes.REGISTRY.register(bus);
+
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

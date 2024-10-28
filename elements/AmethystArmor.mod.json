@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 69,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -10,9 +10,11 @@
     "textureLeggings": "amethystarmortexture_leggings",
     "enableBoots": true,
     "textureBoots": "amethystarmortexture_boots",
-    "creativeTab": {
-      "value": "COMBAT"
-    },
+    "creativeTabs": [
+      {
+        "value": "COMBAT"
+      }
+    ],
     "armorTextureFile": "amethystarmortexture",
     "helmetName": "Amethyst Helmet",
     "bodyName": "Amethyst Chestplate",

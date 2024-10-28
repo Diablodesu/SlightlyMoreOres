@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 69,
   "_type": "tool",
   "definition": {
     "toolType": "Axe",
@@ -12,22 +12,24 @@
     "specialInformation": {
       "fixedValue": []
     },
-    "creativeTab": {
-      "value": "COMBAT"
-    },
-    "harvestLevel": 3,
+    "creativeTabs": [
+      {
+        "value": "COMBAT"
+      }
+    ],
     "efficiency": 7.5,
     "attackSpeed": 1.0,
     "enchantability": 13,
     "damageVsEntity": 12.0,
     "usageCount": 2032,
-    "blocksAffected": [],
     "repairItems": [
       {
         "value": "Items.EMERALD"
       }
     ],
     "immuneToFire": false,
+    "blockDropsTier": "DIAMOND",
+    "blocksAffected": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

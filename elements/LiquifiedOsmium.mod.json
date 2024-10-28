@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 69,
   "_type": "fluid",
   "definition": {
     "name": "Liquified Osmium",
@@ -23,9 +23,7 @@
     "type": "LAVA",
     "generateBucket": true,
     "textureBucket": "osmiumbucket",
-    "creativeTab": {
-      "value": "No creative tab entry"
-    },
+    "creativeTabs": [],
     "emptySound": {
       "value": "item.bucket.empty_lava"
     },

@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 69,
   "_type": "item",
   "definition": {
     "renderType": 0,
@@ -9,9 +9,11 @@
     "states": [],
     "name": "Magnesium Pill",
     "rarity": "COMMON",
-    "creativeTab": {
-      "value": "FOOD"
-    },
+    "creativeTabs": [
+      {
+        "value": "FOOD"
+      }
+    ],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 32,
@@ -37,6 +39,8 @@
     },
     "enableRanged": false,
     "shootConstantly": false,
+    "rangedItemChargesPower": false,
+    "projectileDisableAmmoCheck": false,
     "isFood": true,
     "nutritionalValue": 8,
     "saturation": 0.5,
