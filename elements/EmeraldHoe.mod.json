@@ -14,7 +14,7 @@
     },
     "creativeTabs": [
       {
-        "value": "TOOLS"
+        "value": "CUSTOM:SMOTools"
       }
     ],
     "efficiency": 9.0,
@@ -22,6 +22,9 @@
     "enchantability": 13,
     "damageVsEntity": 1.0,
     "usageCount": 2032,
+    "glowCondition": {
+      "fixedValue": false
+    },
     "repairItems": [
       {
         "value": "Items.EMERALD"

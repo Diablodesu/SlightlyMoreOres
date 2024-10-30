@@ -1418,6 +1418,85 @@
           "src/main/resources/data/slightlymoreores/recipes/rq_shard_recipe.json"
         ]
       }
+    },
+    {
+      "name": "SMOWeapons",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smo_weapons",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Diabloguitest",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diabloguitest",
+      "metadata": {
+        "files": [
+          "src/main/java/dev/diablodesu/slightlymoreores/world/inventory/DiabloguitestMenu.java",
+          "src/main/java/dev/diablodesu/slightlymoreores/client/gui/DiabloguitestScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "Diabloguitestprocedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diabloguitestprocedure",
+      "metadata": {
+        "files": [
+          "src/main/java/dev/diablodesu/slightlymoreores/procedures/DiabloguitestprocedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Diabloguitestcommand",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diabloguitestcommand",
+      "metadata": {
+        "files": [
+          "src/main/java/dev/diablodesu/slightlymoreores/command/DiabloguitestcommandCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "SMOTools",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smo_tools",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],
@@ -1480,11 +1559,11 @@
   "language_map": {
     "en_us": {
       "advancements.dieviauraniumblock.title": "Stay away from that!",
-      "item.slightlymoreores.emerald_sword": "Emerald Sword",
       "item.slightlymoreores.amethyst_armor_helmet": "Amethyst Helmet",
+      "item.slightlymoreores.emerald_sword": "Emerald Sword",
       "item.slightlymoreores.ruby": "Ruby",
-      "item.slightlymoreores.magnesium_pill": "Magnesium Pill",
       "block.slightlymoreores.osmium_block": "Osmium Block",
+      "item.slightlymoreores.magnesium_pill": "Magnesium Pill",
       "item.slightlymoreores.magnesium_nugget": "Magnesium Nugget",
       "fluid.slightlymoreores.liquified_osmium": "Liquified Osmium",
       "item.slightlymoreores.liquified_osmium_bucket": "Liquified Osmium Bucket",
@@ -1500,6 +1579,8 @@
       "item.slightlymoreores.rose_quartz_sword": "Rose Quartz Sword",
       "block.slightlymoreores.renforced_glass_block": "Reinforced Glass Block",
       "item.slightlymoreores.uranium_ingot": "Uranium Ingot",
+      "item_group.slightlymoreores.smo_weapons": "SlightlyMoreOres Combat",
+      "gui.slightlymoreores.diabloguitest.label_pull_off_your_skin": "pull off your skin",
       "block.slightlymoreores.uranium_ore": "Uranium Ore",
       "item.slightlymoreores.osmium_armor_leggings": "Osmium Armor Leggings",
       "block.slightlymoreores.obsidian_ore": "Obsidian Ore",
@@ -1525,6 +1606,7 @@
       "item.slightlymoreores.amethyst_armor_boots": "Amethyst Boots",
       "item.slightlymoreores.rose_quartz_shard": "Rose Quartz Shard",
       "block.slightlymoreores.osmium_ore": "Osmium Ore",
+      "gui.slightlymoreores.diabloguitest.button_example_button": "example button",
       "item.slightlymoreores.amethyst_armor_chestplate": "Amethyst Chestplate",
       "item.slightlymoreores.rose_quartz_infused_stick": "Rose Quartz-Infused Stick",
       "item.slightlymoreores.osmium": "Osmium",
@@ -1546,6 +1628,7 @@
       "advancements.osmium_bucket_advancement.title": "Contents may be hot",
       "item.slightlymoreores.osmium_armor_boots": "Osmium Armor Boots",
       "block.slightlymoreores.block_of_uranium": "Block Of Uranium",
+      "item_group.slightlymoreores.smo_tools": "SlightlyMoreOres Tools",
       "item.slightlymoreores.uranium": "Uranium",
       "item.slightlymoreores.emerald_axe": "Emerald Axe"
     }
@@ -1562,7 +1645,7 @@
   "workspaceSettings": {
     "modid": "slightlymoreores",
     "modName": "SlightlyMoreOres",
-    "version": "2.0",
+    "version": "2.1",
     "description": "Adds more ores to your minecraft world",
     "author": "Diablodesu",
     "websiteURL": "https://modrinth.com/mod/slightlymoreores",

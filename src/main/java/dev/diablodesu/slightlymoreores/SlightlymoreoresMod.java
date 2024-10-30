@@ -27,6 +27,7 @@ import java.util.ArrayList;
 import java.util.AbstractMap;
 
 import dev.diablodesu.slightlymoreores.init.SlightlymoreoresModTabs;
+import dev.diablodesu.slightlymoreores.init.SlightlymoreoresModMenus;
 import dev.diablodesu.slightlymoreores.init.SlightlymoreoresModItems;
 import dev.diablodesu.slightlymoreores.init.SlightlymoreoresModFluids;
 import dev.diablodesu.slightlymoreores.init.SlightlymoreoresModFluidTypes;
@@ -49,6 +50,7 @@ public class SlightlymoreoresMod {
 
 		SlightlymoreoresModTabs.REGISTRY.register(bus);
 
+		SlightlymoreoresModMenus.REGISTRY.register(bus);
 		SlightlymoreoresModFluids.REGISTRY.register(bus);
 		SlightlymoreoresModFluidTypes.REGISTRY.register(bus);
 
