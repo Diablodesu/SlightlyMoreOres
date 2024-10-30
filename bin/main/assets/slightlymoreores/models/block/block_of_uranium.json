@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "slightlymoreores:block/blockofuranium",
+    "up": "slightlymoreores:block/blockofuranium",
+    "north": "slightlymoreores:block/blockofuranium",
+    "east": "slightlymoreores:block/blockofuranium",
+    "south": "slightlymoreores:block/blockofuranium",
+    "west": "slightlymoreores:block/blockofuranium",
+    "particle": "slightlymoreores:block/blockofuranium"
+  },
+  "render_type": "solid"
+}

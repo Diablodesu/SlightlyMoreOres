@@ -1,5 +1,4 @@
-# SlightlyMoreOres (DEVELOPMENT BRANCH)
-## This branch is used for development, and features on it may be untested/broken. Use with caution
+# SlightlyMoreOres
 
 ![](itemframes.png)
 

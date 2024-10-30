@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "slightlymoreores:items/osmiumboots"
+    "layer0": "slightlymoreores:item/osmiumboots"
   }
 }
