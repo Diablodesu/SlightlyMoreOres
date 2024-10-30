@@ -1438,6 +1438,7 @@
       "metadata": {
         "files": [
           "src/main/java/dev/diablodesu/slightlymoreores/world/inventory/DiabloguitestMenu.java",
+          "src/main/java/dev/diablodesu/slightlymoreores/network/DiabloguitestButtonMessage.java",
           "src/main/java/dev/diablodesu/slightlymoreores/client/gui/DiabloguitestScreen.java"
         ]
       }
@@ -1496,6 +1497,36 @@
       "registry_name": "smo_tools",
       "metadata": {
         "files": []
+      }
+    },
+    {
+      "name": "Clickguibutton",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clickguibutton",
+      "metadata": {
+        "files": [
+          "src/main/java/dev/diablodesu/slightlymoreores/procedures/ClickguibuttonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       }
     }
   ],
@@ -1559,8 +1590,8 @@
   "language_map": {
     "en_us": {
       "advancements.dieviauraniumblock.title": "Stay away from that!",
-      "item.slightlymoreores.amethyst_armor_helmet": "Amethyst Helmet",
       "item.slightlymoreores.emerald_sword": "Emerald Sword",
+      "item.slightlymoreores.amethyst_armor_helmet": "Amethyst Helmet",
       "item.slightlymoreores.ruby": "Ruby",
       "block.slightlymoreores.osmium_block": "Osmium Block",
       "item.slightlymoreores.magnesium_pill": "Magnesium Pill",

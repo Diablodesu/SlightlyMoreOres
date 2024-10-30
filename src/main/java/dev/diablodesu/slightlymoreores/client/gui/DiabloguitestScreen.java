@@ -12,6 +12,8 @@ import net.minecraft.client.gui.GuiGraphics;
 import java.util.HashMap;
 
 import dev.diablodesu.slightlymoreores.world.inventory.DiabloguitestMenu;
+import dev.diablodesu.slightlymoreores.network.DiabloguitestButtonMessage;
+import dev.diablodesu.slightlymoreores.SlightlymoreoresMod;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 
@@ -48,6 +50,9 @@ public class DiabloguitestScreen extends AbstractContainerScreen<DiabloguitestMe
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+
+		guiGraphics.blit(new ResourceLocation("slightlymoreores:textures/screens/orang.png"), this.leftPos + 24, this.topPos + 16, 0, 0, 125, 125, 125, 125);
+
 		RenderSystem.disableBlend();
 	}
 
@@ -62,14 +67,18 @@ public class DiabloguitestScreen extends AbstractContainerScreen<DiabloguitestMe
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.slightlymoreores.diabloguitest.label_pull_off_your_skin"), 8, 123, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.slightlymoreores.diabloguitest.label_pull_off_your_skin"), 6, 124, -12829636, false);
 	}
 
 	@Override
 	public void init() {
 		super.init();
 		button_example_button = Button.builder(Component.translatable("gui.slightlymoreores.diabloguitest.button_example_button"), e -> {
-		}).bounds(this.leftPos + 39, this.topPos + 13, 98, 20).build();
+			if (true) {
+				SlightlymoreoresMod.PACKET_HANDLER.sendToServer(new DiabloguitestButtonMessage(0, x, y, z));
+				DiabloguitestButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
+		}).bounds(this.leftPos + 33, this.topPos + 16, 98, 20).build();
 		guistate.put("button:button_example_button", button_example_button);
 		this.addRenderableWidget(button_example_button);
 	}
