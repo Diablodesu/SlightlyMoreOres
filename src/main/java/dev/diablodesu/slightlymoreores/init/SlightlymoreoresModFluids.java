@@ -26,7 +26,7 @@ public class SlightlymoreoresModFluids {
 	public static final RegistryObject<FlowingFluid> FLOWING_LIQUIFIED_OSMIUM = REGISTRY.register("flowing_liquified_osmium", () -> new LiquifiedOsmiumFluid.Flowing());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-	public static class ClientSideHandler {
+	public static class FluidsClientSideHandler {
 		@SubscribeEvent
 		public static void clientSetup(FMLClientSetupEvent event) {
 			ItemBlockRenderTypes.setRenderLayer(LIQUIFIED_OSMIUM.get(), RenderType.translucent());

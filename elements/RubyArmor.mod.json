@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 69,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -10,9 +10,11 @@
     "textureLeggings": "rubyarmor_leggings",
     "enableBoots": true,
     "textureBoots": "rubyarmor_boots",
-    "creativeTab": {
-      "value": "COMBAT"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:SMOWeapons"
+      }
+    ],
     "armorTextureFile": "rubyarmor",
     "helmetName": "Ruby Helmet",
     "bodyName": "Ruby Chestplate",
@@ -58,6 +60,30 @@
     "bodyImmuneToFire": false,
     "leggingsImmuneToFire": false,
     "bootsImmuneToFire": false,
+    "helmetGlowCondition": {
+      "fixedValue": false
+    },
+    "bodyGlowCondition": {
+      "fixedValue": false
+    },
+    "leggingsGlowCondition": {
+      "fixedValue": false
+    },
+    "bootsGlowCondition": {
+      "fixedValue": false
+    },
+    "helmetPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": false
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": false
+    },
     "maxDamage": 25,
     "damageValueHelmet": 3,
     "damageValueBody": 8,

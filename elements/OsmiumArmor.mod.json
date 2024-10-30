@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 69,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -10,9 +10,11 @@
     "textureLeggings": "osmiumleggings",
     "enableBoots": true,
     "textureBoots": "osmiumboots",
-    "creativeTab": {
-      "value": "COMBAT"
-    },
+    "creativeTabs": [
+      {
+        "value": "COMBAT"
+      }
+    ],
     "armorTextureFile": "osmiumarmortexture",
     "helmetName": "Osmium Armor Helmet",
     "bodyName": "Osmium Armor Body",

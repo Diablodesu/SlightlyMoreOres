@@ -27,6 +27,7 @@ import java.util.ArrayList;
 import java.util.AbstractMap;
 
 import dev.diablodesu.slightlymoreores.init.SlightlymoreoresModTabs;
+import dev.diablodesu.slightlymoreores.init.SlightlymoreoresModMenus;
 import dev.diablodesu.slightlymoreores.init.SlightlymoreoresModItems;
 import dev.diablodesu.slightlymoreores.init.SlightlymoreoresModFluids;
 import dev.diablodesu.slightlymoreores.init.SlightlymoreoresModFluidTypes;
@@ -38,6 +39,8 @@ public class SlightlymoreoresMod {
 	public static final String MODID = "slightlymoreores";
 
 	public SlightlymoreoresMod() {
+		// Start of user code block mod constructor
+		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
@@ -47,8 +50,10 @@ public class SlightlymoreoresMod {
 
 		SlightlymoreoresModTabs.REGISTRY.register(bus);
 
+		SlightlymoreoresModMenus.REGISTRY.register(bus);
 		SlightlymoreoresModFluids.REGISTRY.register(bus);
 		SlightlymoreoresModFluidTypes.REGISTRY.register(bus);
+
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

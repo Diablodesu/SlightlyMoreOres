@@ -1,0 +1,11 @@
+{
+  "_fv": 69,
+  "_type": "tab",
+  "definition": {
+    "name": "SlightlyMoreOres Tools",
+    "icon": {
+      "value": "CUSTOM:EmeraldPickaxe"
+    },
+    "showSearch": false
+  }
+}

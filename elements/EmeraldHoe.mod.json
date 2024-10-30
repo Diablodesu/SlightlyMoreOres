@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 69,
   "_type": "tool",
   "definition": {
     "toolType": "Hoe",
@@ -12,22 +12,27 @@
     "specialInformation": {
       "fixedValue": []
     },
-    "creativeTab": {
-      "value": "TOOLS"
-    },
-    "harvestLevel": 4,
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:SMOTools"
+      }
+    ],
     "efficiency": 9.0,
     "attackSpeed": 3.9999999999999996,
     "enchantability": 13,
     "damageVsEntity": 1.0,
     "usageCount": 2032,
-    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
     "repairItems": [
       {
         "value": "Items.EMERALD"
       }
     ],
     "immuneToFire": true,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

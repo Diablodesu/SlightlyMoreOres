@@ -4,7 +4,7 @@ license="MIT License"
 
 [[mods]]
 modId="slightlymoreores"
-version="1.10"
+version="2.1"
 displayName="SlightlyMoreOres"
 displayURL="https://modrinth.com/mod/slightlymoreores"
 logoFile="logo.png"
@@ -19,8 +19,11 @@ description="Adds more ores to your minecraft world"
     modId="minecraft"
     mandatory=true
     versionRange="[1.20.1]"
-    ordering="NONE"
+    ordering="AFTER"
     side="BOTH"
 
 
 
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

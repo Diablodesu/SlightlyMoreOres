@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 69,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -10,9 +10,11 @@
     "textureLeggings": "lapisarmor_leggings",
     "enableBoots": true,
     "textureBoots": "lapisarmor_boots",
-    "creativeTab": {
-      "value": "COMBAT"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:SMOWeapons"
+      }
+    ],
     "armorTextureFile": "lapisarmor",
     "helmetName": "Lapis Helmet",
     "bodyName": "Lapis Chestplate",
@@ -58,6 +60,30 @@
     "bodyImmuneToFire": false,
     "leggingsImmuneToFire": false,
     "bootsImmuneToFire": false,
+    "helmetGlowCondition": {
+      "fixedValue": false
+    },
+    "bodyGlowCondition": {
+      "fixedValue": false
+    },
+    "leggingsGlowCondition": {
+      "fixedValue": false
+    },
+    "bootsGlowCondition": {
+      "fixedValue": false
+    },
+    "helmetPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": false
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": false
+    },
     "maxDamage": 40,
     "damageValueHelmet": 5,
     "damageValueBody": 10,

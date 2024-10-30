@@ -1,18 +1,19 @@
+# gradle
 .gradle
 **/build/
 !src/**/build/
+out/
+classes/
+gradle-app.setting
+.gradletasknamecache
+gradle.properties
 
 # MCreator Garbage
 .mcreator/
+.mcreator/generatorGradleCache
 
-# Ignore Gradle GUI config
-gradle-app.setting
-
-# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+# Don't ignoring Gradle wrapper jar file (.jar files are usually ignored)
 !gradle-wrapper.jar
-
-# Cache of project
-.gradletasknamecache
 
 # Eclipse Gradle plugin generated files
 # Eclipse Core
@@ -21,9 +22,20 @@ gradle-app.setting
 .classpath
 .mcreator/generatorGradleCache
 
-# i dont need that
+# VSCode
 .settings/
+.vscode/
+bin/
+.classpath
+.project
 
-# PREVENT PUTTING YOUR FUCKING MINECRAFT INSTANCE IN YOUR REPO
+# IntelliJ
+!.idea
+
+# fucking minecraft instance lol
 run/
-.mcreator/generatorGradleCache
+
+# Windows ig??
+.Ds_Store
+.idea/workspace.xml
+/.idea
