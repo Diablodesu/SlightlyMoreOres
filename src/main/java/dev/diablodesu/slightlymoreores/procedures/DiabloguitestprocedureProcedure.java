@@ -16,24 +16,31 @@ import net.minecraft.core.BlockPos;
 import io.netty.buffer.Unpooled;
 
 import dev.diablodesu.slightlymoreores.world.inventory.DiabloguitestMenu;
+import dev.diablodesu.slightlymoreores.network.SlightlymoreoresModVariables;
+import dev.diablodesu.slightlymoreores.SlightlymoreoresMod;
 
 public class DiabloguitestprocedureProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		if (entity instanceof ServerPlayer _ent) {
-			BlockPos _bpos = BlockPos.containing(x, y, z);
-			NetworkHooks.openScreen((ServerPlayer) _ent, new MenuProvider() {
-				@Override
-				public Component getDisplayName() {
-					return Component.literal("Diabloguitest");
-				}
+		boolean guidisabled = false;
+		if (SlightlymoreoresModVariables.guidisabled == true) {
+			SlightlymoreoresMod.LOGGER.info("Player tried to open test GUI, but it is disabled.");
+		} else {
+			if (entity instanceof ServerPlayer _ent) {
+				BlockPos _bpos = BlockPos.containing(x, y, z);
+				NetworkHooks.openScreen((ServerPlayer) _ent, new MenuProvider() {
+					@Override
+					public Component getDisplayName() {
+						return Component.literal("Diabloguitest");
+					}
 
-				@Override
-				public AbstractContainerMenu createMenu(int id, Inventory inventory, Player player) {
-					return new DiabloguitestMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(_bpos));
-				}
-			}, _bpos);
+					@Override
+					public AbstractContainerMenu createMenu(int id, Inventory inventory, Player player) {
+						return new DiabloguitestMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(_bpos));
+					}
+				}, _bpos);
+			}
 		}
 	}
 }

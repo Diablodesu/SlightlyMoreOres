@@ -1528,9 +1528,46 @@
           }
         ]
       }
+    },
+    {
+      "name": "Toggleguicmd",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toggleguicmd",
+      "metadata": {
+        "files": [
+          "src/main/java/dev/diablodesu/slightlymoreores/command/ToggleguicmdCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "Toggleguiprocedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toggleguiprocedure",
+      "metadata": {
+        "files": [
+          "src/main/java/dev/diablodesu/slightlymoreores/procedures/ToggleguiprocedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "guidisabled",
+      "type": "logic",
+      "scope": "global",
+      "value": "true"
+    }
+  ],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:needs_iron_tool": [
@@ -1676,7 +1713,7 @@
   "workspaceSettings": {
     "modid": "slightlymoreores",
     "modName": "SlightlyMoreOres",
-    "version": "2.1",
+    "version": "2.1.1",
     "description": "Adds more ores to your minecraft world",
     "author": "Diablodesu",
     "websiteURL": "https://modrinth.com/mod/slightlymoreores",
